@@ -15,7 +15,6 @@ namespace Project_B
         public Form1()
         {
             InitializeComponent();
-            //some code
         }
     }
 }
