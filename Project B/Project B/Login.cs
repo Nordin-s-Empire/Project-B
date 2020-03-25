@@ -10,17 +10,15 @@ using System.Windows.Forms;
 
 namespace Project_B
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
 
-        private void btnAgenda_Click(object sender, EventArgs e)
+        private void Login_Load(object sender, EventArgs e)
         {
-            Login log = new Login();
-            log.Show();
         }
     }
 }
