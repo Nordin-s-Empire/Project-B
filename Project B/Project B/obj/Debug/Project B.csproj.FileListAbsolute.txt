@@ -8,3 +8,4 @@ C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debu
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.csproj.CoreCompileInputs.cache
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.exe
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.pdb
+C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Login.resources
