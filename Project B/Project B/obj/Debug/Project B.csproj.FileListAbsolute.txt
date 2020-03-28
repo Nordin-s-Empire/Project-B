@@ -18,3 +18,4 @@ C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debu
 C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.csproj.GenerateResource.cache
 C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.exe
 C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.pdb
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Account.resources
