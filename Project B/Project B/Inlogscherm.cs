@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace Project_B
 {
-    public partial class Form1 : Form
+    public partial class Inlogscherm : Form
     {
-        public Form1()
+        public Inlogscherm()
         {
             InitializeComponent();
         }
 
-        private void btnAcount_MouseClick(object sender, MouseEventArgs e)
+        private void Terugklik(object sender, MouseEventArgs e)
         {
             this.Hide();
-            Inlogscherm login = new Inlogscherm();
-            login.ShowDialog();
+            Form1 menu = new Form1();
+            menu.ShowDialog();
         }
     }
 }
