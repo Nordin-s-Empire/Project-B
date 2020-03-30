@@ -17,11 +17,21 @@ namespace Project_B
             InitializeComponent();
         }
 
-        private void btnAcount_MouseClick(object sender, MouseEventArgs e)
+        private void btnAgenda_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Inlogscherm login = new Inlogscherm();
-            login.ShowDialog();
+            
+        }
+
+        private void btnZoeken_Click(object sender, EventArgs e)
+        {
+            Zoeken zoek = new Zoeken();
+            zoek.Show();
+        }
+
+        private void btnAcount_Click(object sender, EventArgs e)
+        {
+            Login log = new Login();
+            log.Show();
         }
     }
 }

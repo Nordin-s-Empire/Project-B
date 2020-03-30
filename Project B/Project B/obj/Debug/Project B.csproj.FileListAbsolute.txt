@@ -8,14 +8,4 @@ C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debu
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.csproj.CoreCompileInputs.cache
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.exe
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.pdb
-C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\bin\Debug\Project B.exe.config
-C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\bin\Debug\Project B.exe
-C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\bin\Debug\Project B.pdb
-C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.csprojAssemblyReference.cache
-C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Form1.resources
-C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Inlogscherm.resources
-C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Properties.Resources.resources
-C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.csproj.GenerateResource.cache
-C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.exe
-C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.pdb
-C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Account.resources
+C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Login.resources

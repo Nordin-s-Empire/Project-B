@@ -39,6 +39,7 @@
             this.btnZoeken = new System.Windows.Forms.Button();
             this.btnSoon = new System.Windows.Forms.Button();
             this.btnNu = new System.Windows.Forms.Button();
+            this.rTBSearch = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -109,6 +110,7 @@
             this.btnAgenda.TabIndex = 5;
             this.btnAgenda.Text = "Agenda";
             this.btnAgenda.UseVisualStyleBackColor = true;
+            this.btnAgenda.Click += new System.EventHandler(this.btnAgenda_Click);
             // 
             // btnAcount
             // 
@@ -117,9 +119,9 @@
             this.btnAcount.Name = "btnAcount";
             this.btnAcount.Size = new System.Drawing.Size(100, 28);
             this.btnAcount.TabIndex = 6;
-            this.btnAcount.Text = "Acount";
+            this.btnAcount.Text = "Login";
             this.btnAcount.UseVisualStyleBackColor = true;
-            this.btnAcount.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnAcount_MouseClick);
+            this.btnAcount.Click += new System.EventHandler(this.btnAcount_Click);
             // 
             // btnZoeken
             // 
@@ -128,8 +130,8 @@
             this.btnZoeken.Name = "btnZoeken";
             this.btnZoeken.Size = new System.Drawing.Size(100, 28);
             this.btnZoeken.TabIndex = 7;
-            this.btnZoeken.Text = "Zoeken";
             this.btnZoeken.UseVisualStyleBackColor = true;
+            this.btnZoeken.Click += new System.EventHandler(this.btnZoeken_Click);
             // 
             // btnSoon
             // 
@@ -150,6 +152,14 @@
             this.btnNu.TabIndex = 9;
             this.btnNu.Text = "Huidige films";
             this.btnNu.UseVisualStyleBackColor = true;
+            // 
+            // rTBSearch
+            // 
+            this.rTBSearch.Location = new System.Drawing.Point(816, 49);
+            this.rTBSearch.Name = "rTBSearch";
+            this.rTBSearch.Size = new System.Drawing.Size(171, 34);
+            this.rTBSearch.TabIndex = 10;
+            this.rTBSearch.Text = "";
             // 
             // Form1
             // 
@@ -192,6 +202,7 @@
         private System.Windows.Forms.Button btnZoeken;
         private System.Windows.Forms.Button btnSoon;
         private System.Windows.Forms.Button btnNu;
+        private System.Windows.Forms.RichTextBox rTBSearch;
     }
 }
 
