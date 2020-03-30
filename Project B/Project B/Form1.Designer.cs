@@ -93,11 +93,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 38);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 24);
+            this.label1.Size = new System.Drawing.Size(217, 28);
             this.label1.TabIndex = 4;
             this.label1.Text = "The Downtown Cinema";
             // 
@@ -121,14 +121,14 @@
             this.btnAcount.TabIndex = 6;
             this.btnAcount.Text = "Login";
             this.btnAcount.UseVisualStyleBackColor = true;
+            this.btnAcount.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnAcount_MouseClick);
             // 
             // btnZoeken
             // 
-            this.btnZoeken.Image = ((System.Drawing.Image)(resources.GetObject("btnZoeken.Image")));
-            this.btnZoeken.Location = new System.Drawing.Point(988, 48);
+            this.btnZoeken.Location = new System.Drawing.Point(827, 41);
             this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
             this.btnZoeken.Name = "btnZoeken";
-            this.btnZoeken.Size = new System.Drawing.Size(37, 35);
+            this.btnZoeken.Size = new System.Drawing.Size(100, 28);
             this.btnZoeken.TabIndex = 7;
             this.btnZoeken.UseVisualStyleBackColor = true;
             this.btnZoeken.Click += new System.EventHandler(this.btnZoeken_Click);
@@ -165,9 +165,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.rTBSearch);
             this.Controls.Add(this.btnNu);
             this.Controls.Add(this.btnSoon);
             this.Controls.Add(this.btnZoeken);
