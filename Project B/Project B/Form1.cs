@@ -22,5 +22,11 @@ namespace Project_B
             Login log = new Login();
             log.Show();
         }
+
+        private void btnZoeken_Click(object sender, EventArgs e)
+        {
+            Zoeken zoek = new Zoeken();
+            zoek.Show();
+        }
     }
 }
