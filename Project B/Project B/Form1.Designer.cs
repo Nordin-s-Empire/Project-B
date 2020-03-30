@@ -121,7 +121,7 @@
             this.btnAcount.TabIndex = 6;
             this.btnAcount.Text = "Login";
             this.btnAcount.UseVisualStyleBackColor = true;
-            this.btnAcount.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnAcount_MouseClick);
+            this.btnAcount.Click += new System.EventHandler(this.btnAcount_Click);
             // 
             // btnZoeken
             // 
