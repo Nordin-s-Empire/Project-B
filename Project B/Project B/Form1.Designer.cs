@@ -40,6 +40,7 @@
             this.btnSoon = new System.Windows.Forms.Button();
             this.btnNu = new System.Windows.Forms.Button();
             this.rTBSearch = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -125,10 +126,11 @@
             // 
             // btnZoeken
             // 
-            this.btnZoeken.Location = new System.Drawing.Point(827, 41);
+            this.btnZoeken.Image = ((System.Drawing.Image)(resources.GetObject("btnZoeken.Image")));
+            this.btnZoeken.Location = new System.Drawing.Point(990, 55);
             this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
             this.btnZoeken.Name = "btnZoeken";
-            this.btnZoeken.Size = new System.Drawing.Size(100, 28);
+            this.btnZoeken.Size = new System.Drawing.Size(33, 28);
             this.btnZoeken.TabIndex = 7;
             this.btnZoeken.UseVisualStyleBackColor = true;
             this.btnZoeken.Click += new System.EventHandler(this.btnZoeken_Click);
@@ -161,12 +163,21 @@
             this.rTBSearch.TabIndex = 10;
             this.rTBSearch.Text = "";
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(827, 55);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(156, 26);
+            this.richTextBox1.TabIndex = 10;
+            this.richTextBox1.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.btnNu);
             this.Controls.Add(this.btnSoon);
             this.Controls.Add(this.btnZoeken);
@@ -203,6 +214,7 @@
         private System.Windows.Forms.Button btnSoon;
         private System.Windows.Forms.Button btnNu;
         private System.Windows.Forms.RichTextBox rTBSearch;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
