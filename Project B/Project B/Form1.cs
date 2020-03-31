@@ -30,6 +30,7 @@ namespace Project_B
 
         private void btnAcount_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Login log = new Login();
             log.Show();
         }

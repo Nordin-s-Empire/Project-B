@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.Menuknopacc = new System.Windows.Forms.Button();
+            this.Loginname = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Menuknopacc
@@ -41,21 +43,43 @@
             this.Menuknopacc.UseVisualStyleBackColor = true;
             this.Menuknopacc.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AcctoMain);
             // 
+            // Loginname
+            // 
+            this.Loginname.AutoSize = true;
+            this.Loginname.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.Loginname.Location = new System.Drawing.Point(196, 57);
+            this.Loginname.Name = "Loginname";
+            this.Loginname.Size = new System.Drawing.Size(0, 17);
+            this.Loginname.TabIndex = 1;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(277, 73);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 2;
+            // 
             // Account
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(600, 504);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Loginname);
             this.Controls.Add(this.Menuknopacc);
             this.Name = "Account";
             this.Text = "Account";
+            this.Load += new System.EventHandler(this.Account_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button Menuknopacc;
+        private System.Windows.Forms.Label Loginname;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
