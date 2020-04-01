@@ -20,3 +20,15 @@ C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debu
 C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.exe
 C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.pdb
 C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Account.resources
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\bin\Debug\Project B.exe.config
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\bin\Debug\Project B.exe
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\bin\Debug\Project B.pdb
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\obj\Debug\Project B.csprojAssemblyReference.cache
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\obj\Debug\Project_B.Account.resources
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\obj\Debug\Project_B.Form1.resources
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\obj\Debug\Project_B.Login.resources
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\obj\Debug\Project_B.Properties.Resources.resources
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\obj\Debug\Project B.csproj.GenerateResource.cache
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\obj\Debug\Project B.csproj.CoreCompileInputs.cache
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\obj\Debug\Project B.exe
+C:\Users\joepk\OneDrive\Documenten\GitHub\Project B\Project B\obj\Debug\Project B.pdb

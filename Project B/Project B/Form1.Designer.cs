@@ -34,7 +34,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnAgenda = new System.Windows.Forms.Button();
+            this.btnProgramma = new System.Windows.Forms.Button();
             this.btnAcount = new System.Windows.Forms.Button();
             this.btnZoeken = new System.Windows.Forms.Button();
             this.btnSoon = new System.Windows.Forms.Button();
@@ -102,16 +102,16 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "The Downtown Cinema";
             // 
-            // btnAgenda
+            // btnProgramma
             // 
-            this.btnAgenda.Location = new System.Drawing.Point(303, 41);
-            this.btnAgenda.Margin = new System.Windows.Forms.Padding(4);
-            this.btnAgenda.Name = "btnAgenda";
-            this.btnAgenda.Size = new System.Drawing.Size(100, 28);
-            this.btnAgenda.TabIndex = 5;
-            this.btnAgenda.Text = "Agenda";
-            this.btnAgenda.UseVisualStyleBackColor = true;
-            this.btnAgenda.Click += new System.EventHandler(this.btnAgenda_Click);
+            this.btnProgramma.Location = new System.Drawing.Point(303, 41);
+            this.btnProgramma.Margin = new System.Windows.Forms.Padding(4);
+            this.btnProgramma.Name = "btnProgramma";
+            this.btnProgramma.Size = new System.Drawing.Size(100, 28);
+            this.btnProgramma.TabIndex = 5;
+            this.btnProgramma.Text = "Programma";
+            this.btnProgramma.UseVisualStyleBackColor = true;
+            this.btnProgramma.Click += new System.EventHandler(this.btnAgenda_Click);
             // 
             // btnAcount
             // 
@@ -182,7 +182,7 @@
             this.Controls.Add(this.btnSoon);
             this.Controls.Add(this.btnZoeken);
             this.Controls.Add(this.btnAcount);
-            this.Controls.Add(this.btnAgenda);
+            this.Controls.Add(this.btnProgramma);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -208,7 +208,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnAgenda;
+        private System.Windows.Forms.Button btnProgramma;
         private System.Windows.Forms.Button btnAcount;
         private System.Windows.Forms.Button btnZoeken;
         private System.Windows.Forms.Button btnSoon;
