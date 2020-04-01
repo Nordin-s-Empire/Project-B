@@ -37,5 +37,10 @@ namespace Project_B
             log.Show();
             //change
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
