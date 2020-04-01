@@ -19,7 +19,9 @@ namespace Project_B
 
         private void btnAgenda_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            Programma program = new Programma();
+            program.Show();
         }
 
         private void btnZoeken_Click(object sender, EventArgs e)
