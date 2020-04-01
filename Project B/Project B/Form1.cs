@@ -35,12 +35,6 @@ namespace Project_B
             this.Hide();
             Login log = new Login();
             log.Show();
-            //change
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
