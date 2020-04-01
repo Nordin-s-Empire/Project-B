@@ -36,5 +36,10 @@ namespace Project_B
             Login log = new Login();
             log.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
