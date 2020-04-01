@@ -35,6 +35,7 @@ namespace Project_B
             this.Hide();
             Login log = new Login();
             log.Show();
+            //change
         }
     }
 }
