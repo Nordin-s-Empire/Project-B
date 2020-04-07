@@ -129,5 +129,14 @@
   <ItemGroup>
     <None Include="Resources\MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM%40._V1_.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baaf0f0f37c294c779ed9d52896e9d52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\THE-LORD-OF-THE-RINGS-THE-TWO-TOWERS-Frodo-Reprint-2002-REPRINT-CINEMA-POSTER__74417.1534256853.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7e6b6743a7e45d096838abd67b2464e2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
