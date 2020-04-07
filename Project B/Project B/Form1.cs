@@ -26,6 +26,7 @@ namespace Project_B
 
         private void btnZoeken_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Zoeken zoek = new Zoeken();
             zoek.Show();
         }
@@ -35,11 +36,6 @@ namespace Project_B
             this.Hide();
             Login log = new Login();
             log.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
