@@ -26,6 +26,7 @@ namespace Project_B
 
         private void btnZoeken_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Zoeken zoek = new Zoeken();
             zoek.Show();
         }
