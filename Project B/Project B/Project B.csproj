@@ -88,6 +88,9 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Programma.resx">
+      <DependentUpon>Programma.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -96,6 +99,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -109,6 +113,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51Av5azGomL._AC_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81kz06oSUeL._AC_SL1500_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\268x0w.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avengers-endgame-original-movie-poster-15x21-in-2019-anthony-russo-robert-downey-jr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM%40._V1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baaf0f0f37c294c779ed9d52896e9d52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\THE-LORD-OF-THE-RINGS-THE-TWO-TOWERS-Frodo-Reprint-2002-REPRINT-CINEMA-POSTER__74417.1534256853.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7e6b6743a7e45d096838abd67b2464e2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
