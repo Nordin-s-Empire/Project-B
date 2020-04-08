@@ -127,10 +127,17 @@
             // btnZoeken
             // 
             this.btnZoeken.Image = ((System.Drawing.Image)(resources.GetObject("btnZoeken.Image")));
+<<<<<<< Updated upstream
             this.btnZoeken.Location = new System.Drawing.Point(985, 64);
             this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
             this.btnZoeken.Name = "btnZoeken";
             this.btnZoeken.Size = new System.Drawing.Size(29, 28);
+=======
+            this.btnZoeken.Location = new System.Drawing.Point(975, 52);
+            this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
+            this.btnZoeken.Name = "btnZoeken";
+            this.btnZoeken.Size = new System.Drawing.Size(39, 40);
+>>>>>>> Stashed changes
             this.btnZoeken.TabIndex = 7;
             this.btnZoeken.UseVisualStyleBackColor = true;
             this.btnZoeken.Click += new System.EventHandler(this.btnZoeken_Click);
@@ -154,6 +161,10 @@
             // 
             // button1
             // 
+<<<<<<< Updated upstream
+=======
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
+>>>>>>> Stashed changes
             this.button1.Location = new System.Drawing.Point(29, 449);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
@@ -161,9 +172,17 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "Huidige Films";
             this.button1.UseVisualStyleBackColor = true;
+<<<<<<< Updated upstream
             // 
             // button2
             // 
+=======
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.DarkGray;
+>>>>>>> Stashed changes
             this.button2.Location = new System.Drawing.Point(167, 449);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
@@ -178,6 +197,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1067, 554);
+<<<<<<< Updated upstream
+=======
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox5);
+>>>>>>> Stashed changes
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
