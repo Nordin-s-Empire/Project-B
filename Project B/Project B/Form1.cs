@@ -90,6 +90,5 @@ namespace Project_B
             pictureBox7.Hide();
             pictureBox8.Hide();
         }
-
     }
 }
