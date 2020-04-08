@@ -30,6 +30,7 @@ namespace Project_B
 
         private void btnZoeken_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Zoeken zoek = new Zoeken();
             zoek.Show();
         }
@@ -89,5 +90,6 @@ namespace Project_B
             pictureBox7.Hide();
             pictureBox8.Hide();
         }
+
     }
 }

@@ -60,6 +60,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(29, 122);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(209, 288);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -71,7 +72,11 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(303, 122);
+
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(209, 288);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -83,7 +88,11 @@
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(564, 122);
+
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(209, 288);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -96,6 +105,7 @@
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(827, 122);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(209, 288);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -116,8 +126,12 @@
             // 
             // btnProgramma
             // 
+
             this.btnProgramma.Location = new System.Drawing.Point(303, 41);
             this.btnProgramma.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+
+            this.btnProgramma.Location = new System.Drawing.Point(303, 64);
+            this.btnProgramma.Margin = new System.Windows.Forms.Padding(4);
             this.btnProgramma.Name = "btnProgramma";
             this.btnProgramma.Size = new System.Drawing.Size(100, 28);
             this.btnProgramma.TabIndex = 5;
@@ -127,8 +141,13 @@
             // 
             // btnAcount
             // 
+
             this.btnAcount.Location = new System.Drawing.Point(564, 41);
             this.btnAcount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+
+            this.btnAcount.Location = new System.Drawing.Point(564, 61);
+            this.btnAcount.Margin = new System.Windows.Forms.Padding(4);
+
             this.btnAcount.Name = "btnAcount";
             this.btnAcount.Size = new System.Drawing.Size(100, 28);
             this.btnAcount.TabIndex = 6;
@@ -143,6 +162,12 @@
             this.btnZoeken.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnZoeken.Name = "btnZoeken";
             this.btnZoeken.Size = new System.Drawing.Size(33, 28);
+
+            this.btnZoeken.Location = new System.Drawing.Point(985, 64);
+            this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
+            this.btnZoeken.Name = "btnZoeken";
+            this.btnZoeken.Size = new System.Drawing.Size(29, 28);
+
             this.btnZoeken.TabIndex = 7;
             this.btnZoeken.UseVisualStyleBackColor = true;
             this.btnZoeken.Click += new System.EventHandler(this.btnZoeken_Click);
@@ -161,6 +186,11 @@
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(156, 26);
+
+            this.richTextBox1.Location = new System.Drawing.Point(812, 64);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(156, 28);
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "";
             // 
@@ -169,6 +199,8 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
             this.button1.Location = new System.Drawing.Point(29, 449);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(29, 449);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 48);
             this.button1.TabIndex = 11;
@@ -181,6 +213,12 @@
             this.button2.BackColor = System.Drawing.Color.DarkGray;
             this.button2.Location = new System.Drawing.Point(167, 449);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(167, 449);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 48);
             this.button2.TabIndex = 12;
@@ -238,6 +276,7 @@
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
+
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
@@ -250,7 +289,10 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Bioscoop";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
