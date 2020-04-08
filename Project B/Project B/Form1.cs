@@ -15,6 +15,10 @@ namespace Project_B
         public Form1()
         {
             InitializeComponent();
+            pictureBox1.Hide();
+            pictureBox2.Hide();
+            pictureBox3.Hide();
+            pictureBox4.Hide();
         }
 
         private void btnAgenda_Click(object sender, EventArgs e)
@@ -37,8 +41,6 @@ namespace Project_B
             Login log = new Login();
             log.Show();
         }
-<<<<<<< Updated upstream
-=======
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -88,6 +90,5 @@ namespace Project_B
             pictureBox7.Hide();
             pictureBox8.Hide();
         }
->>>>>>> Stashed changes
     }
 }
