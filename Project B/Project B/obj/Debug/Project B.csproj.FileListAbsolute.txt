@@ -40,6 +40,6 @@ C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project_
 C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Login.resources
 C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Properties.Resources.resources
 C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.csproj.GenerateResource.cache
-C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.csproj.CoreCompileInputs.cache
 C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.exe
 C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.pdb
+C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\bin\Debug\Project B.pdb
