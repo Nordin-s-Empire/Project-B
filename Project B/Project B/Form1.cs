@@ -91,5 +91,11 @@ namespace Project_B
             pictureBox8.Hide();
         }
 
+        private void btnReservatie_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StoelenReservatie rs = new StoelenReservatie();
+            rs.Show();
+        }
     }
 }
