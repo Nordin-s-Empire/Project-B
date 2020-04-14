@@ -78,7 +78,7 @@
             // 
             this.btnDonderdag.Location = new System.Drawing.Point(298, 43);
             this.btnDonderdag.Name = "btnDonderdag";
-            this.btnDonderdag.Size = new System.Drawing.Size(89, 35);
+            this.btnDonderdag.Size = new System.Drawing.Size(100, 35);
             this.btnDonderdag.TabIndex = 3;
             this.btnDonderdag.Text = "Donderdag";
             this.btnDonderdag.UseVisualStyleBackColor = true;
@@ -86,7 +86,7 @@
             // 
             // btnVrijdag
             // 
-            this.btnVrijdag.Location = new System.Drawing.Point(393, 43);
+            this.btnVrijdag.Location = new System.Drawing.Point(404, 43);
             this.btnVrijdag.Name = "btnVrijdag";
             this.btnVrijdag.Size = new System.Drawing.Size(75, 35);
             this.btnVrijdag.TabIndex = 4;
@@ -96,7 +96,7 @@
             // 
             // btnZaterdag
             // 
-            this.btnZaterdag.Location = new System.Drawing.Point(474, 43);
+            this.btnZaterdag.Location = new System.Drawing.Point(485, 43);
             this.btnZaterdag.Name = "btnZaterdag";
             this.btnZaterdag.Size = new System.Drawing.Size(93, 35);
             this.btnZaterdag.TabIndex = 5;
@@ -106,7 +106,7 @@
             // 
             // btnZondag
             // 
-            this.btnZondag.Location = new System.Drawing.Point(573, 43);
+            this.btnZondag.Location = new System.Drawing.Point(584, 43);
             this.btnZondag.Name = "btnZondag";
             this.btnZondag.Size = new System.Drawing.Size(75, 35);
             this.btnZondag.TabIndex = 6;
@@ -118,7 +118,7 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(220, 187);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(282, 125);
+            this.richTextBox1.Size = new System.Drawing.Size(539, 125);
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
     "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
@@ -142,7 +142,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Project_B.Properties.Resources._7e6b6743a7e45d096838abd67b2464e2;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(40, 107);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(156, 205);
