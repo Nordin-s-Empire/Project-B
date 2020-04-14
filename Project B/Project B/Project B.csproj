@@ -73,6 +73,7 @@
       <DependentUpon>Programma.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLCONNECT.cs" />
     <Compile Include="Zoeken.cs">
       <SubType>Form</SubType>
     </Compile>
