@@ -37,11 +37,17 @@
             this.btnZaterdag = new System.Windows.Forms.Button();
             this.btnZondag = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // btnMaandag
@@ -118,18 +124,12 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(220, 187);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(539, 125);
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
     "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
     "ing).\nzigtbaar: IMAX, 3D, 2D.";
-            // 
-            // vScrollBar1
-            // 
-            this.vScrollBar1.Location = new System.Drawing.Point(775, -2);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(25, 466);
-            this.vScrollBar1.TabIndex = 11;
             // 
             // pictureBox2
             // 
@@ -137,6 +137,7 @@
             this.pictureBox2.Location = new System.Drawing.Point(40, 337);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(156, 205);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
@@ -150,13 +151,71 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(40, 568);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(156, 205);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(40, 803);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(156, 205);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 12;
+            this.pictureBox4.TabStop = false;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(220, 417);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            this.richTextBox2.Size = new System.Drawing.Size(539, 125);
+            this.richTextBox2.TabIndex = 13;
+            this.richTextBox2.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
+    "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
+    "ing).\nzigtbaar: IMAX, 3D, 2D.";
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.Location = new System.Drawing.Point(220, 648);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
+            this.richTextBox3.Size = new System.Drawing.Size(539, 125);
+            this.richTextBox3.TabIndex = 14;
+            this.richTextBox3.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
+    "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
+    "ing).\nzigtbaar: IMAX, 3D, 2D.";
+            // 
+            // richTextBox4
+            // 
+            this.richTextBox4.Location = new System.Drawing.Point(220, 884);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
+            this.richTextBox4.Size = new System.Drawing.Size(539, 125);
+            this.richTextBox4.TabIndex = 15;
+            this.richTextBox4.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
+    "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
+    "ing).\nzigtbaar: IMAX, 3D, 2D.";
+            // 
             // Programma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(800, 463);
-            this.Controls.Add(this.vScrollBar1);
+            this.ClientSize = new System.Drawing.Size(800, 448);
+            this.Controls.Add(this.richTextBox4);
+            this.Controls.Add(this.richTextBox3);
+            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -171,6 +230,8 @@
             this.Text = "Programma";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -187,6 +248,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.VScrollBar vScrollBar1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox richTextBox4;
     }
 }

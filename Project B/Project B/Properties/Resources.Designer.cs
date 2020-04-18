@@ -103,6 +103,16 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _865580314a24d809e6fb0f12ce72e738 {
+            get {
+                object obj = ResourceManager.GetObject("865580314a24d809e6fb0f12ce72e738", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap avengers_endgame_original_movie_poster_15x21_in_2019_anthony_russo_robert_downey_jr {
             get {
                 object obj = ResourceManager.GetObject("avengers-endgame-original-movie-poster-15x21-in-2019-anthony-russo-robert-downey-" +
@@ -128,6 +138,38 @@ namespace Project_B.Properties {
             get {
                 object obj = ResourceManager.GetObject("MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@." +
                         "_V1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_ {
+            get {
+                object obj = ResourceManager.GetObject("MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ@." +
+                        "_V1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_ {
+            get {
+                object obj = ResourceManager.GetObject("MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk@." +
+                        "_V1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap peter_rabbit_movie_2_novelisation {
+            get {
+                object obj = ResourceManager.GetObject("peter-rabbit-movie-2-novelisation", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
