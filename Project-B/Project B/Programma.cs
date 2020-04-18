@@ -5,6 +5,7 @@ namespace Project_B
 {
     public partial class Programma : Form
     {
+        public static string movie;
         public Programma()
         {
             InitializeComponent();
@@ -37,7 +38,7 @@ namespace Project_B
                 pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
                 richTextBox1.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
                 pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
-                richTextBox1.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
+                richTextBox2.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
                 pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
                 richTextBox3.Text = "Title: Wildlife. \nLeeftijd 12+. \nDuur 1:35:00 uur \nStart tijd: zaal 1: 8:00, zaal 2: 9:00, zaal 3: 10:00. \nTaal: Engels (NL sub). \nZightBaar: IMAX, 3D, 2D.";
                 pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
@@ -68,11 +69,11 @@ namespace Project_B
             else if (dt.DayOfWeek == DayOfWeek.Saturday)
             {
                 pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
-                richTextBox1.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
+                richTextBox1.Text = "Title: Peter rabit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
                 pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
-                richTextBox1.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
-                pictureBox3.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
-                richTextBox3.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
+                richTextBox2.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
+                pictureBox3.Image = Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853;
+                richTextBox3.Text = "Title: The Lord of the rings the two towers  \nLeeftijd: 14+ \nDuur 3:25:00 uur. \nStart tijd: zaal 1 12:00, zaal 2 13:00, zaal 3 14:00\nTaal: Engels.\nzigtbaar: IMAX, 2D.";
                 pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
                 richTextBox4.Text = "Title: Fight Club. \nLeeftijd 16+. \nDuur 1:25:00 uur. \nStart tijd: zaal 12: 16:00, zaal 14: 18:00, zaal 16: 20:00. \nTaal: Nederlands. \nZightbaar: 2D.";
             }
@@ -118,7 +119,7 @@ namespace Project_B
             pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
             richTextBox1.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
             pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
-            richTextBox1.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
+            richTextBox2.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
             pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
             richTextBox3.Text = "Title: Wildlife. \nLeeftijd 12+. \nDuur 1:35:00 uur \nStart tijd: zaal 1: 8:00, zaal 2: 9:00, zaal 3: 10:00. \nTaal: Engels (NL sub). \nZightBaar: IMAX, 3D, 2D.";
             pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
@@ -152,11 +153,11 @@ namespace Project_B
         private void btnZaterdag_Click(object sender, EventArgs e)
         {
             pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
-            richTextBox1.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
+            richTextBox1.Text = "Title: Peter rabit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
             pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
-            richTextBox1.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
-            pictureBox3.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
-            richTextBox3.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
+            richTextBox2.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
+            pictureBox3.Image = Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853;
+            richTextBox3.Text = "Title: The Lord of the rings the two towers  \nLeeftijd: 14+ \nDuur 3:25:00 uur. \nStart tijd: zaal 1 12:00, zaal 2 13:00, zaal 3 14:00\nTaal: Engels.\nzigtbaar: IMAX, 2D.";
             pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
             richTextBox4.Text = "Title: Fight Club. \nLeeftijd 16+. \nDuur 1:25:00 uur. \nStart tijd: zaal 12: 16:00, zaal 14: 18:00, zaal 16: 20:00. \nTaal: Nederlands. \nZightbaar: 2D.";
         }
@@ -171,6 +172,38 @@ namespace Project_B
             richTextBox3.Text = "Title: Wildlife. \nLeeftijd 12+. \nDuur 1:35:00 uur \nStart tijd: zaal 1: 8:00, zaal 2: 9:00, zaal 3: 10:00. \nTaal: Engels (NL sub). \nZightBaar: IMAX, 3D, 2D.";
             pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
             richTextBox4.Text = "Title: Fight Club. \nLeeftijd 16+. \nDuur 1:25:00 uur. \nStart tijd: zaal 12: 16:00, zaal 14: 18:00, zaal 16: 20:00. \nTaal: Nederlands. \nZightbaar: 2D.";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            movie = richTextBox1.Text;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            movie = richTextBox2.Text;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            movie = richTextBox3.Text;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            movie = richTextBox4.Text;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
         }
     }
 }

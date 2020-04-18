@@ -37,17 +37,21 @@
             this.btnZaterdag = new System.Windows.Forms.Button();
             this.btnZondag = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // btnMaandag
@@ -122,7 +126,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(220, 187);
+            this.richTextBox1.Location = new System.Drawing.Point(220, 159);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(539, 125);
@@ -130,6 +134,59 @@
             this.richTextBox1.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
     "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
     "ing).\nzigtbaar: IMAX, 3D, 2D.";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Location = new System.Drawing.Point(220, 388);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            this.richTextBox2.Size = new System.Drawing.Size(539, 125);
+            this.richTextBox2.TabIndex = 13;
+            this.richTextBox2.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
+    "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
+    "ing).\nzigtbaar: IMAX, 3D, 2D.";
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.Location = new System.Drawing.Point(220, 619);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
+            this.richTextBox3.Size = new System.Drawing.Size(539, 125);
+            this.richTextBox3.TabIndex = 14;
+            this.richTextBox3.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
+    "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
+    "ing).\nzigtbaar: IMAX, 3D, 2D.";
+            // 
+            // richTextBox4
+            // 
+            this.richTextBox4.Location = new System.Drawing.Point(220, 854);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
+            this.richTextBox4.Size = new System.Drawing.Size(539, 125);
+            this.richTextBox4.TabIndex = 15;
+            this.richTextBox4.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
+    "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
+    "ing).\nzigtbaar: IMAX, 3D, 2D.";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(40, 803);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(156, 205);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 12;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(40, 568);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(156, 205);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -151,58 +208,45 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox3
+            // button1
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(40, 568);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(156, 205);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
+            this.button1.Location = new System.Drawing.Point(220, 290);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(220, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Bekijk film info";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pictureBox4
+            // button2
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(40, 803);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(156, 205);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 12;
-            this.pictureBox4.TabStop = false;
+            this.button2.Location = new System.Drawing.Point(220, 519);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(220, 23);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "Bekijk film info";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // richTextBox2
+            // button3
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(220, 417);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(539, 125);
-            this.richTextBox2.TabIndex = 13;
-            this.richTextBox2.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
-    "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
-    "ing).\nzigtbaar: IMAX, 3D, 2D.";
+            this.button3.Location = new System.Drawing.Point(220, 750);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(220, 23);
+            this.button3.TabIndex = 18;
+            this.button3.Text = "Bekijk film info";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // richTextBox3
+            // button4
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(220, 648);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(539, 125);
-            this.richTextBox3.TabIndex = 14;
-            this.richTextBox3.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
-    "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
-    "ing).\nzigtbaar: IMAX, 3D, 2D.";
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.Location = new System.Drawing.Point(220, 884);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(539, 125);
-            this.richTextBox4.TabIndex = 15;
-            this.richTextBox4.Text = "Title: Avengers Endgame.\nLeeftijd: 16+.\nDuur: 3:15:00 uur.\nStart tijd:  zaal 1: 1" +
-    "0:00,  zaal 5: 12:00, zaal 8: 14:00, zaal 13: 16:00.\nTaal: Engels (NL ondertitel" +
-    "ing).\nzigtbaar: IMAX, 3D, 2D.";
+            this.button4.Location = new System.Drawing.Point(220, 985);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(220, 23);
+            this.button4.TabIndex = 19;
+            this.button4.Text = "Bekijk film info";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Programma
             // 
@@ -210,7 +254,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(800, 448);
+            this.ClientSize = new System.Drawing.Size(800, 454);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox4);
             this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.richTextBox2);
@@ -228,10 +276,10 @@
             this.Controls.Add(this.btnMaandag);
             this.Name = "Programma";
             this.Text = "Programma";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -253,5 +301,9 @@
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
