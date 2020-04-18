@@ -142,5 +142,17 @@
   <ItemGroup>
     <None Include="Resources\THE-LORD-OF-THE-RINGS-THE-TWO-TOWERS-Frodo-Reprint-2002-REPRINT-CINEMA-POSTER__74417.1534256853.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\865580314a24d809e6fb0f12ce72e738.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ%40._V1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk%40._V1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peter-rabbit-movie-2-novelisation.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
