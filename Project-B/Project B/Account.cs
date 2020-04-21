@@ -7,18 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Project_B
 {
     public partial class Account : Form
     {
 
-        private Login log;
+        public static Login log;
         
         
-        public Account()
+        public Account(string text)
         {
             InitializeComponent();
+            label1.Text = "Welkom, " + text;
+
+            Account_Load(text, EventArgs.Empty);
         }
 
         public void AcctoMain(object sender, MouseEventArgs e)
@@ -26,16 +30,32 @@ namespace Project_B
             
             this.Hide();
             Form1 menu = new Form1();
-            menu.ShowDialog();
+            menu.Show();
+            menu.HideLoginbutton(false);
             
         }
 
-        private void Account_Load(object sender, EventArgs e)
+        private void Account_Load(string txt, EventArgs e)
         {
-            log = new Login();
-            
-            textBox1.Text = log.textBox1.Text;
-            
+            Login user = new Login();
+
+
+            Class1 con = new Class1();
+            con.Connection();
+            con.con.Open();
+
+            SqlCommand cmd = new SqlCommand("Select Email, Adres, Geboortedatum From LOGIN where Gebruikersnaam=@Gebruikersnaam", con.con);
+            cmd.Parameters.AddWithValue("Gebruikersnaam", txt);
+            SqlDataReader da = cmd.ExecuteReader();
+
+            while (da.Read())
+            {
+                textBox1.Text = da.GetValue(0).ToString();
+                textBox2.Text = da.GetValue(1).ToString();
+                textBox3.Text = da.GetValue(2).ToString();
+            }
+            con.con.Close();
+
         }
     }
 }
