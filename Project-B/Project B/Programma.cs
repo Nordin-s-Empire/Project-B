@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Project_B
@@ -13,6 +14,14 @@ namespace Project_B
 
             if (dt.DayOfWeek == DayOfWeek.Monday)
             {
+                btnMaandag.BackColor = Color.FromArgb(252, 167, 88);
+                btnDinsdag.BackColor = Color.DarkGray;
+                btnWoensdag.BackColor = Color.DarkGray;
+                btnDonderdag.BackColor = Color.DarkGray;
+                btnVrijdag.BackColor = Color.DarkGray;
+                btnZaterdag.BackColor = Color.DarkGray;
+                btnZondag.BackColor = Color.DarkGray;
+
                 pictureBox1.Image = Properties.Resources._51Av5azGomL__AC_;
                 richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
                 pictureBox2.Image = Properties.Resources._81kz06oSUeL__AC_SL1500_;
@@ -24,6 +33,14 @@ namespace Project_B
             }
             else if (dt.DayOfWeek == DayOfWeek.Tuesday)
             {
+                btnMaandag.BackColor = Color.DarkGray;
+                btnDinsdag.BackColor = Color.FromArgb(252, 167, 88);
+                btnWoensdag.BackColor = Color.DarkGray;
+                btnDonderdag.BackColor = Color.DarkGray;
+                btnVrijdag.BackColor = Color.DarkGray;
+                btnZaterdag.BackColor = Color.DarkGray;
+                btnZondag.BackColor = Color.DarkGray;
+
                 pictureBox1.Image = Properties.Resources.MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM___V1_;
                 richTextBox1.Text = "Title: The Godfather \nLeeftijd: 18+ \nDuur 1:25:00 uur. \nStart tijd: zaal 5 17:00, zaal 6 19:00, zaal 4 21:00\nTaal: Engels.\nzigtbaar: IMAX, 2D.";
                 pictureBox2.Image = Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853;
@@ -35,6 +52,14 @@ namespace Project_B
             }
             else if (dt.DayOfWeek == DayOfWeek.Wednesday)
             {
+                btnMaandag.BackColor = Color.DarkGray;
+                btnDinsdag.BackColor = Color.DarkGray;
+                btnWoensdag.BackColor = Color.FromArgb(252, 167, 88);
+                btnDonderdag.BackColor = Color.DarkGray;
+                btnVrijdag.BackColor = Color.DarkGray;
+                btnZaterdag.BackColor = Color.DarkGray;
+                btnZondag.BackColor = Color.DarkGray;
+
                 pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
                 richTextBox1.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
                 pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
@@ -46,6 +71,14 @@ namespace Project_B
             }
             else if (dt.DayOfWeek == DayOfWeek.Thursday)
             {
+                btnMaandag.BackColor = Color.DarkGray;
+                btnDinsdag.BackColor = Color.DarkGray;
+                btnWoensdag.BackColor = Color.DarkGray;
+                btnDonderdag.BackColor = Color.FromArgb(252, 167, 88);
+                btnVrijdag.BackColor = Color.DarkGray;
+                btnZaterdag.BackColor = Color.DarkGray;
+                btnZondag.BackColor = Color.DarkGray;
+
                 pictureBox1.Image = Properties.Resources._51Av5azGomL__AC_;
                 richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
                 pictureBox2.Image = Properties.Resources.MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM___V1_;
@@ -57,6 +90,14 @@ namespace Project_B
             }
             else if (dt.DayOfWeek == DayOfWeek.Friday)
             {
+                btnMaandag.BackColor = Color.DarkGray;
+                btnDinsdag.BackColor = Color.DarkGray;
+                btnWoensdag.BackColor = Color.DarkGray;
+                btnDonderdag.BackColor = Color.DarkGray;
+                btnVrijdag.BackColor = Color.FromArgb(252, 167, 88);
+                btnZaterdag.BackColor = Color.DarkGray;
+                btnZondag.BackColor = Color.DarkGray;
+
                 pictureBox1.Image = Properties.Resources._51Av5azGomL__AC_;
                 richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
                 pictureBox2.Image = Properties.Resources._81kz06oSUeL__AC_SL1500_;
@@ -68,6 +109,14 @@ namespace Project_B
             }
             else if (dt.DayOfWeek == DayOfWeek.Saturday)
             {
+                btnMaandag.BackColor = Color.DarkGray;
+                btnDinsdag.BackColor = Color.DarkGray;
+                btnWoensdag.BackColor = Color.DarkGray;
+                btnDonderdag.BackColor = Color.DarkGray;
+                btnVrijdag.BackColor = Color.DarkGray;
+                btnZaterdag.BackColor = Color.FromArgb(252, 167, 88);
+                btnZondag.BackColor = Color.DarkGray;
+
                 pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
                 richTextBox1.Text = "Title: Peter rabit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
                 pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
@@ -79,6 +128,14 @@ namespace Project_B
             }
             else if (dt.DayOfWeek == DayOfWeek.Sunday)
             {
+                btnMaandag.BackColor = Color.DarkGray;
+                btnDinsdag.BackColor = Color.DarkGray;
+                btnWoensdag.BackColor = Color.DarkGray;
+                btnDonderdag.BackColor = Color.DarkGray;
+                btnVrijdag.BackColor = Color.DarkGray;
+                btnZaterdag.BackColor = Color.DarkGray;
+                btnZondag.BackColor = Color.FromArgb(252, 167, 88);
+
                 pictureBox1.Image = Properties.Resources._51Av5azGomL__AC_;
                 richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
                 pictureBox2.Image = Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853;
@@ -92,6 +149,14 @@ namespace Project_B
 
         private void btnMaandag_Click(object sender, EventArgs e)
         {
+            btnMaandag.BackColor = Color.FromArgb(252, 167, 88);
+            btnDinsdag.BackColor = Color.DarkGray;
+            btnWoensdag.BackColor = Color.DarkGray;
+            btnDonderdag.BackColor = Color.DarkGray;
+            btnVrijdag.BackColor = Color.DarkGray;
+            btnZaterdag.BackColor = Color.DarkGray;
+            btnZondag.BackColor = Color.DarkGray;
+
             pictureBox1.Image = Properties.Resources._51Av5azGomL__AC_;
             richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
             pictureBox2.Image = Properties.Resources._81kz06oSUeL__AC_SL1500_;
@@ -104,6 +169,14 @@ namespace Project_B
 
         private void btnDinsdag_Click(object sender, EventArgs e)
         {
+            btnMaandag.BackColor = Color.DarkGray;
+            btnDinsdag.BackColor = Color.FromArgb(252, 167, 88);
+            btnWoensdag.BackColor = Color.DarkGray;
+            btnDonderdag.BackColor = Color.DarkGray;
+            btnVrijdag.BackColor = Color.DarkGray;
+            btnZaterdag.BackColor = Color.DarkGray;
+            btnZondag.BackColor = Color.DarkGray;
+
             pictureBox1.Image = Properties.Resources.MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM___V1_;
             richTextBox1.Text = "Title: The Godfather \nLeeftijd: 18+ \nDuur 1:25:00 uur. \nStart tijd: zaal 5 17:00, zaal 6 19:00, zaal 4 21:00\nTaal: Engels.\nzigtbaar: IMAX, 2D.";
             pictureBox2.Image = Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853;
@@ -116,6 +189,14 @@ namespace Project_B
 
         private void btnWoensdag_Click(object sender, EventArgs e)
         {
+            btnMaandag.BackColor = Color.DarkGray;
+            btnDinsdag.BackColor = Color.DarkGray;
+            btnWoensdag.BackColor = Color.FromArgb(252, 167, 88);
+            btnDonderdag.BackColor = Color.DarkGray;
+            btnVrijdag.BackColor = Color.DarkGray;
+            btnZaterdag.BackColor = Color.DarkGray;
+            btnZondag.BackColor = Color.DarkGray;
+
             pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
             richTextBox1.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
             pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
@@ -128,6 +209,14 @@ namespace Project_B
 
         private void btnDonderdag_Click(object sender, EventArgs e)
         {
+            btnMaandag.BackColor = Color.DarkGray;
+            btnDinsdag.BackColor = Color.DarkGray;
+            btnWoensdag.BackColor = Color.DarkGray;
+            btnDonderdag.BackColor = Color.FromArgb(252, 167, 88);
+            btnVrijdag.BackColor = Color.DarkGray;
+            btnZaterdag.BackColor = Color.DarkGray;
+            btnZondag.BackColor = Color.DarkGray;
+
             pictureBox1.Image = Properties.Resources._51Av5azGomL__AC_;
             richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
             pictureBox2.Image = Properties.Resources.MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM___V1_;
@@ -140,6 +229,14 @@ namespace Project_B
 
         private void btnVrijdag_Click(object sender, EventArgs e)
         {
+            btnMaandag.BackColor = Color.DarkGray;
+            btnDinsdag.BackColor = Color.DarkGray;
+            btnWoensdag.BackColor = Color.DarkGray;
+            btnDonderdag.BackColor = Color.DarkGray;
+            btnVrijdag.BackColor = Color.FromArgb(252, 167, 88);
+            btnZaterdag.BackColor = Color.DarkGray;
+            btnZondag.BackColor = Color.DarkGray;
+
             pictureBox1.Image = Properties.Resources._51Av5azGomL__AC_;
             richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
             pictureBox2.Image = Properties.Resources._81kz06oSUeL__AC_SL1500_;
@@ -152,6 +249,14 @@ namespace Project_B
 
         private void btnZaterdag_Click(object sender, EventArgs e)
         {
+            btnMaandag.BackColor = Color.DarkGray;
+            btnDinsdag.BackColor = Color.DarkGray;
+            btnWoensdag.BackColor = Color.DarkGray;
+            btnDonderdag.BackColor = Color.DarkGray;
+            btnVrijdag.BackColor = Color.DarkGray;
+            btnZaterdag.BackColor = Color.FromArgb(252, 167, 88);
+            btnZondag.BackColor = Color.DarkGray;
+
             pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
             richTextBox1.Text = "Title: Peter rabit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
             pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
@@ -164,6 +269,14 @@ namespace Project_B
 
         private void btnZondag_Click(object sender, EventArgs e)
         {
+            btnMaandag.BackColor = Color.DarkGray;
+            btnDinsdag.BackColor = Color.DarkGray;
+            btnWoensdag.BackColor = Color.DarkGray;
+            btnDonderdag.BackColor = Color.DarkGray;
+            btnVrijdag.BackColor = Color.DarkGray;
+            btnZaterdag.BackColor = Color.DarkGray;
+            btnZondag.BackColor = Color.FromArgb(252, 167, 88);
+
             pictureBox1.Image = Properties.Resources._51Av5azGomL__AC_;
             richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
             pictureBox2.Image = Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853;
