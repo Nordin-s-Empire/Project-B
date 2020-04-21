@@ -16,6 +16,15 @@ namespace Project_B
             pictureBox2.Hide();
             pictureBox3.Hide();
             pictureBox4.Hide();
+
+            // Knop profiel onzichtbaar voor inlog
+            Profiel.Visible = false;
+        }
+
+        public void HideLoginbutton(bool flag)
+        {
+            this.btnAcount.Visible = flag;
+            Profiel.Visible = !flag;
         }
 
         private void btnAgenda_Click(object sender, EventArgs e)
@@ -37,6 +46,7 @@ namespace Project_B
             this.Hide();
             Login log = new Login();
             log.Show();
+            btnAcount.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -66,6 +76,20 @@ namespace Project_B
             pictureBox6.Hide();
             pictureBox7.Hide();
             pictureBox8.Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Profiel_Click(object sender, EventArgs e)
+        {
+            Profiel.Visible = false;
+            btnAcount.Visible = true;
+            MessageBox.Show("U bent uitgelogd", "uitloggen");
+            Login log = new Login();
+
         }
     }
 }

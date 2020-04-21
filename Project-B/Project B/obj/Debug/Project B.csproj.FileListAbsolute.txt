@@ -71,3 +71,28 @@ C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debu
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Interop.ShockwaveFlashObjects.dll
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debug\Project B.exe.config
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debug\Project B.exe
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debug\Project B.pdb
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debug\Interop.WMPLib.dll
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csprojAssemblyReference.cache
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Interop.WMPLib.dll
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.ResolveComReference.cache
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Account.resources
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.FIlmInfo.resources
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Form1.resources
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Login.resources
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Programma.resources
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Properties.Resources.resources
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.GenerateResource.cache
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.CopyComplete
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.exe
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.pdb
