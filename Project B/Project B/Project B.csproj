@@ -94,8 +94,16 @@
     <Compile Include="Reservatie.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reservatie.Designer.cs">
+    <Compile Include="Reservatie.Designer.cs" />
       <DependentUpon>Reservatie.cs</DependentUpon>
+    <Compile Include="Seats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoelenReservatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoelenReservatie.Designer.cs">
+      <DependentUpon>StoelenReservatie.cs</DependentUpon>
     </Compile>
     <Compile Include="Zoeken.cs">
       <SubType>Form</SubType>
@@ -125,8 +133,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Reservatie.resx">
+    <EmbeddedResource Include="Reservatie.resx" />
       <DependentUpon>Reservatie.cs</DependentUpon>
+
+    <EmbeddedResource Include="StoelenReservatie.resx">
+      <DependentUpon>StoelenReservatie.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

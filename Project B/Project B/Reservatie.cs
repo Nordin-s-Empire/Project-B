@@ -15,6 +15,15 @@ using System.Windows.Forms;
 using System.Data.Sql;
 using System.Data.SqlClient;
 using System.CodeDom;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Project_B
 {
@@ -24,7 +33,7 @@ namespace Project_B
         SqlCommand command;
         SqlDataReader dataReader;
         String sql, Output = "";
-        
+
 
         List<Button> row_A = new List<Button>();
         List<Button> row_B = new List<Button>();
@@ -96,7 +105,7 @@ namespace Project_B
             buttons.Add(C8);
 
         }
-        
+
         private void Enable_Row(List<Button> buttonlist)
         {
             foreach (Button button in buttonlist)
@@ -110,8 +119,8 @@ namespace Project_B
                     button.BackColor = Color.White;
                     button.Enabled = true;
                 }
-                
-                
+
+
             }
         }
         private void Disable_Row(List<Button> buttonlist)
@@ -130,21 +139,21 @@ namespace Project_B
                 }
 
                 button.Enabled = false;
-                
+
             }
         }
 
         private void Button_click(object sender, EventArgs e)
         {
-            
+
             Button b = (Button)sender;
 
             var ch = b.Name.ToCharArray();
 
-            int x = ch[1]+1;
-            int y = ch[1]-1;
- 
-            if(b.BackColor == Color.Green)
+            int x = ch[1] + 1;
+            int y = ch[1] - 1;
+
+            if (b.BackColor == Color.Green)
             {
 
                 if (ch[0] == 'A')
@@ -152,7 +161,7 @@ namespace Project_B
                     Enable_Row(row_B);
                     Enable_Row(row_C);
 
-                 }
+                }
 
                 if (ch[0] == 'B')
                 {
@@ -177,7 +186,7 @@ namespace Project_B
                 {
                     Disable_Row(row_B);
                     Disable_Row(row_C);
-                    
+
                 }
 
                 if (ch[0] == 'B')
@@ -288,13 +297,14 @@ namespace Project_B
             command.Dispose();
             con.Close();
 
-            foreach(Button button in buttons)
+            foreach (Button button in buttons)
             {
                 if (button.BackColor == Color.Red)
                 {
                     button.Enabled = false;
                 }
             }
+
         }
     }
 }

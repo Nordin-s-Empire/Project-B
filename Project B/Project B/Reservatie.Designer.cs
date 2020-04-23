@@ -413,42 +413,43 @@
             this.Screen.ResumeLayout(false);
             this.Screen.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
+            this.PerformLayout(); }
 
+            private System.Windows.Forms.Button A1;
+            private System.Windows.Forms.Button A7;
+            private System.Windows.Forms.Button A6;
+            private System.Windows.Forms.Button A5;
+            private System.Windows.Forms.Button A4;
+            private System.Windows.Forms.Button A3;
+            private System.Windows.Forms.Button A2;
+            private System.Windows.Forms.Button A8;
+            private System.Windows.Forms.Button B8;
+            private System.Windows.Forms.Button B2;
+            private System.Windows.Forms.Button B3;
+            private System.Windows.Forms.Button B4;
+            private System.Windows.Forms.Button B5;
+            private System.Windows.Forms.Button B6;
+            private System.Windows.Forms.Button B7;
+            private System.Windows.Forms.Button B1;
+            private System.Windows.Forms.Button C8;
+            private System.Windows.Forms.Button C2;
+            private System.Windows.Forms.Button C3;
+            private System.Windows.Forms.Button C4;
+            private System.Windows.Forms.Button C5;
+            private System.Windows.Forms.Button C7;
+            private System.Windows.Forms.Button C1;
+            private System.Windows.Forms.Label rowname_A;
+            private System.Windows.Forms.Label rowname_C;
+            private System.Windows.Forms.Label rowname_B;
+            private System.Windows.Forms.Button C6;
+            private System.Windows.Forms.Button OK;
+            private System.Windows.Forms.Panel Screen;
+            private System.Windows.Forms.TextBox Screen_text;
+            private System.Windows.Forms.Button btnBack;
+
+            }
         }
+            
 
         #endregion
 
-        private System.Windows.Forms.Button A1;
-        private System.Windows.Forms.Button A7;
-        private System.Windows.Forms.Button A6;
-        private System.Windows.Forms.Button A5;
-        private System.Windows.Forms.Button A4;
-        private System.Windows.Forms.Button A3;
-        private System.Windows.Forms.Button A2;
-        private System.Windows.Forms.Button A8;
-        private System.Windows.Forms.Button B8;
-        private System.Windows.Forms.Button B2;
-        private System.Windows.Forms.Button B3;
-        private System.Windows.Forms.Button B4;
-        private System.Windows.Forms.Button B5;
-        private System.Windows.Forms.Button B6;
-        private System.Windows.Forms.Button B7;
-        private System.Windows.Forms.Button B1;
-        private System.Windows.Forms.Button C8;
-        private System.Windows.Forms.Button C2;
-        private System.Windows.Forms.Button C3;
-        private System.Windows.Forms.Button C4;
-        private System.Windows.Forms.Button C5;
-        private System.Windows.Forms.Button C7;
-        private System.Windows.Forms.Button C1;
-        private System.Windows.Forms.Label rowname_A;
-        private System.Windows.Forms.Label rowname_C;
-        private System.Windows.Forms.Label rowname_B;
-        private System.Windows.Forms.Button C6;
-        private System.Windows.Forms.Button OK;
-        private System.Windows.Forms.Panel Screen;
-        private System.Windows.Forms.TextBox Screen_text;
-        private System.Windows.Forms.Button btnBack;
-    }
-}

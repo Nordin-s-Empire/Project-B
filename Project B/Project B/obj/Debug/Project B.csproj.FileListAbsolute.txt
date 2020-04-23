@@ -46,8 +46,12 @@ C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\bin\Debug\Project 
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Account.resources
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Programma.resources
 C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Programma.resources
+
 C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.csproj.CoreCompileInputs.cache
 C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.Reservatie.resources
+
+C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project_B.StoelenReservatie.resources
+
 C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\bin\Debug\Newtonsoft.Json.dll
 C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\bin\Debug\Newtonsoft.Json.xml
 C:\Users\nikol\Documents\GitHub\Project-B\Project B\Project B\obj\Debug\Project B.csproj.CopyComplete

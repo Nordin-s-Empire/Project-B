@@ -60,6 +60,8 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(22, 99);
+            this.pictureBox1.Location = new System.Drawing.Point(29, 122);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(157, 234);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -71,6 +73,8 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(227, 99);
+            this.pictureBox2.Location = new System.Drawing.Point(303, 122);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(157, 234);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -82,6 +86,8 @@
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(423, 99);
+            this.pictureBox3.Location = new System.Drawing.Point(564, 122);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(157, 234);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -93,6 +99,8 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(620, 99);
+            this.pictureBox4.Location = new System.Drawing.Point(827, 122);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(157, 234);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -113,6 +121,8 @@
             // btnProgramma
             // 
             this.btnProgramma.Location = new System.Drawing.Point(227, 52);
+            this.btnProgramma.Location = new System.Drawing.Point(303, 64);
+            this.btnProgramma.Margin = new System.Windows.Forms.Padding(4);
             this.btnProgramma.Name = "btnProgramma";
             this.btnProgramma.Size = new System.Drawing.Size(75, 23);
             this.btnProgramma.TabIndex = 5;
@@ -123,6 +133,8 @@
             // btnAcount
             // 
             this.btnAcount.Location = new System.Drawing.Point(423, 50);
+            this.btnAcount.Location = new System.Drawing.Point(564, 61);
+            this.btnAcount.Margin = new System.Windows.Forms.Padding(4);
             this.btnAcount.Name = "btnAcount";
             this.btnAcount.Size = new System.Drawing.Size(75, 23);
             this.btnAcount.TabIndex = 6;
@@ -136,6 +148,10 @@
             this.btnZoeken.Location = new System.Drawing.Point(739, 52);
             this.btnZoeken.Name = "btnZoeken";
             this.btnZoeken.Size = new System.Drawing.Size(22, 23);
+            this.btnZoeken.Location = new System.Drawing.Point(985, 64);
+            this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
+            this.btnZoeken.Name = "btnZoeken";
+            this.btnZoeken.Size = new System.Drawing.Size(29, 28);
             this.btnZoeken.TabIndex = 7;
             this.btnZoeken.UseVisualStyleBackColor = true;
             this.btnZoeken.Click += new System.EventHandler(this.btnZoeken_Click);
@@ -152,6 +168,9 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(609, 52);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
+
+            this.richTextBox1.Location = new System.Drawing.Point(812, 64);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(118, 24);
             this.richTextBox1.TabIndex = 10;
@@ -161,6 +180,8 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
             this.button1.Location = new System.Drawing.Point(22, 365);
+            this.button1.Location = new System.Drawing.Point(29, 449);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(79, 39);
             this.button1.TabIndex = 11;
@@ -172,6 +193,9 @@
             // 
             this.button2.BackColor = System.Drawing.Color.DarkGray;
             this.button2.Location = new System.Drawing.Point(125, 365);
+
+            this.button2.Location = new System.Drawing.Point(167, 449);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(79, 39);
             this.button2.TabIndex = 12;
@@ -228,6 +252,9 @@
             this.btnReservatie.Location = new System.Drawing.Point(322, 52);
             this.btnReservatie.Name = "btnReservatie";
             this.btnReservatie.Size = new System.Drawing.Size(75, 23);
+            this.btnReservatie.Location = new System.Drawing.Point(429, 61);
+            this.btnReservatie.Name = "btnReservatie";
+            this.btnReservatie.Size = new System.Drawing.Size(107, 23);
             this.btnReservatie.TabIndex = 17;
             this.btnReservatie.Text = "Reservatie";
             this.btnReservatie.UseVisualStyleBackColor = true;
@@ -239,6 +266,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnReservatie);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
@@ -256,6 +284,8 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Bioscoop";
             this.Load += new System.EventHandler(this.Form1_Load);
