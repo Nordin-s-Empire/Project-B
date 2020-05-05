@@ -9,14 +9,17 @@ namespace Project_B
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
+
+
             InitializeComponent();
             pictureBox1.Hide();
             pictureBox2.Hide();
             pictureBox3.Hide();
             pictureBox4.Hide();
-
+            btnAcount.Location = new Point(100, 100);
             // Knop profiel onzichtbaar voor inlog
             Profiel.Visible = false;
         }
@@ -29,6 +32,7 @@ namespace Project_B
 
         private void btnAgenda_Click(object sender, EventArgs e)
         {
+
             this.Hide();
             Programma program = new Programma();
             program.Show();
