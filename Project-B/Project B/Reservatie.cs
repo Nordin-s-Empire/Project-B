@@ -1,45 +1,19 @@
-﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Data.SqlTypes;
-using System.Diagnostics;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 using System.Windows.Forms;
-using System.Data.Sql;
-using System.Data.SqlClient;
-using System.CodeDom;
-﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Project_B
 {
     public partial class Reservatie : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\nikol\Documents\Seats_Data.mdf;Integrated Security=True;Connect Timeout=30");
-        SqlCommand command;
-        SqlDataReader dataReader;
-        String sql, Output = "";
-
-
         List<Button> row_A = new List<Button>();
         List<Button> row_B = new List<Button>();
         List<Button> row_C = new List<Button>();
         List<Button> buttons = new List<Button>();
         List<Button> row_1 = new List<Button>();
+        public static String stoel;
 
 
         public Reservatie()
@@ -123,6 +97,7 @@ namespace Project_B
 
             }
         }
+
         private void Disable_Row(List<Button> buttonlist)
 
         {
@@ -145,8 +120,8 @@ namespace Project_B
 
         private void Button_click(object sender, EventArgs e)
         {
-
-            Button b = (Button)sender;
+            var b = (Button)sender;
+            stoel = b.Name;
 
             var ch = b.Name.ToCharArray();
 
@@ -207,95 +182,67 @@ namespace Project_B
 
         }
 
-        private void Reset_Seats()
-        {
-            con.Open();
-
-            SqlCommand command_reset;
-            SqlDataAdapter adapter = new SqlDataAdapter();
-            string sql_reset = "";
-
-            command_reset = new SqlCommand(sql_reset, con);
-
-            sql_reset = "UPDATE Seats SET Availability = @Available";
-            adapter.UpdateCommand = new SqlCommand(sql_reset, con);
-            adapter.UpdateCommand.Parameters.AddWithValue("@Available", true);
-            adapter.UpdateCommand.ExecuteNonQuery();
-
-            command_reset.Dispose();
-            con.Close();
-        }
-
         private void OK_Click(object sender, EventArgs e)
         {
-            con.Open();
-
-            SqlCommand command1;
-            SqlCommand command2;
-            SqlDataAdapter adapter = new SqlDataAdapter();
-            String sql1 = "";
-            String sql2 = "";
-
-            command1 = new SqlCommand(sql1, con);
-            command2 = new SqlCommand(sql2, con);
-
-            foreach (Button button in buttons)
+            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            try
             {
+                conn.Open();
 
-                if (button.BackColor == Color.Green)
-                {
+                MySqlCommand comm = conn.CreateCommand();
+                comm.CommandText = "UPDATE Seats SET Availability= @Available WHERE SeatID = @SeatID";
+                comm.Parameters.AddWithValue("@Available", 0);
+                comm.Parameters.AddWithValue("@SeatID", stoel);
+                comm.ExecuteNonQuery();
 
-                    sql1 = "UPDATE Seats SET Availability= @Available WHERE SeatID = @SeatID";
-                    adapter.UpdateCommand = new SqlCommand(sql1, con);
-                    adapter.UpdateCommand.Parameters.AddWithValue("@Available", false);
-                    adapter.UpdateCommand.Parameters.AddWithValue("@SeatID", button.Name);
-                    adapter.UpdateCommand.ExecuteNonQuery();
-
-                    sql2 = "INSERT INTO Reservations (SeatID) VALUES (@SeatID)";
-                    adapter.InsertCommand = new SqlCommand(sql2, con);
-                    adapter.InsertCommand.Parameters.AddWithValue("SeatID", button.Name);
-                    adapter.InsertCommand.ExecuteNonQuery();
-
-                }
+                conn.Close();
             }
-
-            command1.Dispose();
-            command2.Dispose();
-            con.Close();
-
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void Reservatie_Load(object sender, EventArgs e)
         {
-            //Reset_Seats();
-
-            con.Open();
-
-            sql = "Select * FROM Seats";
-            command = new SqlCommand(sql, con);
-            dataReader = command.ExecuteReader();
-
-            while (dataReader.Read())
+            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            try
             {
-                foreach (Button button in buttons)
+                conn.Open();
+
+                MySqlCommand comm = conn.CreateCommand();
+                comm.CommandText = "Select * FROM Seats";
+                comm.ExecuteNonQuery();
+
+                MySqlDataReader rdr = comm.ExecuteReader();
+
+                string Output = "";
+
+                while (rdr.Read())
                 {
-                    if (dataReader.GetValue(0).ToString() == button.Name)
+                    foreach (Button button in buttons)
                     {
-                        if (dataReader.GetValue(1).ToString() == "False")
+                        if (rdr.GetValue(0).ToString() == button.Name)
                         {
+                            if (rdr.GetValue(1).ToString() == "False")
+                            {
 
-                            Output = Output + dataReader.GetValue(0) + " - " + dataReader.GetValue(1) + "\n";
-                            button.BackColor = Color.Red;
+                                Output = Output + rdr.GetValue(0) + " - " + rdr.GetValue(1) + "\n";
+                                button.BackColor = Color.Red;
 
+                            }
                         }
                     }
                 }
 
+                conn.Close();
             }
-
-            dataReader.Close();
-            command.Dispose();
-            con.Close();
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
 
             foreach (Button button in buttons)
             {
@@ -304,7 +251,27 @@ namespace Project_B
                     button.Enabled = false;
                 }
             }
+        }
 
+        private void btnreset_Click(object sender, EventArgs e)
+        {
+            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            try
+            {
+                conn.Open();
+
+                MySqlCommand comm = conn.CreateCommand();
+                comm.CommandText = "UPDATE Seats SET Availability = @Available";
+                comm.Parameters.AddWithValue("@Available", 1);
+                comm.ExecuteNonQuery();
+
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 }
