@@ -47,6 +47,7 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.Profiel = new System.Windows.Forms.Button();
             this.brnRegister = new System.Windows.Forms.Button();
+            this.btnReserveer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -60,8 +61,13 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+<<<<<<< Updated upstream
             this.pictureBox1.Location = new System.Drawing.Point(29, 122);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.pictureBox1.Location = new System.Drawing.Point(39, 150);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5);
+>>>>>>> Stashed changes
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(209, 288);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -71,8 +77,13 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+<<<<<<< Updated upstream
             this.pictureBox2.Location = new System.Drawing.Point(303, 122);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.pictureBox2.Location = new System.Drawing.Point(283, 150);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(5);
+>>>>>>> Stashed changes
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(209, 288);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -82,8 +93,13 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+<<<<<<< Updated upstream
             this.pictureBox3.Location = new System.Drawing.Point(564, 122);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.pictureBox3.Location = new System.Drawing.Point(535, 150);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(5);
+>>>>>>> Stashed changes
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(209, 288);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -93,8 +109,13 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+<<<<<<< Updated upstream
             this.pictureBox4.Location = new System.Drawing.Point(827, 122);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.pictureBox4.Location = new System.Drawing.Point(821, 150);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(5);
+>>>>>>> Stashed changes
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(209, 288);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -114,8 +135,13 @@
             // 
             // btnProgramma
             // 
+<<<<<<< Updated upstream
             this.btnProgramma.Location = new System.Drawing.Point(303, 64);
             this.btnProgramma.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.btnProgramma.Location = new System.Drawing.Point(283, 98);
+            this.btnProgramma.Margin = new System.Windows.Forms.Padding(5);
+>>>>>>> Stashed changes
             this.btnProgramma.Name = "btnProgramma";
             this.btnProgramma.Size = new System.Drawing.Size(100, 28);
             this.btnProgramma.TabIndex = 5;
@@ -125,8 +151,13 @@
             // 
             // btnAcount
             // 
+<<<<<<< Updated upstream
             this.btnAcount.Location = new System.Drawing.Point(564, 61);
             this.btnAcount.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.btnAcount.Location = new System.Drawing.Point(535, 98);
+            this.btnAcount.Margin = new System.Windows.Forms.Padding(5);
+>>>>>>> Stashed changes
             this.btnAcount.Name = "btnAcount";
             this.btnAcount.Size = new System.Drawing.Size(100, 28);
             this.btnAcount.TabIndex = 6;
@@ -137,8 +168,13 @@
             // btnZoeken
             // 
             this.btnZoeken.Image = ((System.Drawing.Image)(resources.GetObject("btnZoeken.Image")));
+<<<<<<< Updated upstream
             this.btnZoeken.Location = new System.Drawing.Point(975, 52);
             this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.btnZoeken.Location = new System.Drawing.Point(986, 84);
+            this.btnZoeken.Margin = new System.Windows.Forms.Padding(5);
+>>>>>>> Stashed changes
             this.btnZoeken.Name = "btnZoeken";
             this.btnZoeken.Size = new System.Drawing.Size(39, 40);
             this.btnZoeken.TabIndex = 7;
@@ -165,8 +201,13 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
+<<<<<<< Updated upstream
             this.button1.Location = new System.Drawing.Point(29, 449);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.button1.Location = new System.Drawing.Point(39, 448);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
+>>>>>>> Stashed changes
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 48);
             this.button1.TabIndex = 11;
@@ -177,8 +218,13 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.DarkGray;
+<<<<<<< Updated upstream
             this.button2.Location = new System.Drawing.Point(167, 449);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.button2.Location = new System.Drawing.Point(154, 448);
+            this.button2.Margin = new System.Windows.Forms.Padding(5);
+>>>>>>> Stashed changes
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 48);
             this.button2.TabIndex = 12;
@@ -189,7 +235,12 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Project_B.Properties.Resources.peter_rabbit_movie_2_novelisation;
+<<<<<<< Updated upstream
             this.pictureBox5.Location = new System.Drawing.Point(29, 122);
+=======
+            this.pictureBox5.Location = new System.Drawing.Point(39, 150);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> Stashed changes
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(209, 288);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -228,8 +279,13 @@
             // 
             // Profiel
             // 
+<<<<<<< Updated upstream
             this.Profiel.Location = new System.Drawing.Point(673, 61);
             this.Profiel.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.Profiel.Location = new System.Drawing.Point(643, 98);
+            this.Profiel.Margin = new System.Windows.Forms.Padding(5);
+>>>>>>> Stashed changes
             this.Profiel.Name = "Profiel";
             this.Profiel.Size = new System.Drawing.Size(100, 28);
             this.Profiel.TabIndex = 18;
@@ -239,7 +295,12 @@
             // 
             // brnRegister
             // 
+<<<<<<< Updated upstream
             this.brnRegister.Location = new System.Drawing.Point(564, 449);
+=======
+            this.brnRegister.Location = new System.Drawing.Point(821, 471);
+            this.brnRegister.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> Stashed changes
             this.brnRegister.Name = "brnRegister";
             this.brnRegister.Size = new System.Drawing.Size(110, 33);
             this.brnRegister.TabIndex = 19;
@@ -247,12 +308,27 @@
             this.brnRegister.UseVisualStyleBackColor = true;
             this.brnRegister.Click += new System.EventHandler(this.brnRegister_Click);
             // 
+            // btnReserveer
+            // 
+            this.btnReserveer.Location = new System.Drawing.Point(392, 98);
+            this.btnReserveer.Name = "btnReserveer";
+            this.btnReserveer.Size = new System.Drawing.Size(100, 28);
+            this.btnReserveer.TabIndex = 20;
+            this.btnReserveer.Text = "Reserveer";
+            this.btnReserveer.UseVisualStyleBackColor = true;
+            this.btnReserveer.Click += new System.EventHandler(this.btnReserveer_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(1067, 554);
+=======
+            this.ClientSize = new System.Drawing.Size(1065, 551);
+            this.Controls.Add(this.btnReserveer);
+>>>>>>> Stashed changes
             this.Controls.Add(this.brnRegister);
             this.Controls.Add(this.Profiel);
             this.Controls.Add(this.pictureBox8);
@@ -271,10 +347,13 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+<<<<<<< Updated upstream
             this.Margin = new System.Windows.Forms.Padding(4);
+=======
+            this.Margin = new System.Windows.Forms.Padding(5);
+>>>>>>> Stashed changes
             this.Name = "Form1";
             this.Text = "Bioscoop";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -308,6 +387,7 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Button Profiel;
         private System.Windows.Forms.Button brnRegister;
+        private System.Windows.Forms.Button btnReserveer;
     }
 }
 
