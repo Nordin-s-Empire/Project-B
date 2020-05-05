@@ -16,7 +16,7 @@ namespace Project_B
         private void btnregistreer_Click(object sender, EventArgs e)
         {
 
-            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
+            /*string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
             MySqlConnection conn = new MySqlConnection(connStr);
             try
             {
@@ -38,8 +38,7 @@ namespace Project_B
                 MessageBox.Show(ex.ToString());
             }
 
-            conn.Close();
-            Console.ReadLine();
+            conn.Close();*/
         }
     }
 }

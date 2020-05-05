@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Data;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace Project_B
 {
@@ -19,24 +20,23 @@ namespace Project_B
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
-
-            Class1 con = new Class1();
-            con.Connection();
-            con.con.Open();
-            if (textBox1.Text != "")
+            /*string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            try
             {
-                SqlDataAdapter sda = new SqlDataAdapter("Select Count (*) From LOGIN where Gebruikersnaam='" + textBox1.Text + "' and Wachtwoord='" + textBox2.Text + "'", con.con);
-                DataTable dt = new DataTable();
-                sda.Fill(dt);
+                conn.Open();
 
-                if (dt.Rows[0][0].ToString() == "1")
-                {
-                    this.Hide();
-                    Account acc = new Account(textBox1.Text);
-                    acc.ShowDialog();
-                }
+                MySqlCommand comm = conn.CreateCommand();
+                comm.CommandText = "";
+                comm.ExecuteNonQuery();
+                MessageBox.Show("success");
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
+            conn.Close();*/
         }
     }
 }

@@ -184,29 +184,13 @@ namespace Project_B
 
         private void OK_Click(object sender, EventArgs e)
         {
-            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
-            MySqlConnection conn = new MySqlConnection(connStr);
-            try
-            {
-                conn.Open();
-
-                MySqlCommand comm = conn.CreateCommand();
-                comm.CommandText = "UPDATE Seats SET Availability= @Available WHERE SeatID = @SeatID";
-                comm.Parameters.AddWithValue("@Available", 0);
-                comm.Parameters.AddWithValue("@SeatID", stoel);
-                comm.ExecuteNonQuery();
-
-                conn.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
+           //MySqlClass mySql = new MySqlClass();
+           //mySql.Connection("UPDATE Seats SET Availability=0 WHERE SeatID = '"+stoel+"'");
         }
 
         private void Reservatie_Load(object sender, EventArgs e)
         {
-            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
+            /*string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
             MySqlConnection conn = new MySqlConnection(connStr);
             try
             {
@@ -242,7 +226,7 @@ namespace Project_B
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
-            }
+            }*/
 
             foreach (Button button in buttons)
             {
@@ -255,7 +239,7 @@ namespace Project_B
 
         private void btnreset_Click(object sender, EventArgs e)
         {
-            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
+            /*string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
             MySqlConnection conn = new MySqlConnection(connStr);
             try
             {
@@ -271,7 +255,7 @@ namespace Project_B
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
-            }
+            }*/
         }
     }
 }
