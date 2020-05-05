@@ -45,8 +45,8 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.Profiel = new System.Windows.Forms.Button();
+            this.brnRegister = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -226,15 +226,6 @@
             this.pictureBox8.TabIndex = 16;
             this.pictureBox8.TabStop = false;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "label2";
-            // 
             // Profiel
             // 
             this.Profiel.Location = new System.Drawing.Point(673, 61);
@@ -246,14 +237,24 @@
             this.Profiel.UseVisualStyleBackColor = true;
             this.Profiel.Click += new System.EventHandler(this.Profiel_Click);
             // 
+            // brnRegister
+            // 
+            this.brnRegister.Location = new System.Drawing.Point(564, 449);
+            this.brnRegister.Name = "brnRegister";
+            this.brnRegister.Size = new System.Drawing.Size(110, 33);
+            this.brnRegister.TabIndex = 19;
+            this.brnRegister.Text = "Registreer";
+            this.brnRegister.UseVisualStyleBackColor = true;
+            this.brnRegister.Click += new System.EventHandler(this.brnRegister_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.brnRegister);
             this.Controls.Add(this.Profiel);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
@@ -305,8 +306,8 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button Profiel;
+        private System.Windows.Forms.Button brnRegister;
     }
 }
 
