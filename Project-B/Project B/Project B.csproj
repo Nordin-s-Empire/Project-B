@@ -113,6 +113,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Reservatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservatie.Designer.cs">
+      <DependentUpon>Reservatie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zoeken.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservatie.resx">
+      <DependentUpon>Reservatie.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
