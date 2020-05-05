@@ -61,7 +61,7 @@ namespace Project_B
                 btnZondag.BackColor = Color.DarkGray;
 
                 pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
-                richTextBox1.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
+                richTextBox1.Text = "Title: Peter rabit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
                 pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
                 richTextBox2.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
                 pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
@@ -198,7 +198,7 @@ namespace Project_B
             btnZondag.BackColor = Color.DarkGray;
 
             pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
-            richTextBox1.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
+            richTextBox1.Text = "Title: Peter rabit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
             pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
             richTextBox2.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
             pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
