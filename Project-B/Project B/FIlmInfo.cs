@@ -166,5 +166,12 @@ namespace Project_B
             Programma pg = new Programma();
             pg.Show();
         }
+
+        private void btnReserveer_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Reservatie res = new Reservatie();
+            res.Show();
+        }
     }
 }
