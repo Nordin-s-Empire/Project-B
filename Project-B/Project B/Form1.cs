@@ -19,7 +19,7 @@ namespace Project_B
             pictureBox2.Hide();
             pictureBox3.Hide();
             pictureBox4.Hide();
-
+            btnAcount.Location = new Point(100, 100);
             // Knop profiel onzichtbaar voor inlog
             Profiel.Visible = false;
         }
