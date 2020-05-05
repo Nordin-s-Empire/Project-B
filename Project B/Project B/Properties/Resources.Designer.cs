@@ -103,6 +103,16 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap April {
+            get {
+                object obj = ResourceManager.GetObject("April", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap avengers_endgame_original_movie_poster_15x21_in_2019_anthony_russo_robert_downey_jr {
             get {
                 object obj = ResourceManager.GetObject("avengers-endgame-original-movie-poster-15x21-in-2019-anthony-russo-robert-downey-" +
@@ -124,10 +134,70 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bloodshot {
+            get {
+                object obj = ResourceManager.GetObject("Bloodshot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fast___Furious {
+            get {
+                object obj = ResourceManager.GetObject("Fast_&_Furious", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gentlemen {
+            get {
+                object obj = ResourceManager.GetObject("Gentlemen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jumanji {
+            get {
+                object obj = ResourceManager.GetObject("Jumanji", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM___V1_ {
             get {
                 object obj = ResourceManager.GetObject("MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@." +
                         "_V1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap The_Godfather__Part_II {
+            get {
+                object obj = ResourceManager.GetObject("The_Godfather_ Part_II", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap The_Godfather_Part_III {
+            get {
+                object obj = ResourceManager.GetObject("The_Godfather_Part_III", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
