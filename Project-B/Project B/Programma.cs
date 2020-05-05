@@ -23,7 +23,7 @@ namespace Project_B
                 btnZondag.BackColor = Color.DarkGray;
 
                 pictureBox1.Image = Properties.Resources._51Av5azGomL__AC_;
-                richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
+                richTextBox1.Text = "Title: The Dark Kinght Rises \n Leeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
                 pictureBox2.Image = Properties.Resources._81kz06oSUeL__AC_SL1500_;
                 richTextBox2.Text = "Title: Interstellar \nLeeftijd: 11+ \nDuur 1:25:00 uur. \nStart tijd: zaal 7 12:00, zaal 15 15:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
                 pictureBox3.Image = Properties.Resources._268x0w;
