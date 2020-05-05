@@ -91,5 +91,12 @@ namespace Project_B
             Login log = new Login();
 
         }
+
+        private void brnRegister_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 form = new Form2();
+            form.Show();
+        }
     }
 }
