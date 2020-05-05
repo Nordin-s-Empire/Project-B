@@ -6,8 +6,11 @@ namespace Project_B
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
+
+
             InitializeComponent();
             pictureBox1.Hide();
             pictureBox2.Hide();
@@ -25,6 +28,7 @@ namespace Project_B
 
         private void btnAgenda_Click(object sender, EventArgs e)
         {
+
             this.Hide();
             Programma program = new Programma();
             program.Show();
