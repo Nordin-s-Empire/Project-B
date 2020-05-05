@@ -98,5 +98,10 @@ namespace Project_B
             Reservatie res = new Reservatie();
             res.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
