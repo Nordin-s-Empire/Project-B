@@ -20,7 +20,7 @@ namespace Project_B
                 conn.Open();
 
                 MySqlCommand comm = conn.CreateCommand();
-                comm.CommandText = "SELECT Voornaam FROM Gebruiker WHERE Email = '"+ textBox1 .Text+ "'";
+                comm.CommandText = "SELECT Voornaam FROM Gebruiker WHERE Email = '" + textBox1.Text + "'";
                 comm.ExecuteNonQuery();
                 MySqlDataReader rdr = comm.ExecuteReader();
 
