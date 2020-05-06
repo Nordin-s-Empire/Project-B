@@ -9,6 +9,7 @@ namespace Project_B
         public FIlmInfo()
         {
             InitializeComponent();
+
             string str = Programma.movie;
 
             lblSummary.MaximumSize = new Size(300, 0);
@@ -91,13 +92,16 @@ namespace Project_B
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
+
             var embed = "<html><head>" +
             "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"/>" +
             "</head><body>" +
             "<iframe width=\"550\" height=\"360\" src=\"{0}\"" +
             "frameborder = \"0\" allow = \"autoplay; encrypted-media\" allowfullscreen></iframe>" +
             "</body></html>";
+
             string str = Programma.movie;
+
             if (str.Contains("Peter rabit 2") == true)
             {
                 var url = "https://www.youtube.com/embed/euGHcnyUo84";

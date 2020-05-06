@@ -3,7 +3,6 @@ using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
 
 namespace Project_B
 {
@@ -15,7 +14,6 @@ namespace Project_B
         List<Button> buttons = new List<Button>();
         List<Button> row_1 = new List<Button>();
         public static String stoel;
-
 
         public Reservatie()
         {
@@ -78,7 +76,6 @@ namespace Project_B
             buttons.Add(C6);
             buttons.Add(C7);
             buttons.Add(C8);
-
         }
 
         private void Enable_Row(List<Button> buttonlist)
@@ -94,13 +91,10 @@ namespace Project_B
                     button.BackColor = Color.White;
                     button.Enabled = true;
                 }
-
-
             }
         }
 
         private void Disable_Row(List<Button> buttonlist)
-
         {
             foreach (Button button in buttonlist)
             {
@@ -115,7 +109,6 @@ namespace Project_B
                 }
 
                 button.Enabled = false;
-
             }
         }
 
@@ -154,7 +147,6 @@ namespace Project_B
 
                 b.BackColor = Color.White;
             }
-
             else
             {
 
@@ -302,7 +294,6 @@ namespace Project_B
                         }
                     }
                 }
-
 
                 conn.Close();
             }

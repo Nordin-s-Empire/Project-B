@@ -6,12 +6,10 @@ namespace Project_B
 {
     public partial class Form1 : Form
     {
-
         public Form1()
         {
-
-
             InitializeComponent();
+
             pictureBox1.Hide();
             pictureBox2.Hide();
             pictureBox3.Hide();
@@ -28,7 +26,6 @@ namespace Project_B
 
         private void btnAgenda_Click(object sender, EventArgs e)
         {
-
             this.Hide();
             Programma program = new Programma();
             program.Show();
@@ -97,11 +94,6 @@ namespace Project_B
             this.Hide();
             Reservatie res = new Reservatie();
             res.Show();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

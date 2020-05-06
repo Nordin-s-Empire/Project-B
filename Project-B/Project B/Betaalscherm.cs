@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Betaalscherm_versie_3
@@ -73,7 +66,6 @@ namespace Betaalscherm_versie_3
         {
             MessageBox.Show(listBox1.SelectedItem.ToString());
             MessageBox.Show(listBox2.SelectedItem.ToString());
-        
             MessageBox.Show("Je hebt betaald!");
         }
     }

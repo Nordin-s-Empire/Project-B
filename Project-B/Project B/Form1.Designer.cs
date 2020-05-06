@@ -112,7 +112,6 @@
             this.label1.Size = new System.Drawing.Size(205, 24);
             this.label1.TabIndex = 4;
             this.label1.Text = "The Downtown Cinema";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnProgramma
             // 
