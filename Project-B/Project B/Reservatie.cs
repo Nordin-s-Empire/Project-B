@@ -3,6 +3,7 @@ using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 
 namespace Project_B
 {
@@ -184,49 +185,131 @@ namespace Project_B
 
         private void OK_Click(object sender, EventArgs e)
         {
-           //MySqlClass mySql = new MySqlClass();
-           //mySql.Connection("UPDATE Seats SET Availability=0 WHERE SeatID = '"+stoel+"'");
+            MySqlClass mySql = new MySqlClass();
+            mySql.Connection("UPDATE Seats SET Availability=0 WHERE SeatID = '" + stoel + "'");
         }
 
         private void Reservatie_Load(object sender, EventArgs e)
         {
-            /*string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
+            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
             MySqlConnection conn = new MySqlConnection(connStr);
             try
             {
                 conn.Open();
 
                 MySqlCommand comm = conn.CreateCommand();
-                comm.CommandText = "Select * FROM Seats";
+                comm.CommandText = "Select Availability,SeatID  FROM Seats";
                 comm.ExecuteNonQuery();
 
                 MySqlDataReader rdr = comm.ExecuteReader();
 
-                string Output = "";
+                bool[] Availability = new bool[24];
+                string[] SeatID = new string[24];
 
-                while (rdr.Read())
+                for (int i = 0; i < Availability.Length; i++)
                 {
-                    foreach (Button button in buttons)
+                    while (rdr.Read())
                     {
-                        if (rdr.GetValue(0).ToString() == button.Name)
+                        Availability[i] = rdr.GetBoolean("Availability");
+                        SeatID[i] = rdr.GetString("SeatID");
+                        i++;
+                    }
+                }
+
+                foreach (Button button in buttons)
+                {
+                    for (int i = 0; i < SeatID.Length; i++)
+                    {
+                        if (Availability[i] == false)
                         {
-                            if (rdr.GetValue(1).ToString() == "False")
+                            button.Name = SeatID[i];
+
+                            switch (button.Name)
                             {
-
-                                Output = Output + rdr.GetValue(0) + " - " + rdr.GetValue(1) + "\n";
-                                button.BackColor = Color.Red;
-
+                                case "A1":
+                                    A1.BackColor = Color.Red;
+                                    break;
+                                case "A2":
+                                    A2.BackColor = Color.Red;
+                                    break;
+                                case "A3":
+                                    A3.BackColor = Color.Red;
+                                    break;
+                                case "A4":
+                                    A4.BackColor = Color.Red;
+                                    break;
+                                case "A5":
+                                    A5.BackColor = Color.Red;
+                                    break;
+                                case "A6":
+                                    A6.BackColor = Color.Red;
+                                    break;
+                                case "A7":
+                                    A7.BackColor = Color.Red;
+                                    break;
+                                case "A8":
+                                    A8.BackColor = Color.Red;
+                                    break;
+                                case "B1":
+                                    B1.BackColor = Color.Red;
+                                    break;
+                                case "B2":
+                                    B2.BackColor = Color.Red;
+                                    break;
+                                case "B3":
+                                    B3.BackColor = Color.Red;
+                                    break;
+                                case "B4":
+                                    B4.BackColor = Color.Red;
+                                    break;
+                                case "B5":
+                                    B5.BackColor = Color.Red;
+                                    break;
+                                case "B6":
+                                    B6.BackColor = Color.Red;
+                                    break;
+                                case "B7":
+                                    B7.BackColor = Color.Red;
+                                    break;
+                                case "B8":
+                                    B8.BackColor = Color.Red;
+                                    break;
+                                case "C1":
+                                    C1.BackColor = Color.Red;
+                                    break;
+                                case "C2":
+                                    C2.BackColor = Color.Red;
+                                    break;
+                                case "C3":
+                                    C3.BackColor = Color.Red;
+                                    break;
+                                case "C4":
+                                    C4.BackColor = Color.Red;
+                                    break;
+                                case "C5":
+                                    C5.BackColor = Color.Red;
+                                    break;
+                                case "C6":
+                                    C6.BackColor = Color.Red;
+                                    break;
+                                case "C7":
+                                    C7.BackColor = Color.Red;
+                                    break;
+                                case "C8":
+                                    C8.BackColor = Color.Red;
+                                    break;
                             }
                         }
                     }
                 }
+
 
                 conn.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
-            }*/
+            }
 
             foreach (Button button in buttons)
             {
@@ -239,23 +322,8 @@ namespace Project_B
 
         private void btnreset_Click(object sender, EventArgs e)
         {
-            /*string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
-            MySqlConnection conn = new MySqlConnection(connStr);
-            try
-            {
-                conn.Open();
-
-                MySqlCommand comm = conn.CreateCommand();
-                comm.CommandText = "UPDATE Seats SET Availability = @Available";
-                comm.Parameters.AddWithValue("@Available", 1);
-                comm.ExecuteNonQuery();
-
-                conn.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }*/
+            MySqlClass mySql = new MySqlClass();
+            mySql.Connection("UPDATE Seats SET Availability = 1");
         }
     }
 }
