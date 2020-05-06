@@ -11,9 +11,8 @@ namespace Project_B
         public Account()
         {
             InitializeComponent();
-            label1.Text = "Welkom, " + text;
 
-            Account_Load(text, EventArgs.Empty);
+            Account_Load("Welkom best klant", EventArgs.Empty);
         }
 
         public void AcctoMain(object sender, MouseEventArgs e)
