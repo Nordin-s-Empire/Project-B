@@ -66,7 +66,6 @@
     <Compile Include="Betaalscherm.Designer.cs">
       <DependentUpon>Betaalscherm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="FIlmInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,7 +90,6 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MySqlClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programma.cs">
       <SubType>Form</SubType>
@@ -228,9 +226,6 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Resources\y2mate.com - Beethoven - Moonlight Sonata %28FULL%29_4Tr0otuiQuU_360p.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

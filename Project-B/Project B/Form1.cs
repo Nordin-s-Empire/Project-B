@@ -1,5 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
+using System.Text;
 using System.Windows.Forms;
 
 namespace Project_B
@@ -17,6 +22,7 @@ namespace Project_B
             // Knop profiel onzichtbaar voor inlog
             Profiel.Visible = false;
         }
+
 
         public void HideLoginbutton(bool flag)
         {

@@ -1,8 +1,9 @@
 using System;
-using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace Project_B
 {
@@ -177,129 +178,209 @@ namespace Project_B
 
         private void OK_Click(object sender, EventArgs e)
         {
-            MySqlClass mySql = new MySqlClass();
-            mySql.Connection("UPDATE Seats SET Availability=0 WHERE SeatID = '" + stoel + "'");
+            int i = 0;
+
+            switch(stoel)
+            {
+                case "A1":
+                    i = 0;
+                    break;
+                case "A2":
+                    i = 1;
+                    break;
+                case "A3":
+                    i = 2;
+                    break;
+                case "A4":
+                    i = 3;
+                    break;
+                case "A5":
+                    i = 4;
+                    break;
+                case "A6":
+                    i = 5;
+                    break;
+                case "A7":
+                    i = 6;
+                    break;
+                case "A8":
+                    i = 7;
+                    break;
+                case "B1":
+                    i = 8;
+                    break;
+                case "B2":
+                    i = 9;
+                    break;
+                case "B3":
+                    i = 10;
+                    break;
+                case "B4":
+                    i = 11;
+                    break;
+                case "B5":
+                    i = 12;
+                    break;
+                case "B6":
+                    i = 13;
+                    break;
+                case "B7":
+                    i = 14;
+                    break;
+                case "B8":
+                    i = 15;
+                    break;
+                case "C1":
+                    i = 16;
+                    break;
+                case "C2":
+                    i = 17;
+                    break;
+                case "C3":
+                    i = 18;
+                    break;
+                case "C4":
+                    i = 19;
+                    break;
+                case "C5":
+                    i = 20;
+                    break;
+                case "C6":
+                    i = 21;
+                    break;
+                case "C7":
+                    i = 22;
+                    break;
+                case "C8":
+                    i = 23;
+                    break;
+            }
+
+            string json = File.ReadAllText(@"Seats.json");
+            dynamic jsonObj = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
+            jsonObj[i]["Availability"] = "0";
+            string output = Newtonsoft.Json.JsonConvert.SerializeObject(jsonObj, Newtonsoft.Json.Formatting.Indented);
+            File.WriteAllText(@"Seats.json", output);
+        }
+
+        public class Seats
+        {
+            public string Seat;
+            public string Availability;
         }
 
         private void Reservatie_Load(object sender, EventArgs e)
         {
-            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
-            MySqlConnection conn = new MySqlConnection(connStr);
-            try
+            Dictionary<string, string> Seats = new Dictionary<string, string>();
+            using (StreamReader r = new StreamReader(@"Seats.json"))
             {
-                conn.Open();
+                string json = r.ReadToEnd();
+                var output = JsonConvert.DeserializeObject<List<Seats>>(json);
 
-                MySqlCommand comm = conn.CreateCommand();
-                comm.CommandText = "Select Availability,SeatID  FROM Seats";
-                comm.ExecuteNonQuery();
-
-                MySqlDataReader rdr = comm.ExecuteReader();
-
-                bool[] Availability = new bool[24];
-                string[] SeatID = new string[24];
-
-                for (int i = 0; i < Availability.Length; i++)
+                foreach (var item in output)
                 {
-                    while (rdr.Read())
-                    {
-                        Availability[i] = rdr.GetBoolean("Availability");
-                        SeatID[i] = rdr.GetString("SeatID");
-                        i++;
-                    }
+                    Seats.Add(item.Seat, item.Availability);
                 }
-
-                foreach (Button button in buttons)
-                {
-                    for (int i = 0; i < SeatID.Length; i++)
-                    {
-                        if (Availability[i] == false)
-                        {
-                            button.Name = SeatID[i];
-
-                            switch (button.Name)
-                            {
-                                case "A1":
-                                    A1.BackColor = Color.Red;
-                                    break;
-                                case "A2":
-                                    A2.BackColor = Color.Red;
-                                    break;
-                                case "A3":
-                                    A3.BackColor = Color.Red;
-                                    break;
-                                case "A4":
-                                    A4.BackColor = Color.Red;
-                                    break;
-                                case "A5":
-                                    A5.BackColor = Color.Red;
-                                    break;
-                                case "A6":
-                                    A6.BackColor = Color.Red;
-                                    break;
-                                case "A7":
-                                    A7.BackColor = Color.Red;
-                                    break;
-                                case "A8":
-                                    A8.BackColor = Color.Red;
-                                    break;
-                                case "B1":
-                                    B1.BackColor = Color.Red;
-                                    break;
-                                case "B2":
-                                    B2.BackColor = Color.Red;
-                                    break;
-                                case "B3":
-                                    B3.BackColor = Color.Red;
-                                    break;
-                                case "B4":
-                                    B4.BackColor = Color.Red;
-                                    break;
-                                case "B5":
-                                    B5.BackColor = Color.Red;
-                                    break;
-                                case "B6":
-                                    B6.BackColor = Color.Red;
-                                    break;
-                                case "B7":
-                                    B7.BackColor = Color.Red;
-                                    break;
-                                case "B8":
-                                    B8.BackColor = Color.Red;
-                                    break;
-                                case "C1":
-                                    C1.BackColor = Color.Red;
-                                    break;
-                                case "C2":
-                                    C2.BackColor = Color.Red;
-                                    break;
-                                case "C3":
-                                    C3.BackColor = Color.Red;
-                                    break;
-                                case "C4":
-                                    C4.BackColor = Color.Red;
-                                    break;
-                                case "C5":
-                                    C5.BackColor = Color.Red;
-                                    break;
-                                case "C6":
-                                    C6.BackColor = Color.Red;
-                                    break;
-                                case "C7":
-                                    C7.BackColor = Color.Red;
-                                    break;
-                                case "C8":
-                                    C8.BackColor = Color.Red;
-                                    break;
-                            }
-                        }
-                    }
-                }
-
-                conn.Close();
             }
-            catch (Exception ex)
+
+            for (int i = 0; i < Seats.Count; i++)
             {
-                MessageBox.Show(ex.ToString());
+                if (Seats["A1"] == "0")
+                {
+                    A1.BackColor = Color.Red;
+                }
+                else if (Seats["A2"] == "0")
+                {
+                    A2.BackColor = Color.Red;
+                }
+                else if (Seats["A3"] == "0")
+                {
+                    A3.BackColor = Color.Red;
+                }
+                else if (Seats["A4"] == "0")
+                {
+                    A4.BackColor = Color.Red;
+                }
+                else if (Seats["A5"] == "0")
+                {
+                    A2.BackColor = Color.Red;
+                }
+                else if (Seats["A6"] == "0")
+                {
+                    A6.BackColor = Color.Red;
+                }
+                else if (Seats["A7"] == "0")
+                {
+                    A7.BackColor = Color.Red;
+                }
+                else if (Seats["A8"] == "0")
+                {
+                    A8.BackColor = Color.Red;
+                }
+                else if (Seats["B1"] == "0")
+                {
+                    B1.BackColor = Color.Red;
+                }
+                else if (Seats["B2"] == "0")
+                {
+                    B2.BackColor = Color.Red;
+                }
+                else if (Seats["B3"] == "0")
+                {
+                    B3.BackColor = Color.Red;
+                }
+                else if (Seats["B4"] == "0")
+                {
+                    B4.BackColor = Color.Red;
+                }
+                else if (Seats["B5"] == "0")
+                {
+                    B5.BackColor = Color.Red;
+                }
+                else if (Seats["B6"] == "0")
+                {
+                    B6.BackColor = Color.Red;
+                }
+                else if (Seats["B7"] == "0")
+                {
+                    B7.BackColor = Color.Red;
+                }
+                else if (Seats["B8"] == "0")
+                {
+                    B8.BackColor = Color.Red;
+                }
+                else if (Seats["C1"] == "0")
+                {
+                    C1.BackColor = Color.Red;
+                }
+                else if (Seats["C2"] == "0")
+                {
+                    C2.BackColor = Color.Red;
+                }
+                else if (Seats["C3"] == "0")
+                {
+                    C3.BackColor = Color.Red;
+                }
+                else if (Seats["C4"] == "0")
+                {
+                    C4.BackColor = Color.Red;
+                }
+                else if (Seats["C5"] == "0")
+                {
+                    C5.BackColor = Color.Red;
+                }
+                else if (Seats["C6"] == "0")
+                {
+                    C6.BackColor = Color.Red;
+                }
+                else if (Seats["C7"] == "0")
+                {
+                    C7.BackColor = Color.Red;
+                }
+                else if (Seats["C8"] == "0")
+                {
+                    C8.BackColor = Color.Red;
+                }
             }
 
             foreach (Button button in buttons)
@@ -313,8 +394,14 @@ namespace Project_B
 
         private void btnreset_Click(object sender, EventArgs e)
         {
-            MySqlClass mySql = new MySqlClass();
-            mySql.Connection("UPDATE Seats SET Availability = 1");
+            for(int i = 0; i < 24; i++)
+            {
+                string json = File.ReadAllText(@"Seats.json");
+                dynamic jsonObj = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
+                jsonObj[i]["Availability"] = "1";
+                string output = Newtonsoft.Json.JsonConvert.SerializeObject(jsonObj, Newtonsoft.Json.Formatting.Indented);
+                File.WriteAllText(@"Seats.json", output);
+            }
         }
     }
 }

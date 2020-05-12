@@ -1,6 +1,9 @@
 ﻿using System;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
+using System.Collections.Generic;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace Project_B
 {
@@ -13,33 +16,37 @@ namespace Project_B
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
-            MySqlConnection conn = new MySqlConnection(connStr);
-            try
+            Dictionary<string, string> Users = new Dictionary<string, string>();
+            using (StreamReader r = new StreamReader(@"Users.json"))
             {
-                conn.Open();
+                string json = r.ReadToEnd();
+                var output = JsonConvert.DeserializeObject<List<User>>(json);
 
-                MySqlCommand comm = conn.CreateCommand();
-                comm.CommandText = "SELECT Voornaam FROM Gebruiker WHERE Email = '" + textBox1.Text + "'";
-                comm.ExecuteNonQuery();
-                MySqlDataReader rdr = comm.ExecuteReader();
-
-                while(rdr.Read())
+                foreach (var item in output)
                 {
-                    if(rdr.GetString("Voornaam") != null)
-                    {
-                        this.Hide();
-                        Account account = new Account();
-                        account.Show();
-                    }
+                    Users.Add(item.Username, item.Password);
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
 
-            conn.Close();
+            string password = textBox2.Text;
+
+            if(Users.TryGetValue(textBox1.Text, out password))
+            {
+                MessageBox.Show("Wah");
+            }
+            else
+            {
+                MessageBox.Show("NO");
+            }
+        }
+
+        public class User
+        {
+            public string FirstName;
+            public string LastName;
+            public string Email;
+            public string Username;
+            public string Password;
         }
     }
 }
