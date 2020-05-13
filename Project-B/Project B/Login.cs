@@ -1,5 +1,4 @@
 ﻿using System;
-using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System.IO;
@@ -16,34 +15,27 @@ namespace Project_B
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
+            Dictionary<string, string> Users = new Dictionary<string, string>();
+            using (StreamReader r = new StreamReader(@"Users.json"))
             {
-                Dictionary<string, string> Users = new Dictionary<string, string>();
-                using (StreamReader r = new StreamReader(@"Users.json"))
-                {
-                    string json = r.ReadToEnd();
-                    var output = JsonConvert.DeserializeObject<List<User>>(json);
+                string json = r.ReadToEnd();
+                var output = JsonConvert.DeserializeObject<List<User>>(json);
 
-                    foreach (var item in output)
-                    {
-                        Users.Add(item.Username, item.Password);
-                    }
-                }
-
-                string password = textBox2.Text;
-
-                if (Users.TryGetValue(textBox1.Text, out password))
+                foreach (var item in output)
                 {
-                    MessageBox.Show("Wah");
-                }
-                else
-                {
-                    MessageBox.Show("NO");
+                    Users.Add(item.Username, item.Password);
                 }
             }
-            catch(Exception E)
+
+            string password = textBox2.Text;
+
+            if (Users.TryGetValue(textBox1.Text, out password))
             {
-                MessageBox.Show(E.Message);
+                MessageBox.Show("Wah");
+            }
+            else
+            {
+                MessageBox.Show("NO");
             }
         }
 
