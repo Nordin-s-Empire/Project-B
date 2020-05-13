@@ -1,9 +1,8 @@
 using System;
+using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Drawing;
-using System.IO;
-using Newtonsoft.Json;
 
 namespace Project_B
 {
@@ -14,7 +13,9 @@ namespace Project_B
         List<Button> row_C = new List<Button>();
         List<Button> buttons = new List<Button>();
         List<Button> row_1 = new List<Button>();
-        public static String stoel;
+        public static string[] stoel = new string[24];
+        public static int l = 0;
+
 
         public Reservatie()
         {
@@ -77,6 +78,7 @@ namespace Project_B
             buttons.Add(C6);
             buttons.Add(C7);
             buttons.Add(C8);
+
         }
 
         private void Enable_Row(List<Button> buttonlist)
@@ -92,10 +94,13 @@ namespace Project_B
                     button.BackColor = Color.White;
                     button.Enabled = true;
                 }
+
+
             }
         }
 
         private void Disable_Row(List<Button> buttonlist)
+
         {
             foreach (Button button in buttonlist)
             {
@@ -110,13 +115,14 @@ namespace Project_B
                 }
 
                 button.Enabled = false;
+
             }
         }
 
         private void Button_click(object sender, EventArgs e)
         {
             var b = (Button)sender;
-            stoel = b.Name;
+            stoel[l++] = b.Name;
 
             var ch = b.Name.ToCharArray();
 
@@ -148,6 +154,7 @@ namespace Project_B
 
                 b.BackColor = Color.White;
             }
+
             else
             {
 
@@ -178,209 +185,180 @@ namespace Project_B
 
         private void OK_Click(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
+            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            try
+            {
+                conn.Open();
+
+                MySqlCommand comm = conn.CreateCommand();
+                comm.CommandText = "UPDATE Seats SET Availability= @Available WHERE SeatID = @SeatID";
+                comm.Parameters.AddWithValue("@Available", 0);
+                comm.Parameters.AddWithValue("@SeatID", stoel);
+                comm.ExecuteNonQuery();
+=======
             int i = 0;
 
-            switch(stoel)
+            for(int k = 0; k < stoel.Length; k++)
             {
-                case "A1":
+                if(stoel[k] == "A1")
+                {
                     i = 0;
-                    break;
-                case "A2":
+                }
+                else if(stoel[k] == "A2")
+                {
                     i = 1;
-                    break;
-                case "A3":
+                }
+                else if (stoel[k] == "A3")
+                {
                     i = 2;
-                    break;
-                case "A4":
+                }
+                else if (stoel[k] == "A4")
+                {
                     i = 3;
-                    break;
-                case "A5":
+                }
+                else if (stoel[k] == "A5")
+                {
                     i = 4;
-                    break;
-                case "A6":
+                }
+                else if (stoel[k] == "A6")
+                {
                     i = 5;
-                    break;
-                case "A7":
+                }
+                else if (stoel[k] == "A7")
+                {
                     i = 6;
-                    break;
-                case "A8":
+                }
+                else if (stoel[k] == "A8")
+                {
                     i = 7;
-                    break;
-                case "B1":
+                }
+                else if (stoel[k] == "B1")
+                {
                     i = 8;
-                    break;
-                case "B2":
+                }
+                else if (stoel[k] == "B2")
+                {
                     i = 9;
-                    break;
-                case "B3":
+                }
+                else if (stoel[k] == "B3")
+                {
                     i = 10;
-                    break;
-                case "B4":
+                }
+                else if (stoel[k] == "B4")
+                {
                     i = 11;
-                    break;
-                case "B5":
+                }
+                else if (stoel[k] == "B5")
+                {
                     i = 12;
-                    break;
-                case "B6":
+                }
+                else if (stoel[k] == "B6")
+                {
                     i = 13;
-                    break;
-                case "B7":
+                }
+                else if (stoel[k] == "B7")
+                {
                     i = 14;
-                    break;
-                case "B8":
+                }
+                else if (stoel[k] == "B8")
+                {
                     i = 15;
-                    break;
-                case "C1":
+                }
+                else if (stoel[k] == "C1")
+                {
                     i = 16;
-                    break;
-                case "C2":
+                }
+                else if (stoel[k] == "C2")
+                {
                     i = 17;
-                    break;
-                case "C3":
+                }
+                else if (stoel[k] == "C3")
+                {
                     i = 18;
-                    break;
-                case "C4":
+                }
+                else if (stoel[k] == "C4")
+                {
                     i = 19;
-                    break;
-                case "C5":
+                }
+                else if (stoel[k] == "C5")
+                {
                     i = 20;
-                    break;
-                case "C6":
+                }
+                else if (stoel[k] == "C6")
+                {
                     i = 21;
-                    break;
-                case "C7":
+                }
+                else if (stoel[k] == "C7")
+                {
                     i = 22;
-                    break;
-                case "C8":
+                }
+                else if (stoel[k] == "C8")
+                {
                     i = 23;
-                    break;
+                }
+
+                string json = File.ReadAllText("../../Seats.json");
+                dynamic jsonObj = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
+                jsonObj[i]["Availability"] = "0";
+                string output = Newtonsoft.Json.JsonConvert.SerializeObject(jsonObj, Newtonsoft.Json.Formatting.Indented);
+                File.WriteAllText("../../Seats.json", output);
             }
-
-            string json = File.ReadAllText(@"Seats.json");
-            dynamic jsonObj = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
-            jsonObj[i]["Availability"] = "0";
-            string output = Newtonsoft.Json.JsonConvert.SerializeObject(jsonObj, Newtonsoft.Json.Formatting.Indented);
-            File.WriteAllText(@"Seats.json", output);
         }
+>>>>>>> Stashed changes
 
-        public class Seats
-        {
-            public string Seat;
-            public string Availability;
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void Reservatie_Load(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
+            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            try
+=======
             Dictionary<string, string> Seats = new Dictionary<string, string>();
-            using (StreamReader r = new StreamReader(@"Seats.json"))
+            using (StreamReader r = new StreamReader("../../Seats.json"))
+>>>>>>> Stashed changes
             {
-                string json = r.ReadToEnd();
-                var output = JsonConvert.DeserializeObject<List<Seats>>(json);
+                conn.Open();
 
-                foreach (var item in output)
+                MySqlCommand comm = conn.CreateCommand();
+                comm.CommandText = "Select * FROM Seats";
+                comm.ExecuteNonQuery();
+
+                MySqlDataReader rdr = comm.ExecuteReader();
+
+                string Output = "";
+
+                while (rdr.Read())
                 {
-                    Seats.Add(item.Seat, item.Availability);
+                    foreach (Button button in buttons)
+                    {
+                        if (rdr.GetValue(0).ToString() == button.Name)
+                        {
+                            if (rdr.GetValue(1).ToString() == "False")
+                            {
+
+                                Output = Output + rdr.GetValue(0) + " - " + rdr.GetValue(1) + "\n";
+                                button.BackColor = Color.Red;
+
+                            }
+                        }
+                    }
                 }
+
+                conn.Close();
             }
-
-            for (int i = 0; i < Seats.Count; i++)
+            catch (Exception ex)
             {
-                if (Seats["A1"] == "0")
-                {
-                    A1.BackColor = Color.Red;
-                }
-                else if (Seats["A2"] == "0")
-                {
-                    A2.BackColor = Color.Red;
-                }
-                else if (Seats["A3"] == "0")
-                {
-                    A3.BackColor = Color.Red;
-                }
-                else if (Seats["A4"] == "0")
-                {
-                    A4.BackColor = Color.Red;
-                }
-                else if (Seats["A5"] == "0")
-                {
-                    A2.BackColor = Color.Red;
-                }
-                else if (Seats["A6"] == "0")
-                {
-                    A6.BackColor = Color.Red;
-                }
-                else if (Seats["A7"] == "0")
-                {
-                    A7.BackColor = Color.Red;
-                }
-                else if (Seats["A8"] == "0")
-                {
-                    A8.BackColor = Color.Red;
-                }
-                else if (Seats["B1"] == "0")
-                {
-                    B1.BackColor = Color.Red;
-                }
-                else if (Seats["B2"] == "0")
-                {
-                    B2.BackColor = Color.Red;
-                }
-                else if (Seats["B3"] == "0")
-                {
-                    B3.BackColor = Color.Red;
-                }
-                else if (Seats["B4"] == "0")
-                {
-                    B4.BackColor = Color.Red;
-                }
-                else if (Seats["B5"] == "0")
-                {
-                    B5.BackColor = Color.Red;
-                }
-                else if (Seats["B6"] == "0")
-                {
-                    B6.BackColor = Color.Red;
-                }
-                else if (Seats["B7"] == "0")
-                {
-                    B7.BackColor = Color.Red;
-                }
-                else if (Seats["B8"] == "0")
-                {
-                    B8.BackColor = Color.Red;
-                }
-                else if (Seats["C1"] == "0")
-                {
-                    C1.BackColor = Color.Red;
-                }
-                else if (Seats["C2"] == "0")
-                {
-                    C2.BackColor = Color.Red;
-                }
-                else if (Seats["C3"] == "0")
-                {
-                    C3.BackColor = Color.Red;
-                }
-                else if (Seats["C4"] == "0")
-                {
-                    C4.BackColor = Color.Red;
-                }
-                else if (Seats["C5"] == "0")
-                {
-                    C5.BackColor = Color.Red;
-                }
-                else if (Seats["C6"] == "0")
-                {
-                    C6.BackColor = Color.Red;
-                }
-                else if (Seats["C7"] == "0")
-                {
-                    C7.BackColor = Color.Red;
-                }
-                else if (Seats["C8"] == "0")
-                {
-                    C8.BackColor = Color.Red;
-                }
+                MessageBox.Show(ex.ToString());
             }
 
             foreach (Button button in buttons)
@@ -394,13 +372,30 @@ namespace Project_B
 
         private void btnreset_Click(object sender, EventArgs e)
         {
-            for(int i = 0; i < 24; i++)
+            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            try
             {
-                string json = File.ReadAllText(@"Seats.json");
+                conn.Open();
+
+                MySqlCommand comm = conn.CreateCommand();
+                comm.CommandText = "UPDATE Seats SET Availability = @Available";
+                comm.Parameters.AddWithValue("@Available", 1);
+                comm.ExecuteNonQuery();
+
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+<<<<<<< Updated upstream
+                MessageBox.Show(ex.ToString());
+=======
+                string json = File.ReadAllText("../../Seats.json");
                 dynamic jsonObj = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
                 jsonObj[i]["Availability"] = "1";
                 string output = Newtonsoft.Json.JsonConvert.SerializeObject(jsonObj, Newtonsoft.Json.Formatting.Indented);
-                File.WriteAllText(@"Seats.json", output);
+                File.WriteAllText(@"../../Seats.json", output);
+>>>>>>> Stashed changes
             }
         }
     }
