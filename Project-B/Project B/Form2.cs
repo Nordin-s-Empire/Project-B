@@ -14,22 +14,30 @@ namespace Project_B
 
         private void btnregistreer_Click(object sender, EventArgs e)
         {
-            var filePath = @"Users.Json";
-            var jsonData = System.IO.File.ReadAllText(filePath);
-            var Users = JsonConvert.DeserializeObject<List<User>>(jsonData)
-                                  ?? new List<User>();
-
-            Users.Add(new User()
+            try
             {
-                FirstName = txbFNaam.Text,
-                LastName = txbLName.Text,
-                Email = txbEmail.Text,
-                Username = txbUsername.Text,
-                Password = txbPassword.Text
-            });
+                var filePath = @"Users.Json";
+                var jsonData = System.IO.File.ReadAllText(filePath);
+                var Users = JsonConvert.DeserializeObject<List<User>>(jsonData)
+                                      ?? new List<User>();
 
-            jsonData = JsonConvert.SerializeObject(Users);
-            System.IO.File.WriteAllText(filePath, jsonData);
+                Users.Add(new User()
+                {
+                    FirstName = txbFNaam.Text,
+                    LastName = txbLName.Text,
+                    Email = txbEmail.Text,
+                    Username = txbUsername.Text,
+                    Password = txbPassword.Text
+                });
+
+                jsonData = JsonConvert.SerializeObject(Users);
+                System.IO.File.WriteAllText(filePath, jsonData);
+            }
+            catch(Exception E)
+            {
+                MessageBox.Show(E.Message);
+            }
+
         }
 
         public class User
