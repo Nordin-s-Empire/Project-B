@@ -14,6 +14,16 @@ namespace Project_B
 
         private void Login_Load(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
+=======
+            try
+            {
+                Dictionary<string, string> Users = new Dictionary<string, string>();
+                using (StreamReader r = new StreamReader(@"../../Users.json"))
+                {
+                    string json = r.ReadToEnd();
+                    var output = JsonConvert.DeserializeObject<List<User>>(json);
+>>>>>>> Stashed changes
 
         }
 
