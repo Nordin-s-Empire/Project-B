@@ -1,5 +1,4 @@
 ﻿using System;
-using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System.IO;
@@ -30,7 +29,7 @@ namespace Project_B
 
             string password = textBox2.Text;
 
-            if(Users.TryGetValue(textBox1.Text, out password))
+            if (Users.TryGetValue(textBox1.Text, out password))
             {
                 MessageBox.Show("Wah");
             }

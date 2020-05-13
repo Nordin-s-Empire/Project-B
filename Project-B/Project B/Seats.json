@@ -1,11 +1,11 @@
 [
   {
     "Seat": "A1",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "A2",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "A3",
@@ -41,7 +41,7 @@
   },
   {
     "Seat": "B3",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "B4",
