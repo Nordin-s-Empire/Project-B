@@ -33,6 +33,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.btnBack = new System.Windows.Forms.Button();
+            this.btnReserveer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,6 +84,16 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // btnReserveer
+            // 
+            this.btnReserveer.Location = new System.Drawing.Point(678, 12);
+            this.btnReserveer.Name = "btnReserveer";
+            this.btnReserveer.Size = new System.Drawing.Size(138, 38);
+            this.btnReserveer.TabIndex = 6;
+            this.btnReserveer.Text = "Reserveer";
+            this.btnReserveer.UseVisualStyleBackColor = true;
+            this.btnReserveer.Click += new System.EventHandler(this.btnReserveer_Click);
+            // 
             // FIlmInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -90,6 +101,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(828, 961);
+            this.Controls.Add(this.btnReserveer);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.lblSummary);
@@ -110,5 +122,6 @@
         private System.Windows.Forms.Label lblSummary;
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnReserveer;
     }
 }

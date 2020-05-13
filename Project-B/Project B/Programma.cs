@@ -7,6 +7,7 @@ namespace Project_B
     public partial class Programma : Form
     {
         public static string movie;
+
         public Programma()
         {
             InitializeComponent();

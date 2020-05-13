@@ -1,26 +1,19 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Drawing;
-using System.IO;
 using System.Windows.Forms;
 
 namespace Project_B
 {
     public partial class Form1 : Form
     {
-
         public Form1()
         {
-
-
             InitializeComponent();
+
             pictureBox1.Hide();
             pictureBox2.Hide();
             pictureBox3.Hide();
             pictureBox4.Hide();
-
-            // Knop profiel onzichtbaar voor inlog
             Profiel.Visible = false;
         }
 
@@ -32,7 +25,6 @@ namespace Project_B
 
         private void btnAgenda_Click(object sender, EventArgs e)
         {
-
             this.Hide();
             Programma program = new Programma();
             program.Show();
@@ -65,7 +57,6 @@ namespace Project_B
             pictureBox6.Show();
             pictureBox7.Show();
             pictureBox8.Show();
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -82,18 +73,12 @@ namespace Project_B
             pictureBox8.Hide();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Profiel_Click(object sender, EventArgs e)
         {
             Profiel.Visible = false;
             btnAcount.Visible = true;
             MessageBox.Show("U bent uitgelogd", "uitloggen");
             Login log = new Login();
-
         }
 
         private void brnRegister_Click(object sender, EventArgs e)
@@ -101,6 +86,13 @@ namespace Project_B
             this.Hide();
             Form2 form = new Form2();
             form.Show();
+        }
+
+        private void btnReserveer_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Reservatie res = new Reservatie();
+            res.Show();
         }
     }
 }
