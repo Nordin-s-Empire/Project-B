@@ -123,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(600, 504);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -136,7 +136,6 @@
             this.Controls.Add(this.Menuknopacc);
             this.Name = "Account";
             this.Text = "Account";
-            //this.Load += new System.EventHandler(this.Account_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
