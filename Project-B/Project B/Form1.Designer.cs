@@ -45,8 +45,9 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.Profiel = new System.Windows.Forms.Button();
+            this.brnRegister = new System.Windows.Forms.Button();
+            this.btnReserveer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -105,7 +106,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 38);
+            this.label1.Location = new System.Drawing.Point(25, 68);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(205, 24);
@@ -137,10 +138,10 @@
             // btnZoeken
             // 
             this.btnZoeken.Image = ((System.Drawing.Image)(resources.GetObject("btnZoeken.Image")));
-            this.btnZoeken.Location = new System.Drawing.Point(975, 52);
+            this.btnZoeken.Location = new System.Drawing.Point(976, 60);
             this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
             this.btnZoeken.Name = "btnZoeken";
-            this.btnZoeken.Size = new System.Drawing.Size(39, 40);
+            this.btnZoeken.Size = new System.Drawing.Size(38, 29);
             this.btnZoeken.TabIndex = 7;
             this.btnZoeken.UseVisualStyleBackColor = true;
             this.btnZoeken.Click += new System.EventHandler(this.btnZoeken_Click);
@@ -155,10 +156,10 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(812, 64);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox1.Location = new System.Drawing.Point(812, 60);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(156, 28);
+            this.richTextBox1.Size = new System.Drawing.Size(156, 29);
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "";
             // 
@@ -200,6 +201,7 @@
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(303, 122);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(209, 288);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -210,6 +212,7 @@
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(564, 122);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(209, 288);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -220,40 +223,54 @@
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(827, 122);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(209, 288);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 16;
             this.pictureBox8.TabStop = false;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "label2";
-            // 
             // Profiel
             // 
             this.Profiel.Location = new System.Drawing.Point(673, 61);
             this.Profiel.Margin = new System.Windows.Forms.Padding(4);
             this.Profiel.Name = "Profiel";
-            this.Profiel.Size = new System.Drawing.Size(100, 28);
+            this.Profiel.Size = new System.Drawing.Size(101, 29);
             this.Profiel.TabIndex = 18;
             this.Profiel.Text = "Uitloggen";
             this.Profiel.UseVisualStyleBackColor = true;
             this.Profiel.Click += new System.EventHandler(this.Profiel_Click);
+            // 
+            // brnRegister
+            // 
+            this.brnRegister.Location = new System.Drawing.Point(812, 449);
+            this.brnRegister.Margin = new System.Windows.Forms.Padding(4);
+            this.brnRegister.Name = "brnRegister";
+            this.brnRegister.Size = new System.Drawing.Size(147, 41);
+            this.brnRegister.TabIndex = 19;
+            this.brnRegister.Text = "Registreer";
+            this.brnRegister.UseVisualStyleBackColor = true;
+            this.brnRegister.Click += new System.EventHandler(this.brnRegister_Click);
+            // 
+            // btnReserveer
+            // 
+            this.btnReserveer.Location = new System.Drawing.Point(412, 64);
+            this.btnReserveer.Name = "btnReserveer";
+            this.btnReserveer.Size = new System.Drawing.Size(100, 28);
+            this.btnReserveer.TabIndex = 20;
+            this.btnReserveer.Text = "Reserveer";
+            this.btnReserveer.UseVisualStyleBackColor = true;
+            this.btnReserveer.Click += new System.EventHandler(this.btnReserveer_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1065, 551);
+            this.Controls.Add(this.btnReserveer);
+            this.Controls.Add(this.brnRegister);
             this.Controls.Add(this.Profiel);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
@@ -270,10 +287,9 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
             this.Text = "Bioscoop";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -305,8 +321,9 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button Profiel;
+        private System.Windows.Forms.Button brnRegister;
+        private System.Windows.Forms.Button btnReserveer;
     }
 }
 

@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+using MySql.Data.MySqlClient;
 using System.Windows.Forms;
+using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
-using System.Data.SqlClient;
 
 namespace Project_B
 {
@@ -16,31 +14,39 @@ namespace Project_B
             InitializeComponent();
         }
 
-        private void Login_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
-
-            Class1 con = new Class1();
-            con.Connection();
-            con.con.Open();
-            if (textBox1.Text != "")
+            Dictionary<string, string> Users = new Dictionary<string, string>();
+            using (StreamReader r = new StreamReader(@"Users.json"))
             {
-                SqlDataAdapter sda = new SqlDataAdapter("Select Count (*) From LOGIN where Gebruikersnaam='" + textBox1.Text + "' and Wachtwoord='" + textBox2.Text + "'", con.con);
-                DataTable dt = new DataTable();
-                sda.Fill(dt);
+                string json = r.ReadToEnd();
+                var output = JsonConvert.DeserializeObject<List<User>>(json);
 
-                if (dt.Rows[0][0].ToString() == "1")
+                foreach (var item in output)
                 {
-                    this.Hide();
-                    Account acc = new Account(textBox1.Text);
-                    acc.ShowDialog();
+                    Users.Add(item.Username, item.Password);
                 }
             }
+
+            string password = textBox2.Text;
+
+            if(Users.TryGetValue(textBox1.Text, out password))
+            {
+                MessageBox.Show("Wah");
+            }
+            else
+            {
+                MessageBox.Show("NO");
+            }
+        }
+
+        public class User
+        {
+            public string FirstName;
+            public string LastName;
+            public string Email;
+            public string Username;
+            public string Password;
         }
     }
 }
