@@ -16,7 +16,7 @@ namespace Project_B
         {
             try
             {
-                var filePath = @"Users.Json";
+                var filePath = @"../../Users.Json";
                 var jsonData = System.IO.File.ReadAllText(filePath);
                 var Users = JsonConvert.DeserializeObject<List<User>>(jsonData)
                                       ?? new List<User>();
