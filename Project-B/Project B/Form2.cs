@@ -1,7 +1,6 @@
-﻿using System;
-using System.Data;
-using MySql.Data;
-using MySql.Data.MySqlClient;
+﻿using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace Project_B
@@ -15,31 +14,39 @@ namespace Project_B
 
         private void btnregistreer_Click(object sender, EventArgs e)
         {
-
-            string connStr = "server=sql7.freemysqlhosting.net;user=sql7337554;database=sql7337554;port=3306;password=chz3lfHBcK";
-            MySqlConnection conn = new MySqlConnection(connStr);
             try
             {
-                conn.Open();
+                var filePath = @"Users.Json";
+                var jsonData = System.IO.File.ReadAllText(filePath);
+                var Users = JsonConvert.DeserializeObject<List<User>>(jsonData)
+                                      ?? new List<User>();
 
-                MySqlCommand comm = conn.CreateCommand();
-                comm.CommandText = "INSERT INTO Gebruiker(Voornaam, Achternaam, Telefoonnummer, Adres, Email, Wachtwoord) VALUES(@firstname, @lastname, @phone, @adres, @email, PASSWORD(@password))";
-                comm.Parameters.AddWithValue("@firstname", txbFNaam.Text);
-                comm.Parameters.AddWithValue("@lastname", txbLName.Text);
-                comm.Parameters.AddWithValue("@phone", txbPhone.Text);
-                comm.Parameters.AddWithValue("@adres", txbAdres.Text);
-                comm.Parameters.AddWithValue("@email", txbEmail.Text);
-                comm.Parameters.AddWithValue("@password", txbPassword.Text);
-                comm.ExecuteNonQuery();
-                MessageBox.Show("success");
+                Users.Add(new User()
+                {
+                    FirstName = txbFNaam.Text,
+                    LastName = txbLName.Text,
+                    Email = txbEmail.Text,
+                    Username = txbUsername.Text,
+                    Password = txbPassword.Text
+                });
+
+                jsonData = JsonConvert.SerializeObject(Users);
+                System.IO.File.WriteAllText(filePath, jsonData);
             }
-            catch (Exception ex)
+            catch(Exception E)
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show(E.Message);
             }
 
-            conn.Close();
-            Console.ReadLine();
+        }
+
+        public class User
+        {
+            public string FirstName;
+            public string LastName;
+            public string Email;
+            public string Username;
+            public string Password;
         }
     }
 }

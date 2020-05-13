@@ -67,7 +67,7 @@
             // 
             this.A1.BackColor = System.Drawing.Color.White;
             this.A1.Location = new System.Drawing.Point(259, 220);
-            this.A1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.A1.Margin = new System.Windows.Forms.Padding(4);
             this.A1.Name = "A1";
             this.A1.Size = new System.Drawing.Size(40, 37);
             this.A1.TabIndex = 0;
@@ -78,7 +78,7 @@
             // 
             this.A7.BackColor = System.Drawing.Color.White;
             this.A7.Location = new System.Drawing.Point(635, 220);
-            this.A7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.A7.Margin = new System.Windows.Forms.Padding(4);
             this.A7.Name = "A7";
             this.A7.Size = new System.Drawing.Size(40, 37);
             this.A7.TabIndex = 1;
@@ -89,7 +89,7 @@
             // 
             this.A6.BackColor = System.Drawing.Color.White;
             this.A6.Location = new System.Drawing.Point(572, 220);
-            this.A6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.A6.Margin = new System.Windows.Forms.Padding(4);
             this.A6.Name = "A6";
             this.A6.Size = new System.Drawing.Size(40, 37);
             this.A6.TabIndex = 2;
@@ -100,7 +100,7 @@
             // 
             this.A5.BackColor = System.Drawing.Color.White;
             this.A5.Location = new System.Drawing.Point(509, 220);
-            this.A5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.A5.Margin = new System.Windows.Forms.Padding(4);
             this.A5.Name = "A5";
             this.A5.Size = new System.Drawing.Size(40, 37);
             this.A5.TabIndex = 3;
@@ -111,7 +111,7 @@
             // 
             this.A4.BackColor = System.Drawing.Color.White;
             this.A4.Location = new System.Drawing.Point(447, 220);
-            this.A4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.A4.Margin = new System.Windows.Forms.Padding(4);
             this.A4.Name = "A4";
             this.A4.Size = new System.Drawing.Size(40, 37);
             this.A4.TabIndex = 4;
@@ -122,7 +122,7 @@
             // 
             this.A3.BackColor = System.Drawing.Color.White;
             this.A3.Location = new System.Drawing.Point(384, 220);
-            this.A3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.A3.Margin = new System.Windows.Forms.Padding(4);
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(40, 37);
             this.A3.TabIndex = 5;
@@ -133,7 +133,7 @@
             // 
             this.A2.BackColor = System.Drawing.Color.White;
             this.A2.Location = new System.Drawing.Point(321, 220);
-            this.A2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.A2.Margin = new System.Windows.Forms.Padding(4);
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(40, 37);
             this.A2.TabIndex = 6;
@@ -144,7 +144,7 @@
             // 
             this.A8.BackColor = System.Drawing.Color.White;
             this.A8.Location = new System.Drawing.Point(697, 220);
-            this.A8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.A8.Margin = new System.Windows.Forms.Padding(4);
             this.A8.Name = "A8";
             this.A8.Size = new System.Drawing.Size(40, 37);
             this.A8.TabIndex = 7;
@@ -155,7 +155,7 @@
             // 
             this.B8.BackColor = System.Drawing.Color.White;
             this.B8.Location = new System.Drawing.Point(697, 292);
-            this.B8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B8.Margin = new System.Windows.Forms.Padding(4);
             this.B8.Name = "B8";
             this.B8.Size = new System.Drawing.Size(40, 37);
             this.B8.TabIndex = 15;
@@ -166,7 +166,7 @@
             // 
             this.B2.BackColor = System.Drawing.Color.White;
             this.B2.Location = new System.Drawing.Point(321, 292);
-            this.B2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B2.Margin = new System.Windows.Forms.Padding(4);
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(40, 37);
             this.B2.TabIndex = 14;
@@ -177,7 +177,7 @@
             // 
             this.B3.BackColor = System.Drawing.Color.White;
             this.B3.Location = new System.Drawing.Point(384, 292);
-            this.B3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B3.Margin = new System.Windows.Forms.Padding(4);
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(40, 37);
             this.B3.TabIndex = 13;
@@ -188,7 +188,7 @@
             // 
             this.B4.BackColor = System.Drawing.Color.White;
             this.B4.Location = new System.Drawing.Point(447, 292);
-            this.B4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B4.Margin = new System.Windows.Forms.Padding(4);
             this.B4.Name = "B4";
             this.B4.Size = new System.Drawing.Size(40, 37);
             this.B4.TabIndex = 12;
@@ -199,7 +199,7 @@
             // 
             this.B5.BackColor = System.Drawing.Color.White;
             this.B5.Location = new System.Drawing.Point(509, 292);
-            this.B5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B5.Margin = new System.Windows.Forms.Padding(4);
             this.B5.Name = "B5";
             this.B5.Size = new System.Drawing.Size(40, 37);
             this.B5.TabIndex = 11;
@@ -210,7 +210,7 @@
             // 
             this.B6.BackColor = System.Drawing.Color.White;
             this.B6.Location = new System.Drawing.Point(572, 292);
-            this.B6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B6.Margin = new System.Windows.Forms.Padding(4);
             this.B6.Name = "B6";
             this.B6.Size = new System.Drawing.Size(40, 37);
             this.B6.TabIndex = 10;
@@ -221,7 +221,7 @@
             // 
             this.B7.BackColor = System.Drawing.Color.White;
             this.B7.Location = new System.Drawing.Point(635, 292);
-            this.B7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B7.Margin = new System.Windows.Forms.Padding(4);
             this.B7.Name = "B7";
             this.B7.Size = new System.Drawing.Size(40, 37);
             this.B7.TabIndex = 9;
@@ -232,7 +232,7 @@
             // 
             this.B1.BackColor = System.Drawing.Color.White;
             this.B1.Location = new System.Drawing.Point(259, 292);
-            this.B1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.B1.Margin = new System.Windows.Forms.Padding(4);
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(40, 37);
             this.B1.TabIndex = 8;
@@ -243,7 +243,7 @@
             // 
             this.C8.BackColor = System.Drawing.Color.White;
             this.C8.Location = new System.Drawing.Point(697, 363);
-            this.C8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.C8.Margin = new System.Windows.Forms.Padding(4);
             this.C8.Name = "C8";
             this.C8.Size = new System.Drawing.Size(40, 37);
             this.C8.TabIndex = 23;
@@ -254,7 +254,7 @@
             // 
             this.C2.BackColor = System.Drawing.Color.White;
             this.C2.Location = new System.Drawing.Point(321, 363);
-            this.C2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.C2.Margin = new System.Windows.Forms.Padding(4);
             this.C2.Name = "C2";
             this.C2.Size = new System.Drawing.Size(40, 37);
             this.C2.TabIndex = 22;
@@ -265,7 +265,7 @@
             // 
             this.C3.BackColor = System.Drawing.Color.White;
             this.C3.Location = new System.Drawing.Point(384, 363);
-            this.C3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.C3.Margin = new System.Windows.Forms.Padding(4);
             this.C3.Name = "C3";
             this.C3.Size = new System.Drawing.Size(40, 37);
             this.C3.TabIndex = 21;
@@ -276,7 +276,7 @@
             // 
             this.C4.BackColor = System.Drawing.Color.White;
             this.C4.Location = new System.Drawing.Point(447, 363);
-            this.C4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.C4.Margin = new System.Windows.Forms.Padding(4);
             this.C4.Name = "C4";
             this.C4.Size = new System.Drawing.Size(40, 37);
             this.C4.TabIndex = 20;
@@ -287,7 +287,7 @@
             // 
             this.C5.BackColor = System.Drawing.Color.White;
             this.C5.Location = new System.Drawing.Point(509, 363);
-            this.C5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.C5.Margin = new System.Windows.Forms.Padding(4);
             this.C5.Name = "C5";
             this.C5.Size = new System.Drawing.Size(40, 37);
             this.C5.TabIndex = 19;
@@ -298,7 +298,7 @@
             // 
             this.C7.BackColor = System.Drawing.Color.White;
             this.C7.Location = new System.Drawing.Point(635, 363);
-            this.C7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.C7.Margin = new System.Windows.Forms.Padding(4);
             this.C7.Name = "C7";
             this.C7.Size = new System.Drawing.Size(40, 37);
             this.C7.TabIndex = 17;
@@ -309,7 +309,7 @@
             // 
             this.C1.BackColor = System.Drawing.Color.White;
             this.C1.Location = new System.Drawing.Point(259, 363);
-            this.C1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.C1.Margin = new System.Windows.Forms.Padding(4);
             this.C1.Name = "C1";
             this.C1.Size = new System.Drawing.Size(40, 37);
             this.C1.TabIndex = 16;
@@ -353,7 +353,7 @@
             // 
             this.C6.BackColor = System.Drawing.Color.White;
             this.C6.Location = new System.Drawing.Point(572, 363);
-            this.C6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.C6.Margin = new System.Windows.Forms.Padding(4);
             this.C6.Name = "C6";
             this.C6.Size = new System.Drawing.Size(40, 37);
             this.C6.TabIndex = 27;
@@ -363,7 +363,7 @@
             // OK
             // 
             this.OK.Location = new System.Drawing.Point(887, 491);
-            this.OK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OK.Margin = new System.Windows.Forms.Padding(4);
             this.OK.Name = "OK";
             this.OK.Size = new System.Drawing.Size(100, 28);
             this.OK.TabIndex = 28;
@@ -376,7 +376,7 @@
             this.Screen.BackColor = System.Drawing.Color.Gray;
             this.Screen.Controls.Add(this.Screen_text);
             this.Screen.Location = new System.Drawing.Point(79, 0);
-            this.Screen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Screen.Margin = new System.Windows.Forms.Padding(4);
             this.Screen.Name = "Screen";
             this.Screen.Size = new System.Drawing.Size(881, 87);
             this.Screen.TabIndex = 29;
@@ -387,7 +387,7 @@
             this.Screen_text.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Screen_text.Font = new System.Drawing.Font("Microsoft Yi Baiti", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Screen_text.Location = new System.Drawing.Point(305, 4);
-            this.Screen_text.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Screen_text.Margin = new System.Windows.Forms.Padding(4);
             this.Screen_text.Name = "Screen_text";
             this.Screen_text.Size = new System.Drawing.Size(247, 69);
             this.Screen_text.TabIndex = 0;
@@ -396,7 +396,7 @@
             // btnBack
             // 
             this.btnBack.Location = new System.Drawing.Point(57, 491);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(100, 28);
             this.btnBack.TabIndex = 30;
@@ -451,7 +451,7 @@
             this.Controls.Add(this.A6);
             this.Controls.Add(this.A7);
             this.Controls.Add(this.A1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Reservatie";
             this.Text = "Reservatie";
             this.Load += new System.EventHandler(this.Reservatie_Load);
