@@ -317,95 +317,118 @@ namespace Project_B
                 {
                     A1.BackColor = Color.Red;
                 }
-                else if (Seats["A2"] == "0")
+                
+                if (Seats["A2"] == "0")
                 {
                     A2.BackColor = Color.Red;
                 }
-                else if (Seats["A3"] == "0")
+                
+                if (Seats["A3"] == "0")
                 {
                     A3.BackColor = Color.Red;
                 }
-                else if (Seats["A4"] == "0")
+                
+                if (Seats["A4"] == "0")
                 {
                     A4.BackColor = Color.Red;
                 }
-                else if (Seats["A5"] == "0")
+                
+                if (Seats["A5"] == "0")
                 {
                     A2.BackColor = Color.Red;
                 }
-                else if (Seats["A6"] == "0")
+                
+                if (Seats["A6"] == "0")
                 {
                     A6.BackColor = Color.Red;
                 }
-                else if (Seats["A7"] == "0")
+                
+                if (Seats["A7"] == "0")
                 {
                     A7.BackColor = Color.Red;
                 }
-                else if (Seats["A8"] == "0")
+                
+                if (Seats["A8"] == "0")
                 {
                     A8.BackColor = Color.Red;
                 }
-                else if (Seats["B1"] == "0")
+                
+                if (Seats["B1"] == "0")
                 {
                     B1.BackColor = Color.Red;
                 }
-                else if (Seats["B2"] == "0")
+                
+                if (Seats["B2"] == "0")
                 {
                     B2.BackColor = Color.Red;
                 }
-                else if (Seats["B3"] == "0")
+                
+                if (Seats["B3"] == "0")
                 {
                     B3.BackColor = Color.Red;
                 }
-                else if (Seats["B4"] == "0")
+                
+                if (Seats["B4"] == "0")
                 {
                     B4.BackColor = Color.Red;
                 }
-                else if (Seats["B5"] == "0")
+                
+                if (Seats["B5"] == "0")
                 {
                     B5.BackColor = Color.Red;
                 }
-                else if (Seats["B6"] == "0")
+                
+                if (Seats["B6"] == "0")
                 {
                     B6.BackColor = Color.Red;
                 }
-                else if (Seats["B7"] == "0")
+                
+                if (Seats["B7"] == "0")
                 {
                     B7.BackColor = Color.Red;
                 }
-                else if (Seats["B8"] == "0")
+                
+                if (Seats["B8"] == "0")
                 {
                     B8.BackColor = Color.Red;
                 }
-                else if (Seats["C1"] == "0")
+                
+                if (Seats["C1"] == "0")
                 {
                     C1.BackColor = Color.Red;
                 }
-                else if (Seats["C2"] == "0")
+                
+                if (Seats["C2"] == "0")
                 {
                     C2.BackColor = Color.Red;
                 }
-                else if (Seats["C3"] == "0")
+                
+                if (Seats["C3"] == "0")
                 {
                     C3.BackColor = Color.Red;
                 }
-                else if (Seats["C4"] == "0")
+                
+                if (Seats["C4"] == "0")
                 {
                     C4.BackColor = Color.Red;
                 }
-                else if (Seats["C5"] == "0")
+                
+                if (Seats["C5"] == "0")
                 {
                     C5.BackColor = Color.Red;
                 }
-                else if (Seats["C6"] == "0")
+                
+                if (Seats["C6"] == "0")
                 {
                     C6.BackColor = Color.Red;
                 }
-                else if (Seats["C7"] == "0")
+                
+                if (Seats["C7"] == "0")
                 {
                     C7.BackColor = Color.Red;
                 }
-                else if (Seats["C8"] == "0")
+                
+                if (Seats["C8"] == "0")
                 {
                     C8.BackColor = Color.Red;
                 }
