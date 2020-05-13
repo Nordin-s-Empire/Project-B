@@ -16,27 +16,34 @@ namespace Project_B
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Dictionary<string, string> Users = new Dictionary<string, string>();
-            using (StreamReader r = new StreamReader(@"Users.json"))
+            try
             {
-                string json = r.ReadToEnd();
-                var output = JsonConvert.DeserializeObject<List<User>>(json);
-
-                foreach (var item in output)
+                Dictionary<string, string> Users = new Dictionary<string, string>();
+                using (StreamReader r = new StreamReader(@"Users.json"))
                 {
-                    Users.Add(item.Username, item.Password);
+                    string json = r.ReadToEnd();
+                    var output = JsonConvert.DeserializeObject<List<User>>(json);
+
+                    foreach (var item in output)
+                    {
+                        Users.Add(item.Username, item.Password);
+                    }
+                }
+
+                string password = textBox2.Text;
+
+                if (Users.TryGetValue(textBox1.Text, out password))
+                {
+                    MessageBox.Show("Wah");
+                }
+                else
+                {
+                    MessageBox.Show("NO");
                 }
             }
-
-            string password = textBox2.Text;
-
-            if(Users.TryGetValue(textBox1.Text, out password))
+            catch(Exception E)
             {
-                MessageBox.Show("Wah");
-            }
-            else
-            {
-                MessageBox.Show("NO");
+                MessageBox.Show(E.Message);
             }
         }
 
