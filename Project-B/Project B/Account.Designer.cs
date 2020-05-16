@@ -136,6 +136,7 @@
             this.Controls.Add(this.Menuknopacc);
             this.Name = "Account";
             this.Text = "Account";
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 

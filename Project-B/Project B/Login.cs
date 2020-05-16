@@ -32,11 +32,14 @@ namespace Project_B
 
             if(Users.TryGetValue(textBox1.Text, out password))
             {
-                MessageBox.Show("Wah");
+                
+                Account acc = new Account();
+                acc.Show();
+                
             }
             else
             {
-                MessageBox.Show("NO");
+                MessageBox.Show("Verkeerde combinatie van gebruikersnaam en wachtwoord, probeer opnieuw");
             }
         }
 
@@ -47,6 +50,11 @@ namespace Project_B
             public string Email;
             public string Username;
             public string Password;
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

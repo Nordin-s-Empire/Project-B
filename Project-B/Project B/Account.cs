@@ -25,6 +25,12 @@ namespace Project_B
 
         private void Account_Load(string txt, EventArgs e)
         {
+            label1.Text = txt;
+        }
+
+        private void Label(object sender, EventArgs e)
+        {
+
         }
     }
 }
