@@ -1,6 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
-using System.Data.SqlClient;
+﻿using System.Windows.Forms;
 
 namespace Project_B
 {
@@ -8,11 +6,12 @@ namespace Project_B
     {
         public static Login log;
            
-        public Account()
+        public Account(string txt)
         {
             InitializeComponent();
 
-            Account_Load("Welkom best klant", EventArgs.Empty);
+            MessageBox.Show("Welcome");
+            label1.Text = "Welkom, " + txt;
         }
 
         public void AcctoMain(object sender, MouseEventArgs e)
@@ -23,14 +22,10 @@ namespace Project_B
             menu.HideLoginbutton(false);    
         }
 
-        private void Account_Load(string txt, EventArgs e)
-        {
-            label1.Text = txt;
-        }
 
-        private void Label(object sender, EventArgs e)
-        {
+      
 
-        }
+        
+
     }
 }
