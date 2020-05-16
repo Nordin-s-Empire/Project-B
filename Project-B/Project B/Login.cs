@@ -32,7 +32,7 @@ namespace Project_B
             if (Users.TryGetValue(textBox1.Text, out password))
             {
                 
-                Account acc = new Account();
+                Account acc = new Account(textBox1.Text);
                 acc.Show();
                 
             }
