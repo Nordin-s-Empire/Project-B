@@ -28,7 +28,8 @@ namespace Project_B
                     Email = txbEmail.Text,
                     Username = txbUsername.Text,
                     Password = txbPassword.Text,
-                    DOB = txbDOB.Text
+                    DOB = txbDOB.Text,
+                    Adres = txbAdres.Text
                 }) ;
 
                 jsonData = JsonConvert.SerializeObject(Users);
@@ -49,6 +50,7 @@ namespace Project_B
             public string Username;
             public string Password;
             public string DOB;
+            public string Adres;
         }
     }
 }

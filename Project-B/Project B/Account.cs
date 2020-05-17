@@ -10,6 +10,7 @@ namespace Project_B
 
             label1.Text = Login.Username;
             label2.Text = Login.Email;
+            label3.Text = Login.Adres;
             label4.Text = Login.DOB;
 
         }

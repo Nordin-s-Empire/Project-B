@@ -12,6 +12,7 @@ namespace Project_B
         public static string Username;
         public static string Email;
         public static string DOB;
+        public static string Adres;
 
         public Login()
         {
@@ -32,6 +33,7 @@ namespace Project_B
                     Users.Add(item.Username, item.Password);
                     Email = item.Email;
                     DOB = item.DOB;
+                    Adres = item.Adres;
                 }
             }
 
@@ -59,6 +61,7 @@ namespace Project_B
             public string Username;
             public string Password;
             public string DOB;
+            public string Adres;
         }
     }
 }
