@@ -125,7 +125,6 @@
             this.button2.TabIndex = 9;
             this.button2.Text = "Terug";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Login
             // 
@@ -144,7 +143,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Login";
             this.Text = "Login";
-            this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

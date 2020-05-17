@@ -5,6 +5,14 @@
     "Email": "a@a.nl",
     "Username": "c",
     "Password": "d",
-    "DOB":  "1-1-1999"
+    "DOB": "1-1-1999"
+  },
+  {
+    "FirstName": "ewfewfw",
+    "LastName": "ewfewfewf",
+    "Email": "ewfewfewf",
+    "Username": "abc",
+    "Password": "def",
+    "DOB": "wfewfew"
   }
 ]
