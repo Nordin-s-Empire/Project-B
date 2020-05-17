@@ -1,1 +1,47 @@
-[{"FirstName":"A","LastName":"B","Email":"a@a.nl","Username":"c","Password":"d"},{"FirstName":"ewgfefew","LastName":"ewfewfew","Email":"fewf","Username":"ewfeew","Password":"ewfew"},{"FirstName":"A","LastName":"B","Email":"C","Username":"D","Password":"E"}]
+[
+  {
+    "Adres": null,
+    "DOB": null,
+    "Email": "a@a.nl",
+    "FirstName": "A",
+    "LastName": "B",
+    "Password": "d",
+    "Username": "c"
+  },
+  {
+    "FirstName": "ewgfefew",
+    "LastName": "ewfewfew",
+    "Email": "fewf",
+    "Username": "ewfeew",
+    "Password": "ewfew",
+    "DOB": null,
+    "Adres": null
+  },
+  {
+    "FirstName": "A",
+    "LastName": "B",
+    "Email": "C",
+    "Username": "D",
+    "Password": "E",
+    "DOB": null,
+    "Adres": null
+  },
+  {
+    "FirstName": "Piet",
+    "LastName": "Huis",
+    "Email": "pietje@gmail.com",
+    "Username": "piet123",
+    "Password": "123",
+    "DOB": "12-12-2012",
+    "Adres": "Rosestraat 12"
+  },
+  {
+    "FirstName": "Darja",
+    "LastName": "Videlina",
+    "Email": "d@gmail.com",
+    "Username": "d",
+    "Password": "v",
+    "DOB": "27-3-2001",
+    "Adres": "Beurs 123"
+  }
+]

@@ -39,11 +39,16 @@
             this.txbPassword = new System.Windows.Forms.TextBox();
             this.txbUsername = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txbDOB = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txbAdres = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnregistreer
             // 
-            this.btnregistreer.Location = new System.Drawing.Point(308, 270);
+            this.btnregistreer.Location = new System.Drawing.Point(623, 262);
             this.btnregistreer.Name = "btnregistreer";
             this.btnregistreer.Size = new System.Drawing.Size(130, 53);
             this.btnregistreer.TabIndex = 0;
@@ -131,11 +136,58 @@
             this.label3.TabIndex = 14;
             this.label3.Text = "Username";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(211, 246);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(107, 17);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Geboortedatum";
+            // 
+            // txbDOB
+            // 
+            this.txbDOB.Location = new System.Drawing.Point(338, 246);
+            this.txbDOB.Name = "txbDOB";
+            this.txbDOB.Size = new System.Drawing.Size(100, 22);
+            this.txbDOB.TabIndex = 17;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(211, 280);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(45, 17);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Adres";
+            // 
+            // txbAdres
+            // 
+            this.txbAdres.Location = new System.Drawing.Point(338, 280);
+            this.txbAdres.Name = "txbAdres";
+            this.txbAdres.Size = new System.Drawing.Size(100, 22);
+            this.txbAdres.TabIndex = 19;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(32, 32);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Terug";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 340);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txbAdres);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txbDOB);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txbUsername);
             this.Controls.Add(this.txbPassword);
@@ -167,5 +219,10 @@
         private System.Windows.Forms.TextBox txbPassword;
         private System.Windows.Forms.TextBox txbUsername;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txbDOB;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txbAdres;
+        private System.Windows.Forms.Button button1;
     }
 }

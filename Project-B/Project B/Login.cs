@@ -8,6 +8,10 @@ namespace Project_B
 {
     public partial class Login : Form
     {
+        public static string Username;
+        public static string Email;
+        public static string DOB;
+        public static string Adres;
         public Login()
         {
             InitializeComponent();
@@ -24,6 +28,10 @@ namespace Project_B
                 foreach (var item in output)
                 {
                     Users.Add(item.Username, item.Password);
+                    Email = item.Email;
+                    DOB = item.DOB;
+                    Adres = item.Adres;
+
                 }
             }
 
@@ -31,9 +39,10 @@ namespace Project_B
 
             if (Users.TryGetValue(textBox1.Text, out password))
             {
-                
-                Account acc = new Account(textBox1.Text);
+                Username = textBox1.Text;
+                Account acc = new Account();
                 acc.Show();
+                this.Hide();
                 
             }
             else
@@ -49,11 +58,20 @@ namespace Project_B
             public string Email;
             public string Username;
             public string Password;
+            public string DOB;
+            public string Adres;
         }
 
         private void Login_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 menu = new Form1();
+            this.Hide();
+            menu.Show();
         }
     }
 }

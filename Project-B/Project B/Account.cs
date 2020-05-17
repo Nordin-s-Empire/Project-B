@@ -6,12 +6,17 @@ namespace Project_B
     {
         public static Login log;
            
-        public Account(string txt)
+        public Account()
         {
             InitializeComponent();
 
             MessageBox.Show("Welcome");
-            label1.Text = "Welkom, " + txt;
+            Login login = new Login();
+            label1.Text = "Welkom, " + Login.Username;
+            textBox1.Text = Login.Email;
+            textBox2.Text = Login.Adres;
+            textBox3.Text = Login.DOB;
+            
         }
 
         public void AcctoMain(object sender, MouseEventArgs e)

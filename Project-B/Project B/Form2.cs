@@ -27,7 +27,9 @@ namespace Project_B
                     LastName = txbLName.Text,
                     Email = txbEmail.Text,
                     Username = txbUsername.Text,
-                    Password = txbPassword.Text
+                    Password = txbPassword.Text,
+                    DOB = txbDOB.Text,
+                    Adres = txbAdres.Text
                 });
 
                 jsonData = JsonConvert.SerializeObject(Users);
@@ -37,6 +39,7 @@ namespace Project_B
             {
                 MessageBox.Show(E.Message);
             }
+            MessageBox.Show("U bent geregistreerd");
 
         }
 
@@ -47,6 +50,16 @@ namespace Project_B
             public string Email;
             public string Username;
             public string Password;
+            public string DOB;
+            public string Adres;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 menu = new Form1();
+            this.Hide();
+            menu.ShowDialog();
+            
         }
     }
 }
