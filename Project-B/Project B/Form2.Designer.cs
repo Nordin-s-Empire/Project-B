@@ -39,11 +39,13 @@
             this.txbPassword = new System.Windows.Forms.TextBox();
             this.txbUsername = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.txbDOB = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnregistreer
             // 
-            this.btnregistreer.Location = new System.Drawing.Point(308, 270);
+            this.btnregistreer.Location = new System.Drawing.Point(308, 275);
             this.btnregistreer.Name = "btnregistreer";
             this.btnregistreer.Size = new System.Drawing.Size(130, 53);
             this.btnregistreer.TabIndex = 0;
@@ -81,7 +83,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(211, 213);
+            this.label6.Location = new System.Drawing.Point(209, 247);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(86, 17);
             this.label6.TabIndex = 6;
@@ -110,14 +112,14 @@
             // 
             // txbPassword
             // 
-            this.txbPassword.Location = new System.Drawing.Point(338, 210);
+            this.txbPassword.Location = new System.Drawing.Point(338, 247);
             this.txbPassword.Name = "txbPassword";
             this.txbPassword.Size = new System.Drawing.Size(100, 22);
             this.txbPassword.TabIndex = 12;
             // 
             // txbUsername
             // 
-            this.txbUsername.Location = new System.Drawing.Point(338, 169);
+            this.txbUsername.Location = new System.Drawing.Point(338, 213);
             this.txbUsername.Name = "txbUsername";
             this.txbUsername.Size = new System.Drawing.Size(100, 22);
             this.txbUsername.TabIndex = 13;
@@ -125,17 +127,35 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(211, 174);
+            this.label3.Location = new System.Drawing.Point(211, 213);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 17);
             this.label3.TabIndex = 14;
             this.label3.Text = "Username";
+            // 
+            // txbDOB
+            // 
+            this.txbDOB.Location = new System.Drawing.Point(338, 169);
+            this.txbDOB.Name = "txbDOB";
+            this.txbDOB.Size = new System.Drawing.Size(100, 22);
+            this.txbDOB.TabIndex = 15;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(209, 169);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(107, 17);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Geboortedatum";
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 340);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txbDOB);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txbUsername);
             this.Controls.Add(this.txbPassword);
@@ -167,5 +187,7 @@
         private System.Windows.Forms.TextBox txbPassword;
         private System.Windows.Forms.TextBox txbUsername;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txbDOB;
+        private System.Windows.Forms.Label label4;
     }
 }

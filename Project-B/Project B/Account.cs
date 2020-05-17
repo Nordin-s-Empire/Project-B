@@ -4,13 +4,14 @@ namespace Project_B
 {
     public partial class Account : Form
     {
-        public static Login log;
-           
         public Account()
         {
             InitializeComponent();
 
-            MessageBox.Show("Welcome");
+            label1.Text = Login.Username;
+            label2.Text = Login.Email;
+            label4.Text = Login.DOB;
+
         }
 
         public void AcctoMain(object sender, MouseEventArgs e)

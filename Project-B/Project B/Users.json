@@ -1,1 +1,10 @@
-[{"FirstName":"A","LastName":"B","Email":"a@a.nl","Username":"c","Password":"d"},{"FirstName":"ewgfefew","LastName":"ewfewfew","Email":"fewf","Username":"ewfeew","Password":"ewfew"},{"FirstName":"A","LastName":"B","Email":"C","Username":"D","Password":"E"}]
+[
+  {
+    "FirstName": "A",
+    "LastName": "B",
+    "Email": "a@a.nl",
+    "Username": "c",
+    "Password": "d",
+    "DOB":  "1-1-1999"
+  }
+]
