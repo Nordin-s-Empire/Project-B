@@ -42,14 +42,16 @@ namespace Project_B
             if (Users.TryGetValue(textBox1.Text, out password))
             {
                 Username = textBox1.Text;
-                this.Hide();
+                
                 Account account = new Account();
+                
                 account.Show();
+                this.Hide();
 
             }
             else
             {
-                MessageBox.Show("NO");
+                MessageBox.Show("Verkeerde combinatie van gebruikersnaam en wachtwoord, probeer opnieuw");
             }
         }
 
@@ -62,6 +64,14 @@ namespace Project_B
             public string Password;
             public string DOB;
             public string Adres;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 menu = new Form1();
+            this.Hide();
+            menu.Show();
+
         }
     }
 }
