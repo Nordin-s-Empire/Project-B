@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
+using System.Linq;
 
 namespace Project_B
 {
@@ -27,13 +28,21 @@ namespace Project_B
             {
                 string json = r.ReadToEnd();
                 var output = JsonConvert.DeserializeObject<List<User>>(json);
+                int count = output.Count;
+
+                for(int i = 0; i < count; i++)
+                {
+                    if (output[i].Username == textBox1.Text)
+                    {
+                        Email = output[i].Email;
+                        DOB = output[i].DOB;
+                        Adres = output[i].Adres;
+                    }
+                }
 
                 foreach (var item in output)
                 {
                     Users.Add(item.Username, item.Password);
-                    Email = item.Email;
-                    DOB = item.DOB;
-                    Adres = item.Adres;
                 }
             }
 
