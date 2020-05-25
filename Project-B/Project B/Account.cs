@@ -8,10 +8,12 @@ namespace Project_B
         {
             InitializeComponent();
 
-            label1.Text = Login.Username;
-            label2.Text = Login.Email;
-            label3.Text = Login.Adres;
-            label4.Text = Login.DOB;
+            MessageBox.Show("Welcome");
+            
+            label1.Text = "Welkom, " + Login.Username;
+            textBox1.Text = Login.Email;
+            textBox2.Text = Login.Adres;
+            textBox3.Text = Login.DOB;
 
         }
 
