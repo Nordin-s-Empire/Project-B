@@ -75,6 +75,7 @@
     <Compile Include="Account.Designer.cs">
       <DependentUpon>Account.cs</DependentUpon>
     </Compile>
+    <Compile Include="Film.cs" />
     <Compile Include="FIlmInfo.cs">
       <SubType>Form</SubType>
     </Compile>
