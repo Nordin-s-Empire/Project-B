@@ -73,9 +73,29 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _268x0w1 {
+            get {
+                object obj = ResourceManager.GetObject("268x0w1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _51Av5azGomL__AC_ {
             get {
                 object obj = ResourceManager.GetObject("51Av5azGomL._AC_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _51Av5azGomL1 {
+            get {
+                object obj = ResourceManager.GetObject("51Av5azGomL1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,6 +113,16 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _7e6b6743a7e45d096838abd67b2464e21 {
+            get {
+                object obj = ResourceManager.GetObject("7e6b6743a7e45d096838abd67b2464e21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _81kz06oSUeL__AC_SL1500_ {
             get {
                 object obj = ResourceManager.GetObject("81kz06oSUeL._AC_SL1500_", resourceCulture);
@@ -103,9 +133,39 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _81kz06oSUeL1 {
+            get {
+                object obj = ResourceManager.GetObject("81kz06oSUeL1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _865580314a24d809e6fb0f12ce72e738 {
+            get {
+                object obj = ResourceManager.GetObject("865580314a24d809e6fb0f12ce72e738", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap April {
             get {
                 object obj = ResourceManager.GetObject("April", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap April1 {
+            get {
+                object obj = ResourceManager.GetObject("April1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -124,9 +184,30 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap avengers_endgame_original_movie_poster_15x21_in_2019_anthony_russo_robert_downey_jr1 {
+            get {
+                object obj = ResourceManager.GetObject("avengers-endgame-original-movie-poster-15x21-in-2019-anthony-russo-robert-downey-" +
+                        "jr1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baaf0f0f37c294c779ed9d52896e9d52 {
             get {
                 object obj = ResourceManager.GetObject("baaf0f0f37c294c779ed9d52896e9d52", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baaf0f0f37c294c779ed9d52896e9d521 {
+            get {
+                object obj = ResourceManager.GetObject("baaf0f0f37c294c779ed9d52896e9d521", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -144,9 +225,29 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bloodshot1 {
+            get {
+                object obj = ResourceManager.GetObject("Bloodshot1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fast___Furious {
             get {
                 object obj = ResourceManager.GetObject("Fast_&_Furious", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fast___Furious1 {
+            get {
+                object obj = ResourceManager.GetObject("Fast_&_Furious1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -164,9 +265,39 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gentlemen1 {
+            get {
+                object obj = ResourceManager.GetObject("Gentlemen1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap index {
+            get {
+                object obj = ResourceManager.GetObject("index", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Jumanji {
             get {
                 object obj = ResourceManager.GetObject("Jumanji", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jumanji1 {
+            get {
+                object obj = ResourceManager.GetObject("Jumanji1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -185,9 +316,62 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM_1 {
+            get {
+                object obj = ResourceManager.GetObject("MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@1" +
+                        "", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_ {
+            get {
+                object obj = ResourceManager.GetObject("MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ@." +
+                        "_V1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_ {
+            get {
+                object obj = ResourceManager.GetObject("MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk@." +
+                        "_V1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap peter_rabbit_movie_2_novelisation {
+            get {
+                object obj = ResourceManager.GetObject("peter-rabbit-movie-2-novelisation", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap The_Godfather__Part_II {
             get {
                 object obj = ResourceManager.GetObject("The_Godfather_ Part_II", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap The_Godfather__Part_II1 {
+            get {
+                object obj = ResourceManager.GetObject("The_Godfather_ Part_II1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -205,10 +389,31 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap The_Godfather_Part_III1 {
+            get {
+                object obj = ResourceManager.GetObject("The_Godfather_Part_III1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853 {
             get {
                 object obj = ResourceManager.GetObject("THE-LORD-OF-THE-RINGS-THE-TWO-TOWERS-Frodo-Reprint-2002-REPRINT-CINEMA-POSTER__74" +
                         "417.1534256853", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__744171 {
+            get {
+                object obj = ResourceManager.GetObject("THE-LORD-OF-THE-RINGS-THE-TWO-TOWERS-Frodo-Reprint-2002-REPRINT-CINEMA-POSTER__74" +
+                        "4171", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

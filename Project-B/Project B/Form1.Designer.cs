@@ -189,7 +189,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Project_B.Properties.Resources.peter_rabbit_movie_2_novelisation;
+            this.pictureBox5.Image = global::Project_B.Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__744171;
             this.pictureBox5.Location = new System.Drawing.Point(29, 122);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(209, 288);
