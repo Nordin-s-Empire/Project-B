@@ -9,24 +9,18 @@ namespace Project_B
         public Form1()
         {
             InitializeComponent();
-            Login login = new Login();
+
             pictureBox1.Hide();
             pictureBox2.Hide();
             pictureBox3.Hide();
             pictureBox4.Hide();
             Profiel.Visible = false;
-            
-            
-            
         }
-       
 
         public void HideLoginbutton(bool flag)
         {
             this.btnAcount.Visible = flag;
-            
             Profiel.Visible = !flag;
-            
         }
 
         private void btnAgenda_Click(object sender, EventArgs e)
@@ -49,8 +43,6 @@ namespace Project_B
             Login log = new Login();
             log.Show();
             btnAcount.Visible = false;
-           
-            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -83,13 +75,10 @@ namespace Project_B
 
         private void Profiel_Click(object sender, EventArgs e)
         {
-            
             Profiel.Visible = false;
             btnAcount.Visible = true;
-            
             MessageBox.Show("U bent uitgelogd", "uitloggen");
             Login log = new Login();
-            
         }
 
         private void brnRegister_Click(object sender, EventArgs e)
@@ -105,9 +94,5 @@ namespace Project_B
             Reservatie res = new Reservatie();
             res.Show();
         }
-
-        
-
-        
     }
 }
