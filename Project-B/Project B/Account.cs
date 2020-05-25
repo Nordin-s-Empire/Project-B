@@ -9,7 +9,7 @@ namespace Project_B
             InitializeComponent();
 
             MessageBox.Show("Welcome");
-            Login login = new Login();
+            
             label1.Text = "Welkom, " + Login.Username;
             textBox1.Text = Login.Email;
             textBox2.Text = Login.Adres;
