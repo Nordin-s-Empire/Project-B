@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project_B;
+using System;
 using System.Windows.Forms;
 
 namespace Betaalscherm_versie_3
@@ -67,6 +68,13 @@ namespace Betaalscherm_versie_3
             MessageBox.Show(listBox1.SelectedItem.ToString());
             MessageBox.Show(listBox2.SelectedItem.ToString());
             MessageBox.Show("Je hebt betaald!");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Reservatie reservatie = new Reservatie();
+            reservatie.Show();
         }
     }
 }
