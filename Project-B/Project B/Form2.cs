@@ -32,6 +32,8 @@ namespace Project_B
 
                 jsonData = JsonConvert.SerializeObject(Users);
                 System.IO.File.WriteAllText(filePath, jsonData);
+
+                MessageBox.Show("Je bent geregistreerd!");
             }
             catch(Exception E)
             {
