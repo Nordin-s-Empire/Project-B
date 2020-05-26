@@ -182,7 +182,7 @@
             // 
             this.pictureBox5.Image = global::Project_B.Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__744171;
             this.pictureBox5.Location = new System.Drawing.Point(22, 99);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(157, 234);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -193,7 +193,7 @@
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(227, 99);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(157, 234);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -204,7 +204,7 @@
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(423, 99);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(157, 234);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -215,7 +215,7 @@
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(620, 99);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(157, 234);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -236,7 +236,7 @@
             // 
             this.brnRegister.Location = new System.Drawing.Point(609, 365);
             this.brnRegister.Name = "brnRegister";
-            this.brnRegister.Size = new System.Drawing.Size(110, 33);
+            this.brnRegister.Size = new System.Drawing.Size(87, 39);
             this.brnRegister.TabIndex = 19;
             this.brnRegister.Text = "Registreer";
             this.brnRegister.UseVisualStyleBackColor = true;
@@ -245,7 +245,7 @@
             // btnReserveer
             // 
             this.btnReserveer.Location = new System.Drawing.Point(309, 52);
-            this.btnReserveer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReserveer.Margin = new System.Windows.Forms.Padding(2);
             this.btnReserveer.Name = "btnReserveer";
             this.btnReserveer.Size = new System.Drawing.Size(75, 23);
             this.btnReserveer.TabIndex = 20;
@@ -255,9 +255,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(472, 365);
+            this.button3.Location = new System.Drawing.Point(486, 365);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(108, 32);
+            this.button3.Size = new System.Drawing.Size(94, 39);
             this.button3.TabIndex = 21;
             this.button3.Text = "Tickets";
             this.button3.UseVisualStyleBackColor = true;
@@ -289,7 +289,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Bioscoop";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
