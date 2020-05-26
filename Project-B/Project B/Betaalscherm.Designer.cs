@@ -123,9 +123,9 @@
             // 
             // listBox1
             // 
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
+            this.listBox1.ItemHeight = 18;
             this.listBox1.Items.AddRange(new object[] {
             "0",
             "1",
@@ -139,7 +139,7 @@
             "9"});
             this.listBox1.Location = new System.Drawing.Point(421, 147);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 44);
+            this.listBox1.Size = new System.Drawing.Size(120, 22);
             this.listBox1.TabIndex = 7;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -155,9 +155,9 @@
             // 
             // listBox2
             // 
-            this.listBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 20;
+            this.listBox2.ItemHeight = 16;
             this.listBox2.Items.AddRange(new object[] {
             "ABN AMRO.",
             "Rabobank.",
@@ -168,16 +168,16 @@
             "Triodos."});
             this.listBox2.Location = new System.Drawing.Point(587, 147);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(129, 64);
+            this.listBox2.Size = new System.Drawing.Size(129, 52);
             this.listBox2.TabIndex = 9;
             this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(615, 315);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(628, 315);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 46);
+            this.button1.Size = new System.Drawing.Size(120, 36);
             this.button1.TabIndex = 10;
             this.button1.Text = "Afrekenen";
             this.button1.UseVisualStyleBackColor = true;
@@ -185,12 +185,12 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(399, 315);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 46);
+            this.button2.Size = new System.Drawing.Size(90, 36);
             this.button2.TabIndex = 11;
-            this.button2.Text = "Terug";
+            this.button2.Text = "Stoelen";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
