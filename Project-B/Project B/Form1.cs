@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Betaalscherm_versie_3;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -93,6 +94,13 @@ namespace Project_B
             this.Hide();
             Reservatie res = new Reservatie();
             res.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Betaalscherm bet = new Betaalscherm();
+            bet.Show();
         }
     }
 }
