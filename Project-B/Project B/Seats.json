@@ -1,7 +1,7 @@
 [
   {
     "Seat": "A1",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "A2",
@@ -33,23 +33,23 @@
   },
   {
     "Seat": "B1",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B2",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B3",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B4",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B5",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B6",

@@ -4,9 +4,9 @@ using System.Windows.Forms;
 
 namespace Betaalscherm_versie_3
 {
-    public partial class Form1 : Form
+    public partial class Betaalscherm : Form
     {
-        public Form1()
+        public Betaalscherm()
         {
             InitializeComponent();
         }
@@ -75,6 +75,16 @@ namespace Betaalscherm_versie_3
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            label9.Text = "Kinderticket";
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            label10.Text = "6,00";
         }
     }
 }
