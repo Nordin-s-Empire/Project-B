@@ -26,24 +26,20 @@ namespace Project_B
                     FirstName = txbFNaam.Text,
                     LastName = txbLName.Text,
                     Email = txbEmail.Text,
-                    Adres = txbAdres.Text,
-                    DOB = txbDOB.Text,
                     Username = txbUsername.Text,
                     Password = txbPassword.Text
-                }) ;
+                });
 
                 jsonData = JsonConvert.SerializeObject(Users);
                 System.IO.File.WriteAllText(filePath, jsonData);
 
-                this.Hide();
-                Form1 form1 = new Form1();
-                form1.Show();
-                MessageBox.Show("U bent succesvol geregistreert.");
+                MessageBox.Show("Je bent geregistreerd!");
             }
             catch(Exception E)
             {
                 MessageBox.Show(E.Message);
             }
+
         }
 
         public class User
@@ -51,8 +47,6 @@ namespace Project_B
             public string FirstName;
             public string LastName;
             public string Email;
-            public string Adres;
-            public string DOB;
             public string Username;
             public string Password;
         }
