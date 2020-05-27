@@ -39,11 +39,16 @@
             this.txbPassword = new System.Windows.Forms.TextBox();
             this.txbUsername = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.txbDOB = new System.Windows.Forms.TextBox();
+            this.txbAdres = new System.Windows.Forms.TextBox();
+            this.lblDOB = new System.Windows.Forms.Label();
+            this.lblAdres = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnregistreer
             // 
-            this.btnregistreer.Location = new System.Drawing.Point(243, 222);
+            this.btnregistreer.Location = new System.Drawing.Point(500, 304);
             this.btnregistreer.Margin = new System.Windows.Forms.Padding(2);
             this.btnregistreer.Name = "btnregistreer";
             this.btnregistreer.Size = new System.Drawing.Size(98, 43);
@@ -57,7 +62,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(152, 47);
+            this.label1.Location = new System.Drawing.Point(130, 16);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 18);
@@ -69,7 +74,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(152, 80);
+            this.label2.Location = new System.Drawing.Point(130, 49);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 18);
@@ -81,7 +86,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(152, 107);
+            this.label5.Location = new System.Drawing.Point(130, 150);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(45, 18);
@@ -93,7 +98,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(152, 170);
+            this.label6.Location = new System.Drawing.Point(130, 213);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(93, 18);
@@ -102,42 +107,42 @@
             // 
             // txbFNaam
             // 
-            this.txbFNaam.Location = new System.Drawing.Point(254, 45);
+            this.txbFNaam.Location = new System.Drawing.Point(254, 14);
             this.txbFNaam.Margin = new System.Windows.Forms.Padding(2);
             this.txbFNaam.Name = "txbFNaam";
-            this.txbFNaam.Size = new System.Drawing.Size(76, 20);
+            this.txbFNaam.Size = new System.Drawing.Size(129, 20);
             this.txbFNaam.TabIndex = 7;
             // 
             // txbLName
             // 
-            this.txbLName.Location = new System.Drawing.Point(254, 78);
+            this.txbLName.Location = new System.Drawing.Point(254, 47);
             this.txbLName.Margin = new System.Windows.Forms.Padding(2);
             this.txbLName.Name = "txbLName";
-            this.txbLName.Size = new System.Drawing.Size(76, 20);
+            this.txbLName.Size = new System.Drawing.Size(129, 20);
             this.txbLName.TabIndex = 8;
             // 
             // txbEmail
             // 
-            this.txbEmail.Location = new System.Drawing.Point(254, 107);
+            this.txbEmail.Location = new System.Drawing.Point(255, 150);
             this.txbEmail.Margin = new System.Windows.Forms.Padding(2);
             this.txbEmail.Name = "txbEmail";
-            this.txbEmail.Size = new System.Drawing.Size(76, 20);
+            this.txbEmail.Size = new System.Drawing.Size(128, 20);
             this.txbEmail.TabIndex = 11;
             // 
             // txbPassword
             // 
-            this.txbPassword.Location = new System.Drawing.Point(254, 171);
+            this.txbPassword.Location = new System.Drawing.Point(255, 214);
             this.txbPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txbPassword.Name = "txbPassword";
-            this.txbPassword.Size = new System.Drawing.Size(76, 20);
+            this.txbPassword.Size = new System.Drawing.Size(128, 20);
             this.txbPassword.TabIndex = 12;
             // 
             // txbUsername
             // 
-            this.txbUsername.Location = new System.Drawing.Point(254, 137);
+            this.txbUsername.Location = new System.Drawing.Point(255, 181);
             this.txbUsername.Margin = new System.Windows.Forms.Padding(2);
             this.txbUsername.Name = "txbUsername";
-            this.txbUsername.Size = new System.Drawing.Size(76, 20);
+            this.txbUsername.Size = new System.Drawing.Size(128, 20);
             this.txbUsername.TabIndex = 13;
             // 
             // label3
@@ -145,19 +150,73 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(152, 137);
+            this.label3.Location = new System.Drawing.Point(130, 180);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 18);
             this.label3.TabIndex = 14;
             this.label3.Text = "Username";
             // 
+            // txbDOB
+            // 
+            this.txbDOB.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.txbDOB.Location = new System.Drawing.Point(255, 81);
+            this.txbDOB.Name = "txbDOB";
+            this.txbDOB.Size = new System.Drawing.Size(128, 20);
+            this.txbDOB.TabIndex = 15;
+            this.txbDOB.Text = "DD-MM-YYYY";
+            // 
+            // txbAdres
+            // 
+            this.txbAdres.Location = new System.Drawing.Point(255, 116);
+            this.txbAdres.Name = "txbAdres";
+            this.txbAdres.Size = new System.Drawing.Size(128, 20);
+            this.txbAdres.TabIndex = 16;
+            // 
+            // lblDOB
+            // 
+            this.lblDOB.AutoSize = true;
+            this.lblDOB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblDOB.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblDOB.Location = new System.Drawing.Point(130, 83);
+            this.lblDOB.Name = "lblDOB";
+            this.lblDOB.Size = new System.Drawing.Size(116, 18);
+            this.lblDOB.TabIndex = 17;
+            this.lblDOB.Text = "Geboorte datum";
+            // 
+            // lblAdres
+            // 
+            this.lblAdres.AutoSize = true;
+            this.lblAdres.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblAdres.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblAdres.Location = new System.Drawing.Point(130, 118);
+            this.lblAdres.Name = "lblAdres";
+            this.lblAdres.Size = new System.Drawing.Size(46, 18);
+            this.lblAdres.TabIndex = 18;
+            this.lblAdres.Text = "Adres";
+            this.lblAdres.Click += new System.EventHandler(this.lblAdres_Click);
+            // 
+            // btnBack
+            // 
+            this.btnBack.Location = new System.Drawing.Point(33, 304);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(98, 42);
+            this.btnBack.TabIndex = 19;
+            this.btnBack.Text = "Terug";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(600, 276);
+            this.ClientSize = new System.Drawing.Size(625, 367);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.lblAdres);
+            this.Controls.Add(this.lblDOB);
+            this.Controls.Add(this.txbAdres);
+            this.Controls.Add(this.txbDOB);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txbUsername);
             this.Controls.Add(this.txbPassword);
@@ -191,5 +250,10 @@
         private System.Windows.Forms.TextBox txbPassword;
         private System.Windows.Forms.TextBox txbUsername;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txbDOB;
+        private System.Windows.Forms.TextBox txbAdres;
+        private System.Windows.Forms.Label lblDOB;
+        private System.Windows.Forms.Label lblAdres;
+        private System.Windows.Forms.Button btnBack;
     }
 }

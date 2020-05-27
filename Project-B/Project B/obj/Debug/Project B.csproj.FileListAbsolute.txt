@@ -228,3 +228,4 @@ C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project 
 C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.CopyComplete
 C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.exe
 C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.pdb
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Zoeken.resources

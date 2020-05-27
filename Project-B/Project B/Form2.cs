@@ -26,7 +26,7 @@ namespace Project_B
                     FirstName = txbFNaam.Text,
                     LastName = txbLName.Text,
                     Email = txbEmail.Text,
-                    Adres = txbAdres.Text,
+                    Adres = txbDOB.Text,
                     DOB = txbDOB.Text,
                     Username = txbUsername.Text,
                     Password = txbPassword.Text
@@ -60,6 +60,18 @@ namespace Project_B
         private void Form2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void lblAdres_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 startscherm = new Form1();
+            startscherm.Show();
         }
     }
 }

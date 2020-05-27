@@ -7,31 +7,31 @@
   {
     "Nr": 2,
     "Seat": "A2",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "A3",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "A4",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "A5",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "A6",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "A7",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "A8",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "B1",
@@ -47,11 +47,11 @@
   },
   {
     "Seat": "B4",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "B5",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "B6",
@@ -63,11 +63,11 @@
   },
   {
     "Seat": "B8",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "C1",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "C2",
@@ -83,18 +83,18 @@
   },
   {
     "Seat": "C5",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "C6",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "C7",
-    "Availability": "0"
+    "Availability": "1"
   },
   {
     "Seat": "C8",
-    "Availability": "0"
+    "Availability": "1"
   }
 ]
