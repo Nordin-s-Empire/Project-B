@@ -60,8 +60,6 @@ namespace Project_B
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(listBox1.SelectedItem.ToString());
-            MessageBox.Show(listBox2.SelectedItem.ToString());
             MessageBox.Show("Je hebt betaald!");
         }
 
