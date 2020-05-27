@@ -1,1 +1,20 @@
-[{"FirstName":"A","LastName":"B","Email":"a@a.nl","Username":"c","Password":"d"},{"FirstName":"ewgfefew","LastName":"ewfewfew","Email":"fewf","Username":"ewfeew","Password":"ewfew"},{"FirstName":"A","LastName":"B","Email":"C","Username":"D","Password":"E"},{"FirstName":"","LastName":"","Email":"","Username":"","Password":"dfffd"},{"FirstName":"","LastName":"","Email":"","Username":"","Password":"dfffd"},{"FirstName":"","LastName":"","Email":"","Username":"","Password":""},{"FirstName":"","LastName":"","Email":"","Username":"","Password":""},{"FirstName":"Kari","LastName":"Lam","Email":"Kfghgf@gmail.com","Username":"Kari","Password":"4HFFYT"},{"FirstName":"cvfdgdf","LastName":"scxf","Email":"bfnh","Username":"hfhjy","Password":"grtryjhg"},{"FirstName":"cvfdgdf","LastName":"scxf","Email":"bfnh","Username":"hfhjy","Password":"grtryjhg"},{"FirstName":"xsacsa","LastName":"dsdwqd","Email":"dwdq","Username":"dwwdq","Password":"dwqqw"},{"FirstName":"hbhu","LastName":"hb j","Email":"bnk","Username":"b j","Password":"ygyb7"},{"FirstName":"","LastName":"","Email":"","Username":"","Password":""}]
+[
+  {
+    "FirstName": "A",
+    "LastName": "B",
+    "Email": "a@a.nl",
+    "Adres": "e",
+    "DOB": "1-1-1999",
+    "Username": "c",
+    "Password": "d"
+  },
+  {
+    "FirstName": "a",
+    "LastName": "b",
+    "Email": "c",
+    "Adres": "d",
+    "DOB": "e",
+    "Username": "f",
+    "Password": "g"
+  }
+]
