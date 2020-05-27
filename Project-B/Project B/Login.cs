@@ -21,7 +21,7 @@ namespace Project_B
         private void button1_Click(object sender, EventArgs e)
         {
             Dictionary<string, string> Users = new Dictionary<string, string>();
-            using (StreamReader r = new StreamReader(@"Users.json"))
+            using (StreamReader r = new StreamReader(@"../../Users.json"))
             {
                 string json = r.ReadToEnd();
                 var output = JsonConvert.DeserializeObject<List<User>>(json);
@@ -69,6 +69,13 @@ namespace Project_B
         private void Login_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form1 = new Form1();
+            form1.Show();
         }
     }
 }

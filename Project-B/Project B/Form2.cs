@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Project_B
@@ -10,6 +11,8 @@ namespace Project_B
         public Form2()
         {
             InitializeComponent();
+            txbDOB.Text = "dd-mm-yyyy";
+            txbDOB.ForeColor = Color.Gray;
         }
 
         private void btnregistreer_Click(object sender, EventArgs e)
@@ -72,6 +75,24 @@ namespace Project_B
             this.Hide();
             Form1 startscherm = new Form1();
             startscherm.Show();
+        }
+
+        private void txbDOB_Enter(object sender, EventArgs e)
+        {
+            if (txbDOB.Text == "dd-mm-yyyy")
+            {
+                txbDOB.Text = "";
+                txbDOB.ForeColor = Color.Black;
+            }
+        }
+
+        private void txbDOB_Leave(object sender, EventArgs e)
+        {
+            if (txbDOB.Text == "")
+            {
+                txbDOB.Text = "dd-mm-yyyy";
+                txbDOB.ForeColor = Color.Gray;
+            }
         }
     }
 }

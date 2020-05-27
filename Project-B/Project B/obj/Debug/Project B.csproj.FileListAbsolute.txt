@@ -229,3 +229,5 @@ C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project 
 C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.exe
 C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.pdb
 C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Zoeken.resources
+C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Betaalscherm_versie_3.Betaalscherm.resources
+C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Zoeken.resources
