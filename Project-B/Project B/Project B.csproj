@@ -160,6 +160,9 @@
     <EmbeddedResource Include="Reservatie.resx">
       <DependentUpon>Reservatie.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Zoeken.resx">
+      <DependentUpon>Zoeken.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

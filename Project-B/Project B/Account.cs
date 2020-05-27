@@ -10,7 +10,10 @@ namespace Project_B
         {
             InitializeComponent();
 
-            MessageBox.Show("Welcome");
+            label1.Text = Login.Username;
+            textBox1.Text = Login.Email;
+            textBox2.Text = Login.Adres;
+            textBox3.Text = Login.DOB;
         }
 
         public void AcctoMain(object sender, MouseEventArgs e)
