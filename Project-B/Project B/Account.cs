@@ -10,7 +10,10 @@ namespace Project_B
         {
             InitializeComponent();
 
-            MessageBox.Show("Welcome");
+            label1.Text = Login.Username;
+            textBox1.Text = Login.Email;
+            textBox2.Text = Login.Adres;
+            textBox3.Text = Login.DOB;
         }
 
         public void AcctoMain(object sender, MouseEventArgs e)
@@ -19,6 +22,11 @@ namespace Project_B
             Form1 menu = new Form1();
             menu.Show();
             menu.HideLoginbutton(false);    
+        }
+
+        private void Account_Load(object sender, System.EventArgs e)
+        {
+
         }
     }
 }
