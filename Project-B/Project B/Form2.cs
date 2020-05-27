@@ -50,5 +50,10 @@ namespace Project_B
             public string Username;
             public string Password;
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

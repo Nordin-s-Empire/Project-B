@@ -47,5 +47,10 @@ namespace Project_B
             public string Username;
             public string Password;
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

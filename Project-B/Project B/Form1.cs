@@ -89,18 +89,5 @@ namespace Project_B
             form.Show();
         }
 
-        private void btnReserveer_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Reservatie res = new Reservatie();
-            res.Show();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Betaalscherm bet = new Betaalscherm();
-            bet.Show();
-        }
     }
 }

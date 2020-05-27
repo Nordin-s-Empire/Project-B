@@ -183,3 +183,48 @@ C:\Users\klamm\OneDrive\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug
 C:\Users\klamm\OneDrive\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.CoreCompileInputs.cache
 C:\Users\klamm\OneDrive\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.CopyComplete
 C:\Users\klamm\OneDrive\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Betaalscherm_versie_3.Betaalscherm.resources
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\Project B.exe.config
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\Project B.exe
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\Project B.pdb
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\Google.Protobuf.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\Zstandard.Net.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\Renci.SshNet.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\System.Buffers.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\System.Memory.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\MySql.Data.xml
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\MySql.Web.xml
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\Interop.WMPLib.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csprojAssemblyReference.cache
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.exe.config
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Interop.WMPLib.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.ResolveComReference.cache
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Account.resources
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Betaalscherm_versie_3.Betaalscherm.resources
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.FIlmInfo.resources
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Form1.resources
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Form2.resources
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Login.resources
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Programma.resources
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Properties.Resources.resources
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Reservatie.resources
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.GenerateResource.cache
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.CoreCompileInputs.cache
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.CopyComplete
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.exe
+C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.pdb

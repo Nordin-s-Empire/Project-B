@@ -47,8 +47,6 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.Profiel = new System.Windows.Forms.Button();
             this.brnRegister = new System.Windows.Forms.Button();
-            this.btnReserveer = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -242,35 +240,12 @@
             this.brnRegister.UseVisualStyleBackColor = true;
             this.brnRegister.Click += new System.EventHandler(this.brnRegister_Click);
             // 
-            // btnReserveer
-            // 
-            this.btnReserveer.Location = new System.Drawing.Point(309, 52);
-            this.btnReserveer.Margin = new System.Windows.Forms.Padding(2);
-            this.btnReserveer.Name = "btnReserveer";
-            this.btnReserveer.Size = new System.Drawing.Size(75, 23);
-            this.btnReserveer.TabIndex = 20;
-            this.btnReserveer.Text = "Reserveer";
-            this.btnReserveer.UseVisualStyleBackColor = true;
-            this.btnReserveer.Click += new System.EventHandler(this.btnReserveer_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(486, 365);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(94, 39);
-            this.button3.TabIndex = 21;
-            this.button3.Text = "Tickets";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(799, 448);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.btnReserveer);
             this.Controls.Add(this.brnRegister);
             this.Controls.Add(this.Profiel);
             this.Controls.Add(this.pictureBox8);
@@ -325,8 +300,6 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Button Profiel;
         private System.Windows.Forms.Button brnRegister;
-        private System.Windows.Forms.Button btnReserveer;
-        private System.Windows.Forms.Button button3;
     }
 }
 
