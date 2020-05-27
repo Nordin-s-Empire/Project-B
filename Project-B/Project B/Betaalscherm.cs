@@ -1,12 +1,11 @@
-﻿using Project_B;
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 namespace Betaalscherm_versie_3
 {
-    public partial class Betaalscherm : Form
+    public partial class Form1 : Form
     {
-        public Betaalscherm()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -68,23 +67,6 @@ namespace Betaalscherm_versie_3
             MessageBox.Show(listBox1.SelectedItem.ToString());
             MessageBox.Show(listBox2.SelectedItem.ToString());
             MessageBox.Show("Je hebt betaald!");
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Reservatie reservatie = new Reservatie();
-            reservatie.Show();
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-            label9.Text = "Kinderticket";
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-            label10.Text = "6,00";
         }
     }
 }
