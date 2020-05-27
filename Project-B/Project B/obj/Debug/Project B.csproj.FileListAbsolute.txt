@@ -183,3 +183,5 @@ C:\Users\klamm\OneDrive\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug
 C:\Users\klamm\OneDrive\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.CoreCompileInputs.cache
 C:\Users\klamm\OneDrive\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.csproj.CopyComplete
 C:\Users\klamm\OneDrive\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Betaalscherm_versie_3.Betaalscherm.resources
+C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Betaalscherm.resources
+C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Zoeken.resources

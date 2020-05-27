@@ -1,11 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Betaalscherm_versie_3
+namespace Project_B
 {
-    public partial class Form1 : Form
+    public partial class Betaalscherm : Form
     {
-        public Form1()
+        public Betaalscherm()
         {
             InitializeComponent();
         }
@@ -45,15 +52,17 @@ namespace Betaalscherm_versie_3
             label6.Text = "11,00";
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            ListBox listbox1 = new ListBox();
-            listbox1.Name = "ListBox1";
-        }
 
         private void label8_Click(object sender, EventArgs e)
         {
             label8.Text = "Bank";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(listBox1.SelectedItem.ToString());
+            MessageBox.Show(listBox2.SelectedItem.ToString());
+            MessageBox.Show("Je hebt betaald!");
         }
 
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
@@ -62,11 +71,10 @@ namespace Betaalscherm_versie_3
             listbox2.Name = "ListBox1";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MessageBox.Show(listBox1.SelectedItem.ToString());
-            MessageBox.Show(listBox2.SelectedItem.ToString());
-            MessageBox.Show("Je hebt betaald!");
+            ListBox listbox1 = new ListBox();
+            listbox1.Name = "ListBox1";
         }
     }
 }
