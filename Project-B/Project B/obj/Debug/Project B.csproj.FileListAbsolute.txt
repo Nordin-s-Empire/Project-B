@@ -144,3 +144,5 @@ C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\bin\Debu
 C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project B.exe.config
 C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Form2.resources
 C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Reservatie.resources
+C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Betaalscherm_versie_3.Form1.resources
+C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Zoeken.resources

@@ -75,6 +75,12 @@
     <Compile Include="Account.Designer.cs">
       <DependentUpon>Account.cs</DependentUpon>
     </Compile>
+    <Compile Include="Betaalscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Betaalscherm.Designer.cs">
+      <DependentUpon>Betaalscherm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Film.cs" />
     <Compile Include="FIlmInfo.cs">
       <SubType>Form</SubType>
@@ -128,6 +134,9 @@
     <EmbeddedResource Include="Account.resx">
       <DependentUpon>Account.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Betaalscherm.resx">
+      <DependentUpon>Betaalscherm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FIlmInfo.resx">
       <DependentUpon>FIlmInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reservatie.resx">
       <DependentUpon>Reservatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zoeken.resx">
+      <DependentUpon>Zoeken.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

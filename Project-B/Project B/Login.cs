@@ -8,6 +8,11 @@ namespace Project_B
 {
     public partial class Login : Form
     {
+        public static string Username;
+        public static string Adres;
+        public static string Email;
+        public static string DOB;
+
         public Login()
         {
             InitializeComponent();
@@ -20,6 +25,14 @@ namespace Project_B
             {
                 string json = r.ReadToEnd();
                 var output = JsonConvert.DeserializeObject<List<User>>(json);
+                int count = output.Count;
+
+                for(int i = 0; i < count; i++)
+                {
+                    Email = output[i].Email;
+                    DOB = output[i].DOB;
+                    Adres = output[i].Adres;
+                }
 
                 foreach (var item in output)
                 {
@@ -31,7 +44,10 @@ namespace Project_B
 
             if (Users.TryGetValue(textBox1.Text, out password))
             {
-                MessageBox.Show("Wah");
+                Username = textBox1.Text;
+                this.Hide();
+                Account account = new Account();
+                account.Show();
             }
             else
             {
@@ -44,6 +60,8 @@ namespace Project_B
             public string FirstName;
             public string LastName;
             public string Email;
+            public string Adres;
+            public string DOB;
             public string Username;
             public string Password;
         }
