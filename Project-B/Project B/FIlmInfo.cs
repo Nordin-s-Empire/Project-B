@@ -11,8 +11,6 @@ namespace Project_B
         public static Image pic;
         public FIlmInfo()
         {
-
-         
             InitializeComponent();
             
             string str = Programma.movie;

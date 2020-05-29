@@ -29,13 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Programma));
-            this.btnMaandag = new System.Windows.Forms.Button();
-            this.btnDinsdag = new System.Windows.Forms.Button();
-            this.btnWoensdag = new System.Windows.Forms.Button();
-            this.btnDonderdag = new System.Windows.Forms.Button();
-            this.btnVrijdag = new System.Windows.Forms.Button();
-            this.btnZaterdag = new System.Windows.Forms.Button();
-            this.btnZondag = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
@@ -48,81 +41,16 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.btnBestel1 = new System.Windows.Forms.Button();
+            this.btnBestel2 = new System.Windows.Forms.Button();
+            this.btnBestel3 = new System.Windows.Forms.Button();
+            this.btnBestel4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnMaandag
-            // 
-            this.btnMaandag.Location = new System.Drawing.Point(32, 43);
-            this.btnMaandag.Name = "btnMaandag";
-            this.btnMaandag.Size = new System.Drawing.Size(83, 35);
-            this.btnMaandag.TabIndex = 0;
-            this.btnMaandag.Text = "Maandag";
-            this.btnMaandag.UseVisualStyleBackColor = true;
-            this.btnMaandag.Click += new System.EventHandler(this.btnMaandag_Click);
-            // 
-            // btnDinsdag
-            // 
-            this.btnDinsdag.Location = new System.Drawing.Point(121, 43);
-            this.btnDinsdag.Name = "btnDinsdag";
-            this.btnDinsdag.Size = new System.Drawing.Size(75, 35);
-            this.btnDinsdag.TabIndex = 1;
-            this.btnDinsdag.Text = "Dinsdag";
-            this.btnDinsdag.UseVisualStyleBackColor = true;
-            this.btnDinsdag.Click += new System.EventHandler(this.btnDinsdag_Click);
-            // 
-            // btnWoensdag
-            // 
-            this.btnWoensdag.Location = new System.Drawing.Point(202, 43);
-            this.btnWoensdag.Name = "btnWoensdag";
-            this.btnWoensdag.Size = new System.Drawing.Size(90, 35);
-            this.btnWoensdag.TabIndex = 2;
-            this.btnWoensdag.Text = "Woensdag";
-            this.btnWoensdag.UseVisualStyleBackColor = true;
-            this.btnWoensdag.Click += new System.EventHandler(this.btnWoensdag_Click);
-            // 
-            // btnDonderdag
-            // 
-            this.btnDonderdag.Location = new System.Drawing.Point(298, 43);
-            this.btnDonderdag.Name = "btnDonderdag";
-            this.btnDonderdag.Size = new System.Drawing.Size(100, 35);
-            this.btnDonderdag.TabIndex = 3;
-            this.btnDonderdag.Text = "Donderdag";
-            this.btnDonderdag.UseVisualStyleBackColor = true;
-            this.btnDonderdag.Click += new System.EventHandler(this.btnDonderdag_Click);
-            // 
-            // btnVrijdag
-            // 
-            this.btnVrijdag.Location = new System.Drawing.Point(404, 43);
-            this.btnVrijdag.Name = "btnVrijdag";
-            this.btnVrijdag.Size = new System.Drawing.Size(75, 35);
-            this.btnVrijdag.TabIndex = 4;
-            this.btnVrijdag.Text = "Vrijdag";
-            this.btnVrijdag.UseVisualStyleBackColor = true;
-            this.btnVrijdag.Click += new System.EventHandler(this.btnVrijdag_Click);
-            // 
-            // btnZaterdag
-            // 
-            this.btnZaterdag.Location = new System.Drawing.Point(485, 43);
-            this.btnZaterdag.Name = "btnZaterdag";
-            this.btnZaterdag.Size = new System.Drawing.Size(93, 35);
-            this.btnZaterdag.TabIndex = 5;
-            this.btnZaterdag.Text = "Zaterdag";
-            this.btnZaterdag.UseVisualStyleBackColor = true;
-            this.btnZaterdag.Click += new System.EventHandler(this.btnZaterdag_Click);
-            // 
-            // btnZondag
-            // 
-            this.btnZondag.Location = new System.Drawing.Point(584, 43);
-            this.btnZondag.Name = "btnZondag";
-            this.btnZondag.Size = new System.Drawing.Size(75, 35);
-            this.btnZondag.TabIndex = 6;
-            this.btnZondag.Text = "Zondag";
-            this.btnZondag.UseVisualStyleBackColor = true;
-            this.btnZondag.Click += new System.EventHandler(this.btnZondag_Click);
             // 
             // richTextBox1
             // 
@@ -252,13 +180,66 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(40, 57);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(220, 22);
+            this.dateTimePicker1.TabIndex = 20;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // btnBestel1
+            // 
+            this.btnBestel1.Location = new System.Drawing.Point(446, 289);
+            this.btnBestel1.Name = "btnBestel1";
+            this.btnBestel1.Size = new System.Drawing.Size(220, 23);
+            this.btnBestel1.TabIndex = 21;
+            this.btnBestel1.Text = "Bestel Ticket";
+            this.btnBestel1.UseVisualStyleBackColor = true;
+            this.btnBestel1.Click += new System.EventHandler(this.btnBestel1_Click);
+            // 
+            // btnBestel2
+            // 
+            this.btnBestel2.Location = new System.Drawing.Point(446, 519);
+            this.btnBestel2.Name = "btnBestel2";
+            this.btnBestel2.Size = new System.Drawing.Size(220, 23);
+            this.btnBestel2.TabIndex = 22;
+            this.btnBestel2.Text = "Bestel Ticket";
+            this.btnBestel2.UseVisualStyleBackColor = true;
+            this.btnBestel2.Click += new System.EventHandler(this.btnBestel2_Click);
+            // 
+            // btnBestel3
+            // 
+            this.btnBestel3.Location = new System.Drawing.Point(446, 750);
+            this.btnBestel3.Name = "btnBestel3";
+            this.btnBestel3.Size = new System.Drawing.Size(220, 23);
+            this.btnBestel3.TabIndex = 23;
+            this.btnBestel3.Text = "Bestel Ticket";
+            this.btnBestel3.UseVisualStyleBackColor = true;
+            this.btnBestel3.Click += new System.EventHandler(this.btnBestel3_Click);
+            // 
+            // btnBestel4
+            // 
+            this.btnBestel4.Location = new System.Drawing.Point(446, 985);
+            this.btnBestel4.Name = "btnBestel4";
+            this.btnBestel4.Size = new System.Drawing.Size(220, 23);
+            this.btnBestel4.TabIndex = 24;
+            this.btnBestel4.Text = "Bestel Ticket";
+            this.btnBestel4.UseVisualStyleBackColor = true;
+            this.btnBestel4.Click += new System.EventHandler(this.btnBestel4_Click);
+            // 
             // Programma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(800, 427);
+            this.ClientSize = new System.Drawing.Size(800, 1055);
+            this.Controls.Add(this.btnBestel4);
+            this.Controls.Add(this.btnBestel3);
+            this.Controls.Add(this.btnBestel2);
+            this.Controls.Add(this.btnBestel1);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -271,13 +252,6 @@
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnZondag);
-            this.Controls.Add(this.btnZaterdag);
-            this.Controls.Add(this.btnVrijdag);
-            this.Controls.Add(this.btnDonderdag);
-            this.Controls.Add(this.btnWoensdag);
-            this.Controls.Add(this.btnDinsdag);
-            this.Controls.Add(this.btnMaandag);
             this.Name = "Programma";
             this.Text = "Programma";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -289,14 +263,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnMaandag;
-        private System.Windows.Forms.Button btnDinsdag;
-        private System.Windows.Forms.Button btnWoensdag;
-        private System.Windows.Forms.Button btnDonderdag;
-        private System.Windows.Forms.Button btnVrijdag;
-        private System.Windows.Forms.Button btnZaterdag;
-        private System.Windows.Forms.Button btnZondag;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.RichTextBox richTextBox1;
@@ -309,5 +275,10 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button btnBestel1;
+        private System.Windows.Forms.Button btnBestel2;
+        private System.Windows.Forms.Button btnBestel3;
+        private System.Windows.Forms.Button btnBestel4;
     }
 }

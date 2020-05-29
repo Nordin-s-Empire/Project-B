@@ -12,7 +12,15 @@ namespace Betaalscherm_versie_3
             
             aantal.Text = "$" + (Reservatie.amount_of_reserved_seats * 11.0).ToString() + " ( $11.00 x " + Reservatie.amount_of_reserved_seats + ")";
             list_of_seats.Text = string.Join(", ", Reservatie.reserved_seats);
-            Film_naam.Text = FIlmInfo.movie_title;
+
+            if(Programma.form == 1)
+            {
+                Film_naam.Text = Programma.movie;
+            }
+            else
+            {
+                Film_naam.Text = FIlmInfo.movie_title;
+            }
             pictureBox1.Image = FIlmInfo.pic;
         }
 
