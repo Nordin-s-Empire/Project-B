@@ -35,11 +35,7 @@ namespace Betaalscherm_versie_3
             listbox1.Name = "ListBox1";
         }
 
-        private void label8_Click(object sender, EventArgs e)
-        {
-            label8.Text = "Bank";
-        }
-
+    
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             ListBox listbox2 = new ListBox();
@@ -48,22 +44,20 @@ namespace Betaalscherm_versie_3
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Kies aub een bank");
 
-            if (listBox2.SelectedIndex >= 0)
-            {
-                MessageBox.Show("U heeft betaald!");
-                this.Hide();
-                Form1 startscherm = new Form1();
-                startscherm.Show();
-            }
-            else
-            {
-                MessageBox.Show("Kies aub een bank");
-            }
+        }
+                
+               
+         
+        
+           
+      
+           
 
            
             
-        }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -93,6 +87,24 @@ namespace Betaalscherm_versie_3
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            ListBox listbox1 = new ListBox();
+            listbox1.Name = "ListBox1";
+        }
+
+        private void listBox2_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            ListBox listbox2 = new ListBox();
+            listbox2.Name = "ListBox2";
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("U hebt betaald");
 
         }
     }

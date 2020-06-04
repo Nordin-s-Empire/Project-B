@@ -284,5 +284,11 @@ namespace Project_B
             filminfo.Show();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 form = new Form2();
+            form.Show();
+        }
     }
 }

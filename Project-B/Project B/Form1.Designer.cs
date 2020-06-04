@@ -46,7 +46,6 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.Profiel = new System.Windows.Forms.Button();
-            this.brnRegister = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -230,23 +229,12 @@
             this.Profiel.UseVisualStyleBackColor = true;
             this.Profiel.Click += new System.EventHandler(this.Profiel_Click);
             // 
-            // brnRegister
-            // 
-            this.brnRegister.Location = new System.Drawing.Point(609, 365);
-            this.brnRegister.Name = "brnRegister";
-            this.brnRegister.Size = new System.Drawing.Size(87, 39);
-            this.brnRegister.TabIndex = 19;
-            this.brnRegister.Text = "Registreer";
-            this.brnRegister.UseVisualStyleBackColor = true;
-            this.brnRegister.Click += new System.EventHandler(this.brnRegister_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(799, 448);
-            this.Controls.Add(this.brnRegister);
             this.Controls.Add(this.Profiel);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
@@ -299,7 +287,6 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Button Profiel;
-        private System.Windows.Forms.Button brnRegister;
     }
 }
 
