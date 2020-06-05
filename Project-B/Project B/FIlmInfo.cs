@@ -6,10 +6,14 @@ namespace Project_B
 {
     public partial class FIlmInfo : Form
     {
+        public static string movie_title = "";
+        public static Image pic;
+        public static string Date;
+
         public FIlmInfo()
         {
             InitializeComponent();
-
+            
             string str = Programma.movie;
 
             lblSummary.MaximumSize = new Size(300, 0);
@@ -173,6 +177,9 @@ namespace Project_B
 
         private void btnReserveer_Click(object sender, EventArgs e)
         {
+            movie_title = this.lblTitle.Text;
+            pic = this.pictureBox1.Image;
+            Date = Programma.date;
             this.Hide();
             Reservatie res = new Reservatie();
             res.Show();

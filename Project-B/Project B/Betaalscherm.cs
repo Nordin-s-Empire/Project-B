@@ -1,54 +1,15 @@
-﻿using System;
+﻿using Project_B;
+using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Betaalscherm_versie_3
 {
-    public partial class Form1 : Form
+    public partial class Betaalscherm : Form
     {
-        public Form1()
+        public Betaalscherm()
         {
             InitializeComponent();
-        }
-
-        private void Type_Click(object sender, EventArgs e)
-        {
-            label1.Text = "Type";
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-            label2.Text = "Prijs";
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-            label3.Text = "Aantal";
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-            label4.Text = "Normaal";
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-            label5.Text = "Korting";
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-            label7.Text = "9,00";
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-            label6.Text = "11,00";
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            ListBox listbox1 = new ListBox();
-            listbox1.Name = "ListBox1";
         }
 
         private void label8_Click(object sender, EventArgs e)
@@ -64,9 +25,75 @@ namespace Betaalscherm_versie_3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(listBox1.SelectedItem.ToString());
-            MessageBox.Show(listBox2.SelectedItem.ToString());
-            MessageBox.Show("Je hebt betaald!");
+            if (lbliDeal.ForeColor == Color.FromArgb(252, 167, 88))
+            {
+                if (listBox2.SelectedIndex >= 0)
+                {
+                    MessageBox.Show("Bedankt voor uw betaling met iDeal. Uw tickets worden verzonden naar uw e-mail adres: " + Confirmatiescherm2.email + ". Alvast een fijne voorstelling!");
+                    this.Hide();
+                    Form1 startscherm = new Form1();
+                    startscherm.Show();
+                }
+                else
+                {
+                    MessageBox.Show("U heeft geen bank gekozen. Kies aub een bank.");
+                }
+            }
+            else if (lblMastercard.ForeColor == Color.FromArgb(252, 167, 88))
+            {
+                MessageBox.Show("Bedankt voor uw betaling met Mastercard. Uw tickets worden verzonden naar uw e-mail adres: " + Confirmatiescherm2.email + ". Alvast een fijne voorstelling!");
+                this.Hide();
+                Form1 startscherm = new Form1();
+                startscherm.Show();
+            }
+            else if (lblPayPal.ForeColor == Color.FromArgb(252, 167, 88))
+            {
+                MessageBox.Show("Bedankt voor uw betaling met PayPal. Uw tickets worden verzonden naar uw e-mail adres: " + Confirmatiescherm2.email + ". Alvast een fijne voorstelling!");
+                this.Hide();
+                Form1 startscherm = new Form1();
+                startscherm.Show();
+            }
+            else
+            {
+                MessageBox.Show("U heeft geen betalingsmethode gekozen. Kies aub hoe u wilt betalen voor uw tickets.");
+
+            }
+        }
+
+        private void Betaalscherm_Load(object sender, EventArgs e)
+        {
+            listBox2.Hide();
+        }
+
+        private void lblMastercard_Click(object sender, EventArgs e)
+        {
+            lblMastercard.ForeColor = Color.FromArgb(252, 167, 88);
+            lblPayPal.ForeColor = Color.White;
+            lbliDeal.ForeColor = Color.White;
+            listBox2.Hide();
+        }
+
+        private void lblPayPal_Click(object sender, EventArgs e)
+        {
+            lblPayPal.ForeColor = Color.FromArgb(252, 167, 88);
+            lblMastercard.ForeColor = Color.White;
+            lbliDeal.ForeColor = Color.White;
+            listBox2.Hide();
+        }
+
+        private void lbliDeal_Click(object sender, EventArgs e)
+        {
+            lbliDeal.ForeColor = Color.FromArgb(252, 167, 88);
+            lblPayPal.ForeColor = Color.White;
+            lblMastercard.ForeColor = Color.White;
+            listBox2.Show();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Confirmatiescherm2 confirmatiescherm2 = new Confirmatiescherm2();
+            confirmatiescherm2.Show();
         }
     }
 }

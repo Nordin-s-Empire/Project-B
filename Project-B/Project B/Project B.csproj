@@ -75,6 +75,25 @@
     <Compile Include="Account.Designer.cs">
       <DependentUpon>Account.cs</DependentUpon>
     </Compile>
+    <Compile Include="Betaalscherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Betaalscherm.Designer.cs">
+      <DependentUpon>Betaalscherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmatiescherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmatiescherm.Designer.cs">
+      <DependentUpon>Confirmatiescherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmatiescherm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmatiescherm2.Designer.cs">
+      <DependentUpon>Confirmatiescherm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Film.cs" />
     <Compile Include="FIlmInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +146,15 @@
     <EmbeddedResource Include="Account.resx">
       <DependentUpon>Account.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Betaalscherm.resx">
+      <DependentUpon>Betaalscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmatiescherm.resx">
+      <DependentUpon>Confirmatiescherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmatiescherm2.resx">
+      <DependentUpon>Confirmatiescherm2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FIlmInfo.resx">
       <DependentUpon>FIlmInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reservatie.resx">
       <DependentUpon>Reservatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zoeken.resx">
+      <DependentUpon>Zoeken.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -239,9 +270,6 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\y2mate.com - Beethoven - Moonlight Sonata %28FULL%29_4Tr0otuiQuU_360p.mp4" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
@@ -252,6 +280,37 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\THE-LORD-OF-THE-RINGS-THE-TWO-TOWERS-Frodo-Reprint-2002-REPRINT-CINEMA-POSTER__74417.15342568531.jpg" />
+    <None Include="Resources\The_Godfather_Part_III1.jpg" />
+    <None Include="Resources\The_Godfather_ Part_II1.jpg" />
+    <None Include="Resources\peter-rabbit-movie-2-novelisation1.jpg" />
+    <None Include="Resources\MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk%40._V1_1.jpg" />
+    <None Include="Resources\MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ%40._V1_1.jpg" />
+    <None Include="Resources\MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM%40._V1_1.jpg" />
+    <None Include="Resources\Jumanji1.jpg" />
+    <None Include="Resources\index1.png" />
+    <None Include="Resources\Gentlemen1.jpg" />
+    <None Include="Resources\Fast_&amp;_Furious1.jpg" />
+    <None Include="Resources\Bloodshot1.jpg" />
+    <None Include="Resources\baaf0f0f37c294c779ed9d52896e9d521.png" />
+    <None Include="Resources\avengers-endgame-original-movie-poster-15x21-in-2019-anthony-russo-robert-downey-jr1.jpg" />
+    <None Include="Resources\April1.jpg" />
+    <None Include="Resources\865580314a24d809e6fb0f12ce72e7381.jpg" />
+    <None Include="Resources\268x0w1.jpg" />
+    <None Include="Resources\81kz06oSUeL._AC_SL1500_1.jpg" />
+    <None Include="Resources\51Av5azGomL._AC_1.jpg" />
+    <Content Include="Resources\70970812-film-icon-items-voor-bioscoop-geïsoleerd-op-witte-background-vector.ico" />
+    <None Include="Resources\7e6b6743a7e45d096838abd67b2464e21.jpg" />
+    <Content Include="Resources\April.jpg" />
+    <Content Include="Resources\Bloodshot.jpg" />
+    <Content Include="Resources\Fast_&amp;_Furious.jpg" />
+    <Content Include="Resources\Gentlemen.jpg" />
+    <Content Include="Resources\index.png" />
+    <Content Include="Resources\Jumanji.jpg" />
+    <Content Include="Resources\The_Godfather_ Part_II.jpg" />
+    <Content Include="Resources\The_Godfather_Part_III.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
