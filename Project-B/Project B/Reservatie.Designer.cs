@@ -60,7 +60,6 @@
             this.Screen_text = new System.Windows.Forms.TextBox();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnreset = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.Screen.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -384,24 +383,12 @@
             this.btnreset.UseVisualStyleBackColor = true;
             this.btnreset.Click += new System.EventHandler(this.btnreset_Click);
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(640, 125);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 97);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "Schrijf je nu in en blijf op de hoogte van de nieuwste films!!";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Reservatie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnreset);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.Screen);
@@ -475,7 +462,6 @@
             private System.Windows.Forms.TextBox Screen_text;
             private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnreset;
-        private System.Windows.Forms.Button button1;
     }
         }
             
