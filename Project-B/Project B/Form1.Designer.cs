@@ -46,7 +46,7 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.Profiel = new System.Windows.Forms.Button();
-            this.brnRegister = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -119,7 +119,7 @@
             // 
             // btnAcount
             // 
-            this.btnAcount.Location = new System.Drawing.Point(423, 50);
+            this.btnAcount.Location = new System.Drawing.Point(321, 52);
             this.btnAcount.Name = "btnAcount";
             this.btnAcount.Size = new System.Drawing.Size(75, 23);
             this.btnAcount.TabIndex = 6;
@@ -222,7 +222,7 @@
             // 
             // Profiel
             // 
-            this.Profiel.Location = new System.Drawing.Point(505, 50);
+            this.Profiel.Location = new System.Drawing.Point(412, 50);
             this.Profiel.Name = "Profiel";
             this.Profiel.Size = new System.Drawing.Size(76, 24);
             this.Profiel.TabIndex = 18;
@@ -230,15 +230,15 @@
             this.Profiel.UseVisualStyleBackColor = true;
             this.Profiel.Click += new System.EventHandler(this.Profiel_Click);
             // 
-            // brnRegister
+            // label2
             // 
-            this.brnRegister.Location = new System.Drawing.Point(609, 365);
-            this.brnRegister.Name = "brnRegister";
-            this.brnRegister.Size = new System.Drawing.Size(87, 39);
-            this.brnRegister.TabIndex = 19;
-            this.brnRegister.Text = "Registreer";
-            this.brnRegister.UseVisualStyleBackColor = true;
-            this.brnRegister.Click += new System.EventHandler(this.brnRegister_Click);
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(606, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(94, 13);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Zoeken naar films:";
             // 
             // Form1
             // 
@@ -246,7 +246,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(799, 448);
-            this.Controls.Add(this.brnRegister);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.Profiel);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
@@ -299,7 +299,7 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Button Profiel;
-        private System.Windows.Forms.Button brnRegister;
+        private System.Windows.Forms.Label label2;
     }
 }
 

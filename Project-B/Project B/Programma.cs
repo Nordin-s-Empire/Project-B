@@ -7,6 +7,7 @@ namespace Project_B
     {
         public static string movie;
         public static int form = 0;
+        public static string date;
 
         public Programma()
         {
@@ -95,6 +96,7 @@ namespace Project_B
         private void button1_Click(object sender, EventArgs e)
         {
             movie = richTextBox1.Text;
+            date = dateTimePicker1.Text;
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();
@@ -103,14 +105,18 @@ namespace Project_B
         private void button2_Click(object sender, EventArgs e)
         {
             movie = richTextBox2.Text;
+            date = dateTimePicker1.Text;
+
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             movie = richTextBox3.Text;
+            date = dateTimePicker1.Text;
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();
@@ -119,6 +125,7 @@ namespace Project_B
         private void button4_Click(object sender, EventArgs e)
         {
             movie = richTextBox4.Text;
+            date = dateTimePicker1.Text;
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();
@@ -208,6 +215,7 @@ namespace Project_B
         private void btnBestel1_Click(object sender, EventArgs e)
         {
             form = 1;
+            date = dateTimePicker1.Text;
             MovieTitle(richTextBox1.Text);
             this.Hide();
             Reservatie reservatie = new Reservatie();
@@ -217,6 +225,7 @@ namespace Project_B
         private void btnBestel2_Click(object sender, EventArgs e)
         {
             form = 1;
+            date = dateTimePicker1.Text;
             MovieTitle(richTextBox2.Text);
             this.Hide();
             Reservatie reservatie = new Reservatie();
@@ -226,6 +235,7 @@ namespace Project_B
         private void btnBestel3_Click(object sender, EventArgs e)
         {
             form = 1;
+            date = dateTimePicker1.Text;
             MovieTitle(richTextBox3.Text);
             this.Hide();
             Reservatie reservatie = new Reservatie();
@@ -235,6 +245,7 @@ namespace Project_B
         private void btnBestel4_Click(object sender, EventArgs e)
         {
             form = 1;
+            date = dateTimePicker1.Text;
             MovieTitle(richTextBox4.Text);
             this.Hide();
             Reservatie reservatie = new Reservatie();

@@ -203,8 +203,8 @@ namespace Project_B
             File.WriteAllText("../../Seats.json", output);
 
             this.Hide();
-            Betaalscherm betaalscherm = new Betaalscherm();
-            betaalscherm.Show();
+            Confirmatiescherm confirmatiescherm = new Confirmatiescherm();
+            confirmatiescherm.Show();
 
             //foreach (Button button in buttons)
             //{
@@ -232,6 +232,7 @@ namespace Project_B
         private void Reservatie_Load(object sender, EventArgs e)
         {
             reserved_seats.Clear();
+            amount_of_reserved_seats = 0;
 
             using (StreamReader r = new StreamReader(@"../../Seats.json"))
             {

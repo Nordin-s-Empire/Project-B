@@ -81,6 +81,18 @@
     <Compile Include="Betaalscherm.Designer.cs">
       <DependentUpon>Betaalscherm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Confirmatiescherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmatiescherm.Designer.cs">
+      <DependentUpon>Confirmatiescherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmatiescherm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmatiescherm2.Designer.cs">
+      <DependentUpon>Confirmatiescherm2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Film.cs" />
     <Compile Include="FIlmInfo.cs">
       <SubType>Form</SubType>
@@ -136,6 +148,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Betaalscherm.resx">
       <DependentUpon>Betaalscherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmatiescherm.resx">
+      <DependentUpon>Confirmatiescherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmatiescherm2.resx">
+      <DependentUpon>Confirmatiescherm2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FIlmInfo.resx">
       <DependentUpon>FIlmInfo.cs</DependentUpon>
