@@ -41,7 +41,7 @@ namespace Project_B
                 this.Hide();
                 Form1 form1 = new Form1();
                 form1.Show();
-                MessageBox.Show("U bent succesvol geregistreert.");
+                MessageBox.Show("U bent succesvol geregistreerd.");
             }
             catch(Exception E)
             {
