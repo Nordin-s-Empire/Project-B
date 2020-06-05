@@ -4,9 +4,6 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using Newtonsoft.Json;
-using System.Security.Cryptography.X509Certificates;
-using Betaalscherm_versie_3;
-using System.Threading;
 
 namespace Project_B
 {
@@ -82,7 +79,6 @@ namespace Project_B
             buttons.Add(C6);
             buttons.Add(C7);
             buttons.Add(C8);
-
         }
 
         private void Enable_Row(List<Button> buttonlist)
@@ -116,19 +112,16 @@ namespace Project_B
                 }
 
                 button.Enabled = false;
-
             }
         }
 
         private void Button_click(object sender, EventArgs e)
         {
             var b = (Button)sender;
-
             var ch = b.Name.ToCharArray();
 
             if (b.BackColor == Color.Green)
             {
-                
                 if (ch[0] == 'A')
                 {
                     Enable_Row(row_B);
@@ -151,7 +144,6 @@ namespace Project_B
 
                 b.BackColor = Color.White;
             }
-
             else
             {
 
@@ -177,12 +169,10 @@ namespace Project_B
 
                 b.BackColor = Color.Green;
             }
-
         }
 
         private void OK_Click(object sender, EventArgs e)
         {
-            
             string json = File.ReadAllText("../../Seats.json");
             dynamic jsonObj = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
             List<string> name = new List<string>(); 
@@ -203,24 +193,8 @@ namespace Project_B
             File.WriteAllText("../../Seats.json", output);
 
             this.Hide();
-            Betaalscherm betaalscherm = new Betaalscherm();
-            betaalscherm.Show();
-
-            //foreach (Button button in buttons)
-            //{
-            //    if (button.BackColor != Color.Green)
-            //    {
-            //        MessageBox.Show("U moet nog stoelen kiezen");
-            //    }
-            //    else
-            //    {
-            //        this.Hide();
-            //        Betaalscherm betaalscherm = new Betaalscherm();
-            //        betaalscherm.Show();
-            //    }
-
-            //}
-
+            Confirmatiescherm confirmatiescherm = new Confirmatiescherm();
+            confirmatiescherm.Show();
         }
 
         public class Seats
@@ -232,6 +206,7 @@ namespace Project_B
         private void Reservatie_Load(object sender, EventArgs e)
         {
             reserved_seats.Clear();
+            amount_of_reserved_seats = 0;
 
             using (StreamReader r = new StreamReader(@"../../Seats.json"))
             {
@@ -262,7 +237,6 @@ namespace Project_B
                     button.Enabled = false;
                 }
             }
-
         }
 
         private void btnreset_Click(object sender, EventArgs e)
@@ -280,9 +254,16 @@ namespace Project_B
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FIlmInfo filminfo = new FIlmInfo();
-            filminfo.Show();
+            Form1 form1 = new Form1();
+            MessageBox.Show("U gaat nu terug naar het hoofdscherm");
+            form1.Show();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 form = new Form2();
+            form.Show();
+        }
     }
 }

@@ -23,10 +23,5 @@ namespace Project_B
             menu.Show();
             menu.HideLoginbutton(false);    
         }
-
-        private void Account_Load(object sender, System.EventArgs e)
-        {
-
-        }
     }
 }

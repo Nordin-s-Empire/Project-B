@@ -65,11 +65,6 @@ namespace Project_B
             richTextBox10.Text = filmlijst[9].Samenvatting;
         }
 
-        private void Zoeken_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnZoeken_Click(object sender, EventArgs e)
         {
             Zoekfunctie(textBox1.Text);
@@ -1178,50 +1173,6 @@ namespace Project_B
                 }
                 
             }
-           
-            
-
-            
-        }
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label22_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox10_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
-
 }

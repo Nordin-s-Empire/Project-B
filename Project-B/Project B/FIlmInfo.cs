@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 
 namespace Project_B
@@ -9,10 +8,10 @@ namespace Project_B
     {
         public static string movie_title = "";
         public static Image pic;
+        public static string Date;
+
         public FIlmInfo()
         {
-
-         
             InitializeComponent();
             
             string str = Programma.movie;
@@ -180,14 +179,10 @@ namespace Project_B
         {
             movie_title = this.lblTitle.Text;
             pic = this.pictureBox1.Image;
+            Date = Programma.date;
             this.Hide();
             Reservatie res = new Reservatie();
             res.Show();
-        }
-
-        private void FIlmInfo_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

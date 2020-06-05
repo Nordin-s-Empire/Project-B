@@ -46,7 +46,7 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.Profiel = new System.Windows.Forms.Button();
-            this.brnRegister = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -66,6 +66,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -86,6 +87,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox4
             // 
@@ -96,11 +98,14 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
             this.label1.Location = new System.Drawing.Point(19, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 19);
@@ -109,22 +114,24 @@
             // 
             // btnProgramma
             // 
+            this.btnProgramma.BackColor = System.Drawing.Color.Gray;
             this.btnProgramma.Location = new System.Drawing.Point(227, 52);
             this.btnProgramma.Name = "btnProgramma";
             this.btnProgramma.Size = new System.Drawing.Size(75, 23);
             this.btnProgramma.TabIndex = 5;
             this.btnProgramma.Text = "Programma";
-            this.btnProgramma.UseVisualStyleBackColor = true;
+            this.btnProgramma.UseVisualStyleBackColor = false;
             this.btnProgramma.Click += new System.EventHandler(this.btnAgenda_Click);
             // 
             // btnAcount
             // 
-            this.btnAcount.Location = new System.Drawing.Point(423, 50);
+            this.btnAcount.BackColor = System.Drawing.Color.Gray;
+            this.btnAcount.Location = new System.Drawing.Point(321, 52);
             this.btnAcount.Name = "btnAcount";
             this.btnAcount.Size = new System.Drawing.Size(75, 23);
             this.btnAcount.TabIndex = 6;
             this.btnAcount.Text = "Login";
-            this.btnAcount.UseVisualStyleBackColor = true;
+            this.btnAcount.UseVisualStyleBackColor = false;
             this.btnAcount.Click += new System.EventHandler(this.btnAcount_Click);
             // 
             // btnZoeken
@@ -167,7 +174,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkGray;
+            this.button2.BackColor = System.Drawing.Color.Gray;
             this.button2.Location = new System.Drawing.Point(125, 365);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(79, 39);
@@ -186,6 +193,7 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox6
             // 
@@ -197,6 +205,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 14;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox7
             // 
@@ -208,6 +217,7 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 15;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox8
             // 
@@ -219,26 +229,28 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 16;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // Profiel
             // 
-            this.Profiel.Location = new System.Drawing.Point(505, 50);
+            this.Profiel.BackColor = System.Drawing.Color.Gray;
+            this.Profiel.Location = new System.Drawing.Point(412, 50);
             this.Profiel.Name = "Profiel";
             this.Profiel.Size = new System.Drawing.Size(76, 24);
             this.Profiel.TabIndex = 18;
             this.Profiel.Text = "Uitloggen";
-            this.Profiel.UseVisualStyleBackColor = true;
+            this.Profiel.UseVisualStyleBackColor = false;
             this.Profiel.Click += new System.EventHandler(this.Profiel_Click);
             // 
-            // brnRegister
+            // label2
             // 
-            this.brnRegister.Location = new System.Drawing.Point(609, 365);
-            this.brnRegister.Name = "brnRegister";
-            this.brnRegister.Size = new System.Drawing.Size(87, 39);
-            this.brnRegister.TabIndex = 19;
-            this.brnRegister.Text = "Registreer";
-            this.brnRegister.UseVisualStyleBackColor = true;
-            this.brnRegister.Click += new System.EventHandler(this.brnRegister_Click);
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(606, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(94, 13);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Zoeken naar films:";
             // 
             // Form1
             // 
@@ -246,7 +258,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(799, 448);
-            this.Controls.Add(this.brnRegister);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.Profiel);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
@@ -299,7 +311,7 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Button Profiel;
-        private System.Windows.Forms.Button brnRegister;
+        private System.Windows.Forms.Label label2;
     }
 }
 
