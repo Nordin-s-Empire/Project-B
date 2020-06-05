@@ -253,9 +253,9 @@ namespace Project_B
 
         private void btnBack_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("U gaat nu terug naar het hoofdscherm");
             this.Hide();
             Form1 form1 = new Form1();
-            MessageBox.Show("U gaat nu terug naar het hoofdscherm");
             form1.Show();
         }
 
