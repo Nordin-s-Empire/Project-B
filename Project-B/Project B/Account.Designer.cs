@@ -146,7 +146,6 @@
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Account";
             this.Text = "Account";
-            this.Load += new System.EventHandler(this.Account_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

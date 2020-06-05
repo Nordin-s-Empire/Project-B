@@ -114,7 +114,6 @@ namespace Project_B
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();
-
         }
 
         private void button3_Click(object sender, EventArgs e)

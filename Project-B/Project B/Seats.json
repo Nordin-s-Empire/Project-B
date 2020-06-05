@@ -1,11 +1,9 @@
 [
   {
-    "Nr": 1,
     "Seat": "A1",
     "Availability": "1"
   },
   {
-    "Nr": 2,
     "Seat": "A2",
     "Availability": "0"
   },

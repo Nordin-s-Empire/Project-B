@@ -1,6 +1,5 @@
 ﻿using Project_B;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -11,7 +10,6 @@ namespace Betaalscherm_versie_3
         public Betaalscherm()
         {
             InitializeComponent();
-            
         }
 
         private void label8_Click(object sender, EventArgs e)
@@ -41,7 +39,6 @@ namespace Betaalscherm_versie_3
                     MessageBox.Show("U heeft geen bank gekozen. Kies aub een bank.");
                 }
             }
-
             else if (lblMastercard.ForeColor == Color.FromArgb(252, 167, 88))
             {
                 MessageBox.Show("Bedankt voor uw betaling met Mastercard. Uw tickets worden verzonden naar uw e-mail adres: " + Confirmatiescherm2.email + ". Alvast een fijne voorstelling!");
@@ -49,7 +46,6 @@ namespace Betaalscherm_versie_3
                 Form1 startscherm = new Form1();
                 startscherm.Show();
             }
-            
             else if (lblPayPal.ForeColor == Color.FromArgb(252, 167, 88))
             {
                 MessageBox.Show("Bedankt voor uw betaling met PayPal. Uw tickets worden verzonden naar uw e-mail adres: " + Confirmatiescherm2.email + ". Alvast een fijne voorstelling!");
@@ -57,14 +53,11 @@ namespace Betaalscherm_versie_3
                 Form1 startscherm = new Form1();
                 startscherm.Show();
             }
-
             else
             {
                 MessageBox.Show("U heeft geen betalingsmethode gekozen. Kies aub hoe u wilt betalen voor uw tickets.");
 
             }
-            
-            
         }
 
         private void Betaalscherm_Load(object sender, EventArgs e)

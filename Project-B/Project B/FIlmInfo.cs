@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.Runtime.CompilerServices;
 using System.Windows.Forms;
 
 namespace Project_B
@@ -184,11 +183,6 @@ namespace Project_B
             this.Hide();
             Reservatie res = new Reservatie();
             res.Show();
-        }
-
-        private void FIlmInfo_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

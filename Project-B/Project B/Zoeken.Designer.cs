@@ -89,11 +89,10 @@
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(534, 42);
+            this.textBox1.Location = new System.Drawing.Point(513, 42);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(174, 28);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -134,7 +133,6 @@
             this.label5.Size = new System.Drawing.Size(285, 29);
             this.label5.TabIndex = 23;
             this.label5.Text = "Jumanji: The Next Level";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -207,7 +205,6 @@
             this.label12.Size = new System.Drawing.Size(46, 25);
             this.label12.TabIndex = 30;
             this.label12.Text = "16+";
-            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label13
             // 
@@ -323,7 +320,6 @@
             this.richTextBox1.Size = new System.Drawing.Size(455, 166);
             this.richTextBox1.TabIndex = 41;
             this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // richTextBox2
             // 
@@ -336,7 +332,6 @@
             this.richTextBox2.Size = new System.Drawing.Size(455, 166);
             this.richTextBox2.TabIndex = 42;
             this.richTextBox2.Text = "";
-            this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
             // 
             // richTextBox3
             // 
@@ -344,7 +339,7 @@
             this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.richTextBox3.Location = new System.Drawing.Point(141, 32767);
+            this.richTextBox3.Location = new System.Drawing.Point(131, 32767);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(455, 166);
@@ -434,7 +429,6 @@
             this.richTextBox10.Size = new System.Drawing.Size(455, 166);
             this.richTextBox10.TabIndex = 50;
             this.richTextBox10.Text = "";
-            this.richTextBox10.TextChanged += new System.EventHandler(this.richTextBox10_TextChanged);
             // 
             // pictureBox10
             // 
@@ -514,7 +508,6 @@
             this.pictureBox3.Size = new System.Drawing.Size(144, 203);
             this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -540,7 +533,7 @@
             // 
             this.btnZoeken.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnZoeken.Image = global::Project_B.Properties.Resources.index;
-            this.btnZoeken.Location = new System.Drawing.Point(729, 26);
+            this.btnZoeken.Location = new System.Drawing.Point(708, 26);
             this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
             this.btnZoeken.Name = "btnZoeken";
             this.btnZoeken.Size = new System.Drawing.Size(47, 43);
@@ -578,7 +571,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(910, 539);
+            this.ClientSize = new System.Drawing.Size(931, 539);
             this.Controls.Add(this.richTextBox11);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.richTextBox10);
@@ -629,7 +622,6 @@
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Name = "Zoeken";
             this.Text = "Zoeken";
-            this.Load += new System.EventHandler(this.Zoeken_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();

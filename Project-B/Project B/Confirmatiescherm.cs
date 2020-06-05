@@ -30,12 +30,6 @@ namespace Project_B
                 Film_info.Text = FIlmInfo.movie_title;
                 lblTime2.Text = FIlmInfo.Date;
             }
-
-        }
-
-        private void lblTime_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void btnBack_Click(object sender, EventArgs e)

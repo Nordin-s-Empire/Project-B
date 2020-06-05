@@ -194,7 +194,6 @@
             this.lblAdres.Size = new System.Drawing.Size(60, 24);
             this.lblAdres.TabIndex = 18;
             this.lblAdres.Text = "Adres";
-            this.lblAdres.Click += new System.EventHandler(this.lblAdres_Click);
             // 
             // btnBack
             // 
@@ -232,7 +231,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form2";
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

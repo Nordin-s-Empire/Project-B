@@ -66,11 +66,6 @@ namespace Project_B
             public string Password;
         }
 
-        private void Login_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();

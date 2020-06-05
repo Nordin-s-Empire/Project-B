@@ -60,16 +60,6 @@ namespace Project_B
             public string Password;
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblAdres_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -85,7 +75,6 @@ namespace Project_B
                 txbDOB.ForeColor = Color.Black;
             }
         }
-
         private void txbDOB_Leave(object sender, EventArgs e)
         {
             if (txbDOB.Text == "")
