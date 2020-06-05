@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Project_B
@@ -8,11 +9,13 @@ namespace Project_B
         public static string movie;
         public static int form = 0;
         public static string date;
+        public static Image pic;
 
         public Programma()
         {
             InitializeComponent();
-
+            dateTimePicker1.Format = DateTimePickerFormat.Custom;
+            dateTimePicker1.CustomFormat = "dd-MM-yyyy";
 
             if (dateTimePicker1.Value.DayOfWeek == DayOfWeek.Monday)
             {
@@ -96,7 +99,8 @@ namespace Project_B
         private void button1_Click(object sender, EventArgs e)
         {
             movie = richTextBox1.Text;
-            date = dateTimePicker1.Text;
+            date = dateTimePicker1.Text + " Zaal 9: 10:00";
+            pic = this.pictureBox1.Image;
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();
@@ -105,8 +109,8 @@ namespace Project_B
         private void button2_Click(object sender, EventArgs e)
         {
             movie = richTextBox2.Text;
-            date = dateTimePicker1.Text;
-
+            date = dateTimePicker1.Text + " Zaal 3: 9:00";
+            pic = this.pictureBox2.Image;
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();
@@ -116,7 +120,8 @@ namespace Project_B
         private void button3_Click(object sender, EventArgs e)
         {
             movie = richTextBox3.Text;
-            date = dateTimePicker1.Text;
+            date = dateTimePicker1.Text + " Zaal 5: 15:00";
+            pic = this.pictureBox3.Image;
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();
@@ -125,7 +130,8 @@ namespace Project_B
         private void button4_Click(object sender, EventArgs e)
         {
             movie = richTextBox4.Text;
-            date = dateTimePicker1.Text;
+            date = dateTimePicker1.Text + " Zaal 12: 20:00";
+            pic = this.pictureBox4.Image;
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();

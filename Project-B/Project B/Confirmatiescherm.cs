@@ -1,12 +1,4 @@
-﻿using Betaalscherm_versie_3;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 
 namespace Project_B
@@ -22,6 +14,7 @@ namespace Project_B
 
             if (Programma.form == 1)
             {
+                pictureBox1.Image = Programma.pic;
                 Film_info.Text = Programma.movie;
                 lblTime2.Text = Programma.date;
             }
@@ -35,6 +28,7 @@ namespace Project_B
             {
                 pictureBox1.Image = FIlmInfo.pic;
                 Film_info.Text = FIlmInfo.movie_title;
+                lblTime2.Text = FIlmInfo.Date;
             }
 
         }
