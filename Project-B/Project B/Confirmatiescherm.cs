@@ -21,6 +21,7 @@ namespace Project_B
 
             if (Programma.form == 1)
             {
+                pictureBox1.Image = Programma.pic;
                 Film_info.Text = Programma.movie;
                 lblTime2.Text = Programma.date;
             }

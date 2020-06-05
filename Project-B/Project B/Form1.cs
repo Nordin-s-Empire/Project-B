@@ -98,7 +98,7 @@ namespace Project_B
             Form = true;
             Movie = "The Lord of the rings the two towers";
             pic = this.pictureBox5.Image;
-            Time = "Zaal 5: 10:30";
+            Time = "12-2-2012 Zaal 5: 10:30";
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -109,7 +109,7 @@ namespace Project_B
             Form = true;
             Movie = "Joker";
             pic = this.pictureBox1.Image;
-            Time = "Zaal 9: 14:20";
+            Time = "15-3-2023 Zaal 9: 14:20";
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -120,7 +120,7 @@ namespace Project_B
             Form = true;
             Movie = "Fight Club";
             pic = this.pictureBox6.Image;
-            Time = "Zaal 1: 13:00";
+            Time = "20-1-1990 Zaal 1: 13:00";
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -131,7 +131,7 @@ namespace Project_B
             Form = true;
             Movie = "Interstellar";
             pic = this.pictureBox2.Image;
-            Time = "Zaal 3: 9:00";
+            Time = "1-1-1970 Zaal 3: 9:00";
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -142,7 +142,7 @@ namespace Project_B
             Form = true;
             Movie = "IO";
             pic = this.pictureBox7.Image;
-            Time = "Zaal 6: 11:00";
+            Time = "30-12-2040 Zaal 6: 11:00";
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -153,7 +153,7 @@ namespace Project_B
             Form = true;
             Movie = "The Dark Kinght Rises";
             pic = this.pictureBox3.Image;
-            Time = "Zaal 12: 15:00";
+            Time = "9-9-2009 Zaal 12: 15:00";
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -164,7 +164,7 @@ namespace Project_B
             Form = true;
             Movie = "Wildlife";
             pic = this.pictureBox8.Image;
-            Time = "Zaal 10: 16:00";
+            Time = "31-12-2012 Zaal 10: 16:00";
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -175,7 +175,7 @@ namespace Project_B
             Form = true;
             Movie = "The Godfather";
             pic = this.pictureBox4.Image;
-            Time = "Zaal 8: 20:00";
+            Time = "5-6-2020 Zaal 8: 20:00";
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
