@@ -9,6 +9,8 @@ namespace Project_B
     {
         public static string movie_title = "";
         public static Image pic;
+        public static string Date;
+
         public FIlmInfo()
         {
             InitializeComponent();
@@ -178,6 +180,7 @@ namespace Project_B
         {
             movie_title = this.lblTitle.Text;
             pic = this.pictureBox1.Image;
+            Date = Programma.date;
             this.Hide();
             Reservatie res = new Reservatie();
             res.Show();
