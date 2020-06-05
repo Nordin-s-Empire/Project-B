@@ -18,6 +18,7 @@ namespace Project_B
             InitializeComponent();
             aantal.Text = "$" + (Reservatie.amount_of_reserved_seats * 11.0).ToString() + " ( $11.00 x " + Reservatie.amount_of_reserved_seats + " )";
             list_of_seats.Text = string.Join(", ", Reservatie.reserved_seats);
+            lblAmountOfPeople2.Text = Reservatie.amount_of_reserved_seats.ToString();
 
             if (Programma.form == 1)
             {

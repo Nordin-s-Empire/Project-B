@@ -54,5 +54,12 @@ namespace Project_B
         {
             
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Confirmatiescherm confirmatiescherm = new Confirmatiescherm();
+            confirmatiescherm.Show();
+        }
     }
 }
