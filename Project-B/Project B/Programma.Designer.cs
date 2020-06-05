@@ -46,6 +46,7 @@
             this.btnBestel2 = new System.Windows.Forms.Button();
             this.btnBestel3 = new System.Windows.Forms.Button();
             this.btnBestel4 = new System.Windows.Forms.Button();
+            this.btnTerug = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -182,7 +183,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(40, 57);
+            this.dateTimePicker1.Location = new System.Drawing.Point(40, 70);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(160, 22);
             this.dateTimePicker1.TabIndex = 20;
@@ -228,6 +229,16 @@
             this.btnBestel4.UseVisualStyleBackColor = true;
             this.btnBestel4.Click += new System.EventHandler(this.btnBestel4_Click);
             // 
+            // btnTerug
+            // 
+            this.btnTerug.Location = new System.Drawing.Point(40, 13);
+            this.btnTerug.Name = "btnTerug";
+            this.btnTerug.Size = new System.Drawing.Size(74, 38);
+            this.btnTerug.TabIndex = 25;
+            this.btnTerug.Text = "Terug";
+            this.btnTerug.UseVisualStyleBackColor = true;
+            this.btnTerug.Click += new System.EventHandler(this.btnTerug_Click);
+            // 
             // Programma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -235,6 +246,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(800, 1055);
+            this.Controls.Add(this.btnTerug);
             this.Controls.Add(this.btnBestel4);
             this.Controls.Add(this.btnBestel3);
             this.Controls.Add(this.btnBestel2);
@@ -280,5 +292,6 @@
         private System.Windows.Forms.Button btnBestel2;
         private System.Windows.Forms.Button btnBestel3;
         private System.Windows.Forms.Button btnBestel4;
+        private System.Windows.Forms.Button btnTerug;
     }
 }
