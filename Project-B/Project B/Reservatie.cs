@@ -254,8 +254,9 @@ namespace Project_B
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FIlmInfo filminfo = new FIlmInfo();
-            filminfo.Show();
+            Form1 form1 = new Form1();
+            MessageBox.Show("U gaat nu terug naar het hoofdscherm");
+            form1.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
