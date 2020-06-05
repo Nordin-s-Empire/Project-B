@@ -22,13 +22,20 @@ namespace Project_B
             if (Programma.form == 1)
             {
                 Film_info.Text = Programma.movie;
+                lblTime2.Text = Programma.date;
+            }
+            else if(Form1.Form == true)
+            {
+                pictureBox1.Image = Form1.pic;
+                Film_info.Text = Form1.Movie;
+                lblTime2.Text = Form1.Time;
             }
             else
             {
+                pictureBox1.Image = FIlmInfo.pic;
                 Film_info.Text = FIlmInfo.movie_title;
             }
-            pictureBox1.Image = FIlmInfo.pic;
-            lblTime2.Text = Programma.date;
+
         }
 
         private void lblTime_Click(object sender, EventArgs e)

@@ -6,6 +6,11 @@ namespace Project_B
 {
     public partial class Form1 : Form
     {
+        public static string Movie;
+        public static bool Form = false;
+        public static Image pic;
+        public static string Time;
+
         public Form1()
         {
             InitializeComponent();
@@ -88,5 +93,92 @@ namespace Project_B
             form.Show();
         }
 
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Form = true;
+            Movie = "The Lord of the rings the two towers";
+            pic = this.pictureBox5.Image;
+            Time = "Zaal 5: 10:30";
+            this.Hide();
+            Reservatie reservatie = new Reservatie();
+            reservatie.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Form = true;
+            Movie = "Joker";
+            pic = this.pictureBox1.Image;
+            Time = "Zaal 9: 14:20";
+            this.Hide();
+            Reservatie reservatie = new Reservatie();
+            reservatie.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Form = true;
+            Movie = "Fight Club";
+            pic = this.pictureBox6.Image;
+            Time = "Zaal 1: 13:00";
+            this.Hide();
+            Reservatie reservatie = new Reservatie();
+            reservatie.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Form = true;
+            Movie = "Interstellar";
+            pic = this.pictureBox2.Image;
+            Time = "Zaal 3: 9:00";
+            this.Hide();
+            Reservatie reservatie = new Reservatie();
+            reservatie.Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Form = true;
+            Movie = "IO";
+            pic = this.pictureBox7.Image;
+            Time = "Zaal 6: 11:00";
+            this.Hide();
+            Reservatie reservatie = new Reservatie();
+            reservatie.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Form = true;
+            Movie = "The Dark Kinght Rises";
+            pic = this.pictureBox3.Image;
+            Time = "Zaal 12: 15:00";
+            this.Hide();
+            Reservatie reservatie = new Reservatie();
+            reservatie.Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Form = true;
+            Movie = "Wildlife";
+            pic = this.pictureBox8.Image;
+            Time = "Zaal 10: 16:00";
+            this.Hide();
+            Reservatie reservatie = new Reservatie();
+            reservatie.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Form = true;
+            Movie = "The Godfather";
+            pic = this.pictureBox4.Image;
+            Time = "Zaal 8: 20:00";
+            this.Hide();
+            Reservatie reservatie = new Reservatie();
+            reservatie.Show();
+        }
     }
 }
