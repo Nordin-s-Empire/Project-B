@@ -54,11 +54,13 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
             this.label2.Location = new System.Drawing.Point(39, 202);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(305, 13);
+            this.label2.Size = new System.Drawing.Size(275, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Hier komen allemaal redenen waarom je zou moeten registreten";
+            this.label2.Text = "Registreer om sneller te kunnen bestellen volgende keer!";
             // 
             // btnRegister
             // 
@@ -131,6 +133,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
             this.label5.Location = new System.Drawing.Point(442, 121);
             this.label5.MaximumSize = new System.Drawing.Size(300, 50);
             this.label5.Name = "label5";
