@@ -233,7 +233,7 @@
             // 
             this.btnTerug.Location = new System.Drawing.Point(40, 13);
             this.btnTerug.Name = "btnTerug";
-            this.btnTerug.Size = new System.Drawing.Size(74, 38);
+            this.btnTerug.Size = new System.Drawing.Size(91, 38);
             this.btnTerug.TabIndex = 25;
             this.btnTerug.Text = "Terug";
             this.btnTerug.UseVisualStyleBackColor = true;
