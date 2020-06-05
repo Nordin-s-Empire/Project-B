@@ -77,13 +77,14 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Gray;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(373, 368);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 36);
+            this.button1.Size = new System.Drawing.Size(83, 38);
             this.button1.TabIndex = 10;
             this.button1.Text = "Afrekenen";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Payl
@@ -131,13 +132,14 @@
             // 
             // btnBack
             // 
+            this.btnBack.BackColor = System.Drawing.Color.Gray;
             this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.Location = new System.Drawing.Point(41, 368);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(120, 36);
+            this.btnBack.Size = new System.Drawing.Size(83, 38);
             this.btnBack.TabIndex = 24;
             this.btnBack.Text = "Terug";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // pictureBox1

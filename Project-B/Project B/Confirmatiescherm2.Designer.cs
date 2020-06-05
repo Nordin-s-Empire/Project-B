@@ -64,12 +64,13 @@
             // 
             // btnRegister
             // 
+            this.btnRegister.BackColor = System.Drawing.Color.Gray;
             this.btnRegister.Location = new System.Drawing.Point(42, 242);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(91, 35);
+            this.btnRegister.Size = new System.Drawing.Size(83, 38);
             this.btnRegister.TabIndex = 2;
             this.btnRegister.Text = "Registreren";
-            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.UseVisualStyleBackColor = false;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // label3
@@ -85,12 +86,13 @@
             // 
             // btnLogIn
             // 
+            this.btnLogIn.BackColor = System.Drawing.Color.Gray;
             this.btnLogIn.Location = new System.Drawing.Point(42, 92);
             this.btnLogIn.Name = "btnLogIn";
-            this.btnLogIn.Size = new System.Drawing.Size(91, 32);
+            this.btnLogIn.Size = new System.Drawing.Size(83, 38);
             this.btnLogIn.TabIndex = 4;
             this.btnLogIn.Text = "Inloggen";
-            this.btnLogIn.UseVisualStyleBackColor = true;
+            this.btnLogIn.UseVisualStyleBackColor = false;
             this.btnLogIn.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
             // label4
@@ -106,22 +108,24 @@
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(42, 384);
+            this.btnBack.BackColor = System.Drawing.Color.Gray;
+            this.btnBack.Location = new System.Drawing.Point(42, 370);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(75, 23);
+            this.btnBack.Size = new System.Drawing.Size(83, 38);
             this.btnBack.TabIndex = 6;
             this.btnBack.Text = "Terug";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(678, 384);
+            this.btnNext.BackColor = System.Drawing.Color.Gray;
+            this.btnNext.Location = new System.Drawing.Point(653, 370);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(75, 23);
+            this.btnNext.Size = new System.Drawing.Size(83, 38);
             this.btnNext.TabIndex = 7;
             this.btnNext.Text = "Verder";
-            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // txbEmail

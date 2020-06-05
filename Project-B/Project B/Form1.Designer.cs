@@ -114,22 +114,24 @@
             // 
             // btnProgramma
             // 
+            this.btnProgramma.BackColor = System.Drawing.Color.Gray;
             this.btnProgramma.Location = new System.Drawing.Point(227, 52);
             this.btnProgramma.Name = "btnProgramma";
             this.btnProgramma.Size = new System.Drawing.Size(75, 23);
             this.btnProgramma.TabIndex = 5;
             this.btnProgramma.Text = "Programma";
-            this.btnProgramma.UseVisualStyleBackColor = true;
+            this.btnProgramma.UseVisualStyleBackColor = false;
             this.btnProgramma.Click += new System.EventHandler(this.btnAgenda_Click);
             // 
             // btnAcount
             // 
+            this.btnAcount.BackColor = System.Drawing.Color.Gray;
             this.btnAcount.Location = new System.Drawing.Point(321, 52);
             this.btnAcount.Name = "btnAcount";
             this.btnAcount.Size = new System.Drawing.Size(75, 23);
             this.btnAcount.TabIndex = 6;
             this.btnAcount.Text = "Login";
-            this.btnAcount.UseVisualStyleBackColor = true;
+            this.btnAcount.UseVisualStyleBackColor = false;
             this.btnAcount.Click += new System.EventHandler(this.btnAcount_Click);
             // 
             // btnZoeken
@@ -172,7 +174,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkGray;
+            this.button2.BackColor = System.Drawing.Color.Gray;
             this.button2.Location = new System.Drawing.Point(125, 365);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(79, 39);
@@ -185,7 +187,7 @@
             // 
             this.pictureBox5.Image = global::Project_B.Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__744171;
             this.pictureBox5.Location = new System.Drawing.Point(22, 99);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(157, 234);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -197,7 +199,7 @@
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(227, 99);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(157, 234);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -209,7 +211,7 @@
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(423, 99);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(157, 234);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -221,7 +223,7 @@
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(620, 99);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(157, 234);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -231,12 +233,13 @@
             // 
             // Profiel
             // 
+            this.Profiel.BackColor = System.Drawing.Color.Gray;
             this.Profiel.Location = new System.Drawing.Point(412, 50);
             this.Profiel.Name = "Profiel";
             this.Profiel.Size = new System.Drawing.Size(76, 24);
             this.Profiel.TabIndex = 18;
             this.Profiel.Text = "Uitloggen";
-            this.Profiel.UseVisualStyleBackColor = true;
+            this.Profiel.UseVisualStyleBackColor = false;
             this.Profiel.Click += new System.EventHandler(this.Profiel_Click);
             // 
             // label2
@@ -273,7 +276,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Bioscoop";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
