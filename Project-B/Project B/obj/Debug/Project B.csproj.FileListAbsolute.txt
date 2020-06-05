@@ -235,3 +235,7 @@ C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_
 C:\Users\nikol\Documents\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Confirmatiescherm2.resources
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Confirmatiescherm.resources
 C:\Users\nordi\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Confirmatiescherm2.resources
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Betaalscherm_versie_3.Betaalscherm.resources
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Confirmatiescherm.resources
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Confirmatiescherm2.resources
+C:\Users\dvide\OneDrive\Documenten\GitHub\Project-B\Project-B\Project B\obj\Debug\Project_B.Zoeken.resources
