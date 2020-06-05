@@ -141,7 +141,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
+            this.btnBack.BackColor = System.Drawing.Color.Gray;
             this.btnBack.Location = new System.Drawing.Point(29, 456);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(83, 38);
@@ -152,7 +152,7 @@
             // 
             // btnNext
             // 
-            this.btnNext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
+            this.btnNext.BackColor = System.Drawing.Color.Gray;
             this.btnNext.Location = new System.Drawing.Point(375, 456);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(83, 38);
