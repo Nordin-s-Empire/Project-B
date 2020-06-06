@@ -11,6 +11,15 @@ namespace Project_B
         public Confirmatiescherm2()
         {
             InitializeComponent();
+
+            if(Login.LogedIn == true)
+            {
+                btnAcount.Visible = true;
+            }
+            else
+            {
+                btnAcount.Visible = false;
+            }
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
@@ -29,15 +38,24 @@ namespace Project_B
         {
             email = txbEmail.Text;
 
-            if (email == "")
-            {
-                MessageBox.Show("Voor u doorgaat moet of inloggen, registreren of uw e-mail adres invullen.");
-            }
-            else
+            if(Login.LogedIn == true)
             {
                 this.Hide();
                 Betaalscherm betaalscherm = new Betaalscherm();
                 betaalscherm.Show();
+            }
+            else
+            {
+                if (email == "")
+                {
+                    MessageBox.Show("Voor u doorgaat moet of inloggen, registreren of uw e-mail adres invullen.");
+                }
+                else
+                {
+                    this.Hide();
+                    Betaalscherm betaalscherm = new Betaalscherm();
+                    betaalscherm.Show();
+                }
             }
         }
 

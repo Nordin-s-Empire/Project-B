@@ -13,6 +13,7 @@ namespace Project_B
         public static string Email;
         public static string DOB;
         public static string Adres;
+        public static bool LogedIn = false;
 
         public Login()
         {
@@ -50,7 +51,7 @@ namespace Project_B
             if (Users.TryGetValue(textBox1.Text, out password))
             {
                 Username = textBox1.Text;
-
+                LogedIn = true;
                 Account account = new Account();
 
                 account.Show();
