@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
+using Betaalscherm_versie_3;
 
 namespace Project_B
 {
@@ -13,6 +14,7 @@ namespace Project_B
         public static string Email;
         public static string DOB;
         public static string Adres;
+        public static bool loggedin = false;
 
         public Login()
         {
@@ -46,15 +48,27 @@ namespace Project_B
             }
 
             string password = textBox2.Text;
-
+            Confirmatiescherm2 con = new Confirmatiescherm2();
+            
             if (Users.TryGetValue(textBox1.Text, out password))
             {
                 Username = textBox1.Text;
 
                 Account account = new Account();
 
-                account.Show();
+                //account.Show();
+                con.Show();
                 this.Hide();
+                Betaalscherm betaalscherm = new Betaalscherm();
+                
+                betaalscherm.Show();
+     
+                con.Hide();
+                loggedin = true;
+                
+                
+                
+                
 
             }
             else
@@ -76,9 +90,10 @@ namespace Project_B
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 menu = new Form1();
+            Confirmatiescherm2 con = new Confirmatiescherm2();
             this.Hide();
-            menu.Show();
+            con.Show();
+            
 
         }
     }
