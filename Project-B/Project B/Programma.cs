@@ -61,13 +61,13 @@ namespace Project_B
                 btnZaterdag.BackColor = Color.DarkGray;
                 btnZondag.BackColor = Color.DarkGray;
 
-                pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
+                //pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
                 richTextBox1.Text = "Title: Peter rabit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
-                pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
+                //pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
                 richTextBox2.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
-                pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
+                //pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
                 richTextBox3.Text = "Title: Wildlife. \nLeeftijd 12+. \nDuur 1:35:00 uur \nStart tijd: zaal 1: 8:00, zaal 2: 9:00, zaal 3: 10:00. \nTaal: Engels (NL sub). \nZightBaar: IMAX, 3D, 2D.";
-                pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
+                //pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
                 richTextBox4.Text = "Title: Fight Club. \nLeeftijd 16+. \nDuur 1:25:00 uur. \nStart tijd: zaal 12: 16:00, zaal 14: 18:00, zaal 16: 20:00. \nTaal: Nederlands. \nZightbaar: 2D.";
             }
             else if (dt.DayOfWeek == DayOfWeek.Thursday)
@@ -84,9 +84,9 @@ namespace Project_B
                 richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
                 pictureBox2.Image = Properties.Resources.MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM___V1_;
                 richTextBox2.Text = "Title: The Godfather \nLeeftijd: 18+ \nDuur 1:25:00 uur. \nStart tijd: zaal 5 17:00, zaal 6 19:00, zaal 4 21:00\nTaal: Engels.\nzigtbaar: IMAX, 2D.";
-                pictureBox3.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
+                //pictureBox3.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
                 richTextBox3.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
-                pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
+                //pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
                 richTextBox4.Text = "Title: Fight Club. \nLeeftijd 16+. \nDuur 1:25:00 uur. \nStart tijd: zaal 12: 16:00, zaal 14: 18:00, zaal 16: 20:00. \nTaal: Nederlands. \nZightbaar: 2D.";
             }
             else if (dt.DayOfWeek == DayOfWeek.Friday)
@@ -118,13 +118,13 @@ namespace Project_B
                 btnZaterdag.BackColor = Color.FromArgb(252, 167, 88);
                 btnZondag.BackColor = Color.DarkGray;
 
-                pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
+                //pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
                 richTextBox1.Text = "Title: Peter rabit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
-                pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
+                //pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
                 richTextBox2.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
                 pictureBox3.Image = Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853;
                 richTextBox3.Text = "Title: The Lord of the rings the two towers  \nLeeftijd: 14+ \nDuur 3:25:00 uur. \nStart tijd: zaal 1 12:00, zaal 2 13:00, zaal 3 14:00\nTaal: Engels.\nzigtbaar: IMAX, 2D.";
-                pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
+                //pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
                 richTextBox4.Text = "Title: Fight Club. \nLeeftijd 16+. \nDuur 1:25:00 uur. \nStart tijd: zaal 12: 16:00, zaal 14: 18:00, zaal 16: 20:00. \nTaal: Nederlands. \nZightbaar: 2D.";
             }
             else if (dt.DayOfWeek == DayOfWeek.Sunday)
@@ -141,9 +141,9 @@ namespace Project_B
                 richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
                 pictureBox2.Image = Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853;
                 richTextBox2.Text = "Title: The Lord of the rings the two towers  \nLeeftijd: 14+ \nDuur 3:25:00 uur. \nStart tijd: zaal 1 12:00, zaal 2 13:00, zaal 3 14:00\nTaal: Engels.\nzigtbaar: IMAX, 2D.";
-                pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
+                //pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
                 richTextBox3.Text = "Title: Wildlife. \nLeeftijd 12+. \nDuur 1:35:00 uur \nStart tijd: zaal 1: 8:00, zaal 2: 9:00, zaal 3: 10:00. \nTaal: Engels (NL sub). \nZightBaar: IMAX, 3D, 2D.";
-                pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
+                //pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
                 richTextBox4.Text = "Title: Fight Club. \nLeeftijd 16+. \nDuur 1:25:00 uur. \nStart tijd: zaal 12: 16:00, zaal 14: 18:00, zaal 16: 20:00. \nTaal: Nederlands. \nZightbaar: 2D.";
             }
         }
@@ -198,13 +198,13 @@ namespace Project_B
             btnZaterdag.BackColor = Color.DarkGray;
             btnZondag.BackColor = Color.DarkGray;
 
-            pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
+            //pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
             richTextBox1.Text = "Title: Peter rabit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
-            pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
+            //pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
             richTextBox2.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
-            pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
+            //pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
             richTextBox3.Text = "Title: Wildlife. \nLeeftijd 12+. \nDuur 1:35:00 uur \nStart tijd: zaal 1: 8:00, zaal 2: 9:00, zaal 3: 10:00. \nTaal: Engels (NL sub). \nZightBaar: IMAX, 3D, 2D.";
-            pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
+            //pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
             richTextBox4.Text = "Title: Fight Club. \nLeeftijd 16+. \nDuur 1:25:00 uur. \nStart tijd: zaal 12: 16:00, zaal 14: 18:00, zaal 16: 20:00. \nTaal: Nederlands. \nZightbaar: 2D.";
         }
 
@@ -222,9 +222,9 @@ namespace Project_B
             richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
             pictureBox2.Image = Properties.Resources.MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM___V1_;
             richTextBox2.Text = "Title: The Godfather \nLeeftijd: 18+ \nDuur 1:25:00 uur. \nStart tijd: zaal 5 17:00, zaal 6 19:00, zaal 4 21:00\nTaal: Engels.\nzigtbaar: IMAX, 2D.";
-            pictureBox3.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
+            //pictureBox3.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
             richTextBox3.Text = "Title: Peter rabiit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
-            pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
+            //pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
             richTextBox4.Text = "Title: Fight Club. \nLeeftijd 16+. \nDuur 1:25:00 uur. \nStart tijd: zaal 12: 16:00, zaal 14: 18:00, zaal 16: 20:00. \nTaal: Nederlands. \nZightbaar: 2D.";
         }
 
@@ -258,13 +258,13 @@ namespace Project_B
             btnZaterdag.BackColor = Color.FromArgb(252, 167, 88);
             btnZondag.BackColor = Color.DarkGray;
 
-            pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
+            //pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
             richTextBox1.Text = "Title: Peter rabit 2. \nLeeftijd: 6+. \nDuur 1:20:00 uur. \nStart tijd:  zaal 6: 9:00, zaal 8: 12:00, zaal 10: 15:00. \nTaal: Nederlands. \nZigtbaar: 3D, 2D.";
-            pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
+            //pictureBox2.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
             richTextBox2.Text = "Title: IO. \nleeftijd 12+. \nDuur: 1:30:00 uur \nStart tijd: zaal 12: 13:00, zaal 13: 14:00 \nTaal: Nederlands \nZigtbaar: 3D, 2D.";
             pictureBox3.Image = Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853;
             richTextBox3.Text = "Title: The Lord of the rings the two towers  \nLeeftijd: 14+ \nDuur 3:25:00 uur. \nStart tijd: zaal 1 12:00, zaal 2 13:00, zaal 3 14:00\nTaal: Engels.\nzigtbaar: IMAX, 2D.";
-            pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
+            //pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
             richTextBox4.Text = "Title: Fight Club. \nLeeftijd 16+. \nDuur 1:25:00 uur. \nStart tijd: zaal 12: 16:00, zaal 14: 18:00, zaal 16: 20:00. \nTaal: Nederlands. \nZightbaar: 2D.";
         }
 
@@ -282,9 +282,9 @@ namespace Project_B
             richTextBox1.Text = "Title: The Dark Kinght Rises \nLeeftijd: 16+ \nDuur 1:30:00 uur. \nStart tijd: zaal 3 15:00, zaal 8 16:00\nTaal: Engels (NL ondertiteling).\nzigtbaar: IMAX, 3D, 2D.";
             pictureBox2.Image = Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853;
             richTextBox2.Text = "Title: The Lord of the rings the two towers  \nLeeftijd: 14+ \nDuur 3:25:00 uur. \nStart tijd: zaal 1 12:00, zaal 2 13:00, zaal 3 14:00\nTaal: Engels.\nzigtbaar: IMAX, 2D.";
-            pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
+            //pictureBox3.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
             richTextBox3.Text = "Title: Wildlife. \nLeeftijd 12+. \nDuur 1:35:00 uur \nStart tijd: zaal 1: 8:00, zaal 2: 9:00, zaal 3: 10:00. \nTaal: Engels (NL sub). \nZightBaar: IMAX, 3D, 2D.";
-            pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
+            //pictureBox4.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
             richTextBox4.Text = "Title: Fight Club. \nLeeftijd 16+. \nDuur 1:25:00 uur. \nStart tijd: zaal 12: 16:00, zaal 14: 18:00, zaal 16: 20:00. \nTaal: Nederlands. \nZightbaar: 2D.";
         }
 

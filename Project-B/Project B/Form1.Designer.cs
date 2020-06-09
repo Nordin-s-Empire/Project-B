@@ -191,7 +191,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Project_B.Properties.Resources.peter_rabbit_movie_2_novelisation;
+            //this.pictureBox5.Image = global::Project_B.Properties.Resources.peter_rabbit_movie_2_novelisation;
             this.pictureBox5.Location = new System.Drawing.Point(29, 122);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(209, 288);

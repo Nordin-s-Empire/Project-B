@@ -95,6 +95,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Reservatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservatie.Designer.cs">
+      <DependentUpon>Reservatie.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="StringExtensions.cs" />
     <Compile Include="Zoeken.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +133,8 @@
     <None Include="Films.json" />
     <EmbeddedResource Include="Reservatie.resx">
       <DependentUpon>Reservatie.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Reservatie.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

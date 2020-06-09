@@ -103,6 +103,16 @@ namespace Project_B.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _81kz06oSUeL1 {
+            get {
+                object obj = ResourceManager.GetObject("81kz06oSUeL1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap April {
             get {
                 object obj = ResourceManager.GetObject("April", resourceCulture);

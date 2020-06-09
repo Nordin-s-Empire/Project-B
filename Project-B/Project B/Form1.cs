@@ -95,15 +95,15 @@ namespace Project_B
         private void brnRegister_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 form = new Form2();
-            form.Show();
+            //Form2 form = new Form2();
+            //form.Show();
         }
 
         private void btnReserveer_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Reservatie res = new Reservatie();
-            res.Show();
+            //Reservatie res = new Reservatie();
+            //res.Show();
         }
 
         
