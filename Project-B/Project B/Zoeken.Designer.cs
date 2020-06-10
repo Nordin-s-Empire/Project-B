@@ -93,7 +93,7 @@
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(444, 74);
+            this.textBox1.Location = new System.Drawing.Point(423, 74);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(174, 28);
             this.textBox1.TabIndex = 0;
@@ -307,7 +307,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(28, 58);
+            this.label1.Location = new System.Drawing.Point(30, 49);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(154, 36);
@@ -344,7 +344,7 @@
             this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.richTextBox3.Location = new System.Drawing.Point(75, 33960);
+            this.richTextBox3.Location = new System.Drawing.Point(65, 32767);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(605, 203);
@@ -468,8 +468,8 @@
             "",
             "Actie",
             "Avontuur",
-            "Comedy",
             "Drama",
+            "Familiefilm",
             "Misdaad",
             "Science Fiction",
             "Thriller"});
@@ -582,7 +582,7 @@
             // 
             this.btnZoeken.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnZoeken.Image = global::Project_B.Properties.Resources.index;
-            this.btnZoeken.Location = new System.Drawing.Point(689, 49);
+            this.btnZoeken.Location = new System.Drawing.Point(668, 49);
             this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
             this.btnZoeken.Name = "btnZoeken";
             this.btnZoeken.Size = new System.Drawing.Size(63, 53);
@@ -594,12 +594,12 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Location = new System.Drawing.Point(229, 3042);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 48);
             this.button1.TabIndex = 54;
-            this.button1.Text = "button1";
+            this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -613,14 +613,15 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.BackColor = System.Drawing.Color.Gray;
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button2.Location = new System.Drawing.Point(371, 3042);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 48);
             this.button2.TabIndex = 56;
-            this.button2.Text = "button2";
+            this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Zoeken
             // 
