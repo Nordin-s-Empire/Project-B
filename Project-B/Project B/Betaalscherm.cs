@@ -29,10 +29,20 @@ namespace Betaalscherm_versie_3
             {
                 if (listBox2.SelectedIndex >= 0)
                 {
-                    MessageBox.Show("Bedankt voor uw betaling met iDeal. Uw tickets worden verzonden naar uw e-mail adres: " + Confirmatiescherm2.email + ". Alvast een fijne voorstelling!");
-                    this.Hide();
-                    Form1 startscherm = new Form1();
-                    startscherm.Show();
+                    if (Login.loggedin == false)
+                    {
+                        MessageBox.Show("Bedankt voor uw betaling met iDeal. Uw tickets worden verzonden naar uw e-mail adres: " + Confirmatiescherm2.email + ". Alvast een fijne voorstelling!");
+                        this.Hide();
+                        Form1 startscherm = new Form1();
+                        startscherm.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Bedankt voor uw betaling met iDeal. Uw tickets worden verzonden naar uw e-mail adres: " + Login.Email + ". Alvast een fijne voorstelling!");
+                        this.Hide();
+                        Form1 startscherm = new Form1();
+                        startscherm.Show();
+                    }
                 }
                 else
                 {
@@ -41,17 +51,38 @@ namespace Betaalscherm_versie_3
             }
             else if (lblMastercard.ForeColor == Color.FromArgb(252, 167, 88))
             {
-                MessageBox.Show("Bedankt voor uw betaling met Mastercard. Uw tickets worden verzonden naar uw e-mail adres: " + Confirmatiescherm2.email + ". Alvast een fijne voorstelling!");
-                this.Hide();
-                Form1 startscherm = new Form1();
-                startscherm.Show();
+                if (Login.loggedin == false)
+                {
+                    MessageBox.Show("Bedankt voor uw betaling met Mastercard. Uw tickets worden verzonden naar uw e-mail adres: " + Confirmatiescherm2.email + ". Alvast een fijne voorstelling!");
+                    this.Hide();
+                    Form1 startscherm = new Form1();
+                    startscherm.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Bedankt voor uw betaling met Mastercard. Uw tickets worden verzonden naar uw e-mail adres: " + Login.Email + ". Alvast een fijne voorstelling!");
+                    this.Hide();
+                    Form1 startscherm = new Form1();
+                    startscherm.Show();
+
+                }
             }
             else if (lblPayPal.ForeColor == Color.FromArgb(252, 167, 88))
             {
-                MessageBox.Show("Bedankt voor uw betaling met PayPal. Uw tickets worden verzonden naar uw e-mail adres: " + Confirmatiescherm2.email + ". Alvast een fijne voorstelling!");
-                this.Hide();
-                Form1 startscherm = new Form1();
-                startscherm.Show();
+                if (Login.loggedin == false)
+                {
+                    MessageBox.Show("Bedankt voor uw betaling met PayPal. Uw tickets worden verzonden naar uw e-mail adres: " + Confirmatiescherm2.email + ". Alvast een fijne voorstelling!");
+                    this.Hide();
+                    Form1 startscherm = new Form1();
+                    startscherm.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Bedankt voor uw betaling met PayPal. Uw tickets worden verzonden naar uw e-mail adres: " + Login.Email + ". Alvast een fijne voorstelling!");
+                    this.Hide();
+                    Form1 startscherm = new Form1();
+                    startscherm.Show();
+                }
             }
             else
             {

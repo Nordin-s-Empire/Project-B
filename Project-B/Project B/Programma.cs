@@ -222,6 +222,7 @@ namespace Project_B
             form = 1;
             date = dateTimePicker1.Text;
             MovieTitle(richTextBox1.Text);
+            pic = this.pictureBox1.Image;
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -232,6 +233,7 @@ namespace Project_B
             form = 1;
             date = dateTimePicker1.Text;
             MovieTitle(richTextBox2.Text);
+            pic = this.pictureBox2.Image;
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -242,6 +244,7 @@ namespace Project_B
             form = 1;
             date = dateTimePicker1.Text;
             MovieTitle(richTextBox3.Text);
+            pic = this.pictureBox3.Image;
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -252,6 +255,7 @@ namespace Project_B
             form = 1;
             date = dateTimePicker1.Text;
             MovieTitle(richTextBox4.Text);
+            pic = this.pictureBox4.Image;
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -309,6 +313,13 @@ namespace Project_B
             }
 
             return "";
+        }
+
+        private void btnTerug_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form1 = new Form1();
+            form1.Show();
         }
     }
 }

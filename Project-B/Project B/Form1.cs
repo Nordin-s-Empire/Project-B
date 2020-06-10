@@ -19,13 +19,17 @@ namespace Project_B
             pictureBox2.Hide();
             pictureBox3.Hide();
             pictureBox4.Hide();
-            Profiel.Visible = false;
-        }
 
-        public void HideLoginbutton(bool flag)
-        {
-            this.btnAcount.Visible = flag;
-            Profiel.Visible = !flag;
+            if (Login.loggedin == true)
+            {
+                btnAcount.Visible = false;
+                Profiel.Visible = true;
+            }
+            else
+            {
+                btnAcount.Visible = true;
+                Profiel.Visible = false;
+            }
         }
 
         private void btnAgenda_Click(object sender, EventArgs e)
@@ -80,10 +84,9 @@ namespace Project_B
 
         private void Profiel_Click(object sender, EventArgs e)
         {
-            Profiel.Visible = false;
-            btnAcount.Visible = true;
-            MessageBox.Show("U bent uitgelogd", "uitloggen");
-            Login log = new Login();
+            
+
+            
         }
 
         private void brnRegister_Click(object sender, EventArgs e)
@@ -99,6 +102,7 @@ namespace Project_B
             Movie = "The Lord of the rings the two towers";
             pic = this.pictureBox5.Image;
             Time = "12-2-2012 Zaal 5: 10:30";
+            MessageBox.Show("12-2-2012 Zaal 5: 10:30");
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -110,6 +114,7 @@ namespace Project_B
             Movie = "Joker";
             pic = this.pictureBox1.Image;
             Time = "15-3-2023 Zaal 9: 14:20";
+            MessageBox.Show("15-3-2023 Zaal 9: 14:20");
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -121,6 +126,7 @@ namespace Project_B
             Movie = "Fight Club";
             pic = this.pictureBox6.Image;
             Time = "20-1-1990 Zaal 1: 13:00";
+            MessageBox.Show("20-1-1990 Zaal 1: 13:00");
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -132,6 +138,7 @@ namespace Project_B
             Movie = "Interstellar";
             pic = this.pictureBox2.Image;
             Time = "1-1-1970 Zaal 3: 9:00";
+            MessageBox.Show("1-1-1970 Zaal 3: 9:00");
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -143,6 +150,7 @@ namespace Project_B
             Movie = "IO";
             pic = this.pictureBox7.Image;
             Time = "30-12-2040 Zaal 6: 11:00";
+            MessageBox.Show("30-12-2040 Zaal 6: 11:00");
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -154,6 +162,7 @@ namespace Project_B
             Movie = "The Dark Kinght Rises";
             pic = this.pictureBox3.Image;
             Time = "9-9-2009 Zaal 12: 15:00";
+            MessageBox.Show("9-9-2009 Zaal 12: 15:00");
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -165,6 +174,7 @@ namespace Project_B
             Movie = "Wildlife";
             pic = this.pictureBox8.Image;
             Time = "31-12-2012 Zaal 10: 16:00";
+            MessageBox.Show("31-12-2012 Zaal 10: 16:00");
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
@@ -176,6 +186,7 @@ namespace Project_B
             Movie = "The Godfather";
             pic = this.pictureBox4.Image;
             Time = "5-6-2020 Zaal 8: 20:00";
+            MessageBox.Show("5-6-2020 Zaal 8: 20:00");
             this.Hide();
             Reservatie reservatie = new Reservatie();
             reservatie.Show();
