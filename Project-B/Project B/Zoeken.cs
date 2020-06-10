@@ -273,7 +273,7 @@ namespace Project_B
                 }
                 Film[] zoekresultaten = new Film[count];
                 int x = 0;
-                for (int i = 0; i < 10; i++)
+                for (int i = 0; i < filmlijst.Length; i++)
                 {
                     if (filmlijst[i].Show)
                     {
