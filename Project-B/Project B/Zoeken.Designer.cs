@@ -319,7 +319,7 @@
             this.richTextBox1.Location = new System.Drawing.Point(203, 187);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(455, 166);
+            this.richTextBox1.Size = new System.Drawing.Size(605, 203);
             this.richTextBox1.TabIndex = 41;
             this.richTextBox1.Text = "";
             // 
@@ -331,7 +331,7 @@
             this.richTextBox2.Location = new System.Drawing.Point(203, 418);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(455, 166);
+            this.richTextBox2.Size = new System.Drawing.Size(605, 203);
             this.richTextBox2.TabIndex = 42;
             this.richTextBox2.Text = "";
             // 
@@ -344,7 +344,7 @@
             this.richTextBox3.Location = new System.Drawing.Point(57, 33723);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(455, 166);
+            this.richTextBox3.Size = new System.Drawing.Size(605, 203);
             this.richTextBox3.TabIndex = 43;
             this.richTextBox3.Text = "";
             // 
@@ -356,7 +356,7 @@
             this.richTextBox4.Location = new System.Drawing.Point(203, 913);
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(455, 166);
+            this.richTextBox4.Size = new System.Drawing.Size(605, 203);
             this.richTextBox4.TabIndex = 44;
             this.richTextBox4.Text = "";
             // 
@@ -368,7 +368,7 @@
             this.richTextBox5.Location = new System.Drawing.Point(203, 1163);
             this.richTextBox5.Name = "richTextBox5";
             this.richTextBox5.ReadOnly = true;
-            this.richTextBox5.Size = new System.Drawing.Size(455, 166);
+            this.richTextBox5.Size = new System.Drawing.Size(605, 203);
             this.richTextBox5.TabIndex = 45;
             this.richTextBox5.Text = "";
             // 
@@ -380,7 +380,7 @@
             this.richTextBox6.Location = new System.Drawing.Point(203, 1404);
             this.richTextBox6.Name = "richTextBox6";
             this.richTextBox6.ReadOnly = true;
-            this.richTextBox6.Size = new System.Drawing.Size(455, 166);
+            this.richTextBox6.Size = new System.Drawing.Size(605, 203);
             this.richTextBox6.TabIndex = 46;
             this.richTextBox6.Text = "";
             // 
@@ -392,7 +392,7 @@
             this.richTextBox7.Location = new System.Drawing.Point(203, 1644);
             this.richTextBox7.Name = "richTextBox7";
             this.richTextBox7.ReadOnly = true;
-            this.richTextBox7.Size = new System.Drawing.Size(455, 166);
+            this.richTextBox7.Size = new System.Drawing.Size(605, 203);
             this.richTextBox7.TabIndex = 47;
             this.richTextBox7.Text = "";
             // 
@@ -404,7 +404,7 @@
             this.richTextBox8.Location = new System.Drawing.Point(203, 1890);
             this.richTextBox8.Name = "richTextBox8";
             this.richTextBox8.ReadOnly = true;
-            this.richTextBox8.Size = new System.Drawing.Size(455, 166);
+            this.richTextBox8.Size = new System.Drawing.Size(605, 203);
             this.richTextBox8.TabIndex = 48;
             this.richTextBox8.Text = "";
             // 
@@ -416,7 +416,7 @@
             this.richTextBox9.Location = new System.Drawing.Point(203, 2137);
             this.richTextBox9.Name = "richTextBox9";
             this.richTextBox9.ReadOnly = true;
-            this.richTextBox9.Size = new System.Drawing.Size(455, 166);
+            this.richTextBox9.Size = new System.Drawing.Size(605, 203);
             this.richTextBox9.TabIndex = 49;
             this.richTextBox9.Text = "";
             // 
@@ -428,7 +428,7 @@
             this.richTextBox10.Location = new System.Drawing.Point(203, 2380);
             this.richTextBox10.Name = "richTextBox10";
             this.richTextBox10.ReadOnly = true;
-            this.richTextBox10.Size = new System.Drawing.Size(455, 166);
+            this.richTextBox10.Size = new System.Drawing.Size(605, 203);
             this.richTextBox10.TabIndex = 50;
             this.richTextBox10.Text = "";
             // 
@@ -480,7 +480,7 @@
             this.pictureBox10.Image = global::Project_B.Properties.Resources.April;
             this.pictureBox10.Location = new System.Drawing.Point(38, 1367);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(144, 203);
+            this.pictureBox10.Size = new System.Drawing.Size(192, 250);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 18;
             this.pictureBox10.TabStop = false;
@@ -490,7 +490,7 @@
             this.pictureBox9.Image = global::Project_B.Properties.Resources.Bloodshot;
             this.pictureBox9.Location = new System.Drawing.Point(38, 1853);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(144, 203);
+            this.pictureBox9.Size = new System.Drawing.Size(192, 250);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 17;
             this.pictureBox9.TabStop = false;
@@ -500,7 +500,7 @@
             this.pictureBox8.Image = global::Project_B.Properties.Resources._268x0w;
             this.pictureBox8.Location = new System.Drawing.Point(38, 2100);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(144, 203);
+            this.pictureBox8.Size = new System.Drawing.Size(192, 250);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 16;
             this.pictureBox8.TabStop = false;
@@ -510,7 +510,7 @@
             this.pictureBox7.Image = global::Project_B.Properties.Resources.avengers_endgame_original_movie_poster_15x21_in_2019_anthony_russo_robert_downey_jr;
             this.pictureBox7.Location = new System.Drawing.Point(38, 2343);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(144, 203);
+            this.pictureBox7.Size = new System.Drawing.Size(192, 250);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 15;
             this.pictureBox7.TabStop = false;
@@ -520,7 +520,7 @@
             this.pictureBox6.Image = global::Project_B.Properties.Resources.Gentlemen;
             this.pictureBox6.Location = new System.Drawing.Point(38, 1607);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(144, 203);
+            this.pictureBox6.Size = new System.Drawing.Size(192, 250);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 14;
             this.pictureBox6.TabStop = false;
@@ -530,7 +530,7 @@
             this.pictureBox5.Image = global::Project_B.Properties.Resources.Fast___Furious;
             this.pictureBox5.Location = new System.Drawing.Point(38, 1126);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(144, 203);
+            this.pictureBox5.Size = new System.Drawing.Size(192, 250);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
@@ -540,7 +540,7 @@
             this.pictureBox4.Image = global::Project_B.Properties.Resources.Jumanji;
             this.pictureBox4.Location = new System.Drawing.Point(38, 876);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(144, 203);
+            this.pictureBox4.Size = new System.Drawing.Size(192, 250);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 12;
             this.pictureBox4.TabStop = false;
@@ -560,7 +560,7 @@
             this.pictureBox2.Image = global::Project_B.Properties.Resources.The_Godfather__Part_II;
             this.pictureBox2.Location = new System.Drawing.Point(38, 381);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(144, 203);
+            this.pictureBox2.Size = new System.Drawing.Size(192, 250);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
@@ -570,7 +570,7 @@
             this.pictureBox1.Image = global::Project_B.Properties.Resources.MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM___V1_;
             this.pictureBox1.Location = new System.Drawing.Point(38, 150);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(144, 203);
+            this.pictureBox1.Size = new System.Drawing.Size(192, 250);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
@@ -582,7 +582,7 @@
             this.btnZoeken.Location = new System.Drawing.Point(558, 58);
             this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
             this.btnZoeken.Name = "btnZoeken";
-            this.btnZoeken.Size = new System.Drawing.Size(47, 43);
+            this.btnZoeken.Size = new System.Drawing.Size(63, 53);
             this.btnZoeken.TabIndex = 8;
             this.btnZoeken.Text = "w";
             this.btnZoeken.UseVisualStyleBackColor = true;
@@ -657,6 +657,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Zoeken";
             this.Text = "Zoeken";
             this.Load += new System.EventHandler(this.Zoeken_Load);
