@@ -10,12 +10,18 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Reflection;
+using System.Drawing.Printing;
 
 namespace Project_B
 {
     public partial class Zoeken : Form
     {
         public static Film[] filmlijst;
+        public int page = 1;
+        public Film[] display;
+        public static string movie;
+        public static bool flag = false;
+        public static DateTime date;
 
         public Zoeken()
         {
@@ -42,11 +48,11 @@ namespace Project_B
             {
                 filmlijst[i].Poster = Posters[i];
             }
-            Visual(filmlijst);
+            display = filmlijst;
         }
         public void Visual(Film[] d)
         {
-            if(d.Length >= 1)
+            if((d.Length >= 1) && (page == 1))
             {
                 label2.Show();
                 label12.Show();
@@ -64,7 +70,7 @@ namespace Project_B
                 richTextBox1.Hide();
                 pictureBox1.Hide();
             }
-            if (d.Length >= 2)
+            if ((d.Length >= 2) && (page == 1))
             {
                 label3.Show();
                 label13.Show();
@@ -82,7 +88,7 @@ namespace Project_B
                 richTextBox2.Hide();
                 pictureBox2.Hide();
             }
-            if (d.Length >= 3)
+            if ((d.Length >= 3) && (page == 1))
             {
                 label4.Show();
                 label14.Show();
@@ -100,7 +106,7 @@ namespace Project_B
                 richTextBox11.Hide();
                 pictureBox3.Hide();
             }
-            if (d.Length >= 4)
+            if ((d.Length >= 4) && (page == 1))
             {
                 label5.Show();
                 label15.Show();
@@ -118,7 +124,7 @@ namespace Project_B
                 richTextBox4.Hide();
                 pictureBox4.Hide();
             }
-            if (d.Length >= 5)
+            if ((d.Length >= 5) && (page == 1))
             {
                 label6.Show();
                 label16.Show();
@@ -136,7 +142,7 @@ namespace Project_B
                 richTextBox5.Hide();
                 pictureBox5.Hide();
             }
-            if (d.Length >= 6)
+            if ((d.Length >= 6) && (page == 1))
             {
                 label7.Show();
                 label17.Show();
@@ -154,7 +160,7 @@ namespace Project_B
                 richTextBox6.Hide();
                 pictureBox10.Hide();
             }
-            if (d.Length >= 7)
+            if ((d.Length >= 7) && (page == 1))
             {
                 label8.Show();
                 label18.Show();
@@ -172,7 +178,7 @@ namespace Project_B
                 richTextBox7.Hide();
                 pictureBox6.Hide();
             }
-            if (d.Length >= 8)
+            if ((d.Length >= 8) && (page == 1))
             {
                 label9.Show();
                 label19.Show();
@@ -190,7 +196,7 @@ namespace Project_B
                 richTextBox8.Hide();
                 pictureBox9.Hide();
             }
-            if (d.Length >= 9)
+            if ((d.Length >= 9) && (page == 1))
             {
                 label10.Show();
                 label20.Show();
@@ -208,7 +214,7 @@ namespace Project_B
                 richTextBox9.Hide();
                 pictureBox8.Hide();
             }
-            if (d.Length >= 10)
+            if ((d.Length >= 10) && (page == 1))
             {
                 label11.Show();
                 label21.Show();
@@ -226,12 +232,80 @@ namespace Project_B
                 richTextBox10.Hide();
                 pictureBox7.Hide();
             }
+            if ((d.Length >= 11) && (page == 2))
+            {
+                label2.Show();
+                label12.Show();
+                richTextBox1.Show();
+                pictureBox1.Show();
+                label2.Text = d[10].Titel;
+                label12.Text = d[10].LeeftijdsCategorie;
+                richTextBox1.Text = d[10].Samenvatting;
+                pictureBox1.Image = d[10].Poster;
+            }
+            else if(page == 2)
+            {
+                label2.Hide();
+                label12.Hide();
+                richTextBox1.Hide();
+                pictureBox1.Hide();
+            }
+            if ((d.Length >= 12) && (page == 2))
+            {
+                label3.Show();
+                label13.Show();
+                richTextBox2.Show();
+                pictureBox2.Show();
+                label3.Text = d[11].Titel;
+                label13.Text = d[11].LeeftijdsCategorie;
+                richTextBox2.Text = d[11].Samenvatting;
+                pictureBox2.Image = d[11].Poster;
+            }
+            else if(page == 2)
+            {
+                label3.Hide();
+                label13.Hide();
+                richTextBox2.Hide();
+                pictureBox2.Hide();
+            }
+            if(page == 2)
+            {
+                label4.Hide();
+                label14.Hide();
+                richTextBox11.Hide();
+                pictureBox3.Hide();
+                label5.Hide();
+                label15.Hide();
+                richTextBox4.Hide();
+                pictureBox4.Hide();
+                label6.Hide();
+                label16.Hide();
+                richTextBox5.Hide();
+                pictureBox5.Hide();
+                label7.Hide();
+                label17.Hide();
+                richTextBox6.Hide();
+                pictureBox10.Hide();
+                label8.Hide();
+                label18.Hide();
+                richTextBox7.Hide();
+                pictureBox6.Hide();
+                label9.Hide();
+                label19.Hide();
+                richTextBox8.Hide();
+                pictureBox9.Hide();
+                label10.Hide();
+                label20.Hide();
+                richTextBox9.Hide();
+                pictureBox8.Hide();
+            }
 
         }
 
         private void Zoeken_Load(object sender, EventArgs e)
         {
-
+            Zoekfunctie(Form1.input, listBox1.Text);
+            flag = false;
         }
 
         private void btnZoeken_Click(object sender, EventArgs e)
@@ -241,6 +315,7 @@ namespace Project_B
         // 1 t/m 5 - 10 - 6 - 9 t/m 7
         public void Zoekfunctie(string input, string genre)
         {
+            page = 1;
             if (input == "" && genre == "")
             {
                 Visual(filmlijst);
@@ -279,6 +354,17 @@ namespace Project_B
                         x++;
                     }
                 }
+                if(zoekresultaten.Length < 11)
+                {
+                    button1.Hide();
+                    button2.Hide();
+                }
+                else
+                {
+                    button1.Show();
+                    button2.Show();
+                }
+                display = zoekresultaten;
                 Visual(zoekresultaten);
                 
             }
@@ -290,12 +376,202 @@ namespace Project_B
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            button1.BackColor = Color.FromArgb(252, 167, 88);
+            button2.BackColor = Color.Gray;
+            page = 1;
+            Visual(display);
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.FromArgb(252, 167, 88);
+            button1.BackColor = Color.Gray;
+            page = 2;
+            Visual(display);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form1 = new Form1();
+            form1.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            for(int i = 0; i < filmlijst.Length; i++)
+            {
+                if(pictureBox1.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox1.Image;
+            MessageBox.Show("Selecteer een tijd en datum:");
+
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox2.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox2.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox3.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox3.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox4.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox4.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox5.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox5.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox10.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox10.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox6.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox6.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox9.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox9.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox8.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox8.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox7.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox7.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Zoekfunctie(textBox1.Text, listBox1.Text);
         }
     }
 

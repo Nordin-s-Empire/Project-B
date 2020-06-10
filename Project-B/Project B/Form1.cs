@@ -10,6 +10,7 @@ namespace Project_B
         public static bool Form = false;
         public static Image pic;
         public static string Time;
+        public static string input;
 
         public Form1()
         {
@@ -19,7 +20,6 @@ namespace Project_B
             pictureBox2.Hide();
             pictureBox3.Hide();
             pictureBox4.Hide();
-
             if (Login.loggedin == true)
             {
                 btnAcount.Visible = false;
@@ -42,6 +42,7 @@ namespace Project_B
         private void btnZoeken_Click(object sender, EventArgs e)
         {
             this.Hide();
+            input = richTextBox1.Text;
             Zoeken zoek = new Zoeken();
             zoek.Show();
         }
