@@ -189,12 +189,21 @@ namespace Project_B
                 i++;
             }
 
+            if (amount_of_reserved_seats > 0)
+            {
+                this.Hide();
+                Confirmatiescherm confirmatiescherm = new Confirmatiescherm();
+                confirmatiescherm.Show();
+            }
+            else
+            {
+                MessageBox.Show("U moet nog stoelen kiezen!");
+            }
+
             string output = Newtonsoft.Json.JsonConvert.SerializeObject(jsonObj, Newtonsoft.Json.Formatting.Indented);
             File.WriteAllText("../../Seats.json", output);
 
-            this.Hide();
-            Confirmatiescherm confirmatiescherm = new Confirmatiescherm();
-            confirmatiescherm.Show();
+
         }
 
         public class Seats

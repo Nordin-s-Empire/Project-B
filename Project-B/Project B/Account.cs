@@ -9,9 +9,9 @@ namespace Project_B
             InitializeComponent();
 
             label1.Text = "Welkom, " + Login.Username;
-            textBox1.Text = Login.Email;
-            textBox2.Text = Login.Adres;
-            textBox3.Text = Login.DOB;
+            lblEmail.Text = Login.Email;
+            lblAddress.Text = Login.Adres;
+            lblDOB.Text = Login.DOB;
         }
 
         private void uitloggen_Click(object sender, System.EventArgs e)
@@ -25,10 +25,20 @@ namespace Project_B
 
         private void Menuknopacc_Click(object sender, System.EventArgs e)
         {
+
+        }
+
+        private void Menuknopacc_Click_1(object sender, System.EventArgs e)
+        {
             this.Hide();
             MessageBox.Show("U gaat nu terug naar het hoofdscherm.");
             Form1 form1 = new Form1();
             form1.Show();
+        }
+
+        private void lblDOB_Click(object sender, System.EventArgs e)
+        {
+
         }
     }
 }

@@ -29,7 +29,7 @@ namespace Project_B
                     FirstName = txbFNaam.Text,
                     LastName = txbLName.Text,
                     Email = txbEmail.Text,
-                    Adres = txbDOB.Text,
+                    Adres = txbAdres.Text,
                     DOB = txbDOB.Text,
                     Username = txbUsername.Text,
                     Password = txbPassword.Text
@@ -39,8 +39,6 @@ namespace Project_B
                 System.IO.File.WriteAllText(filePath, jsonData);
 
                 this.Hide();
-                Form1 form1 = new Form1();
-                form1.Show();
                 MessageBox.Show("U bent succesvol geregistreerd.");
             }
             catch(Exception E)
