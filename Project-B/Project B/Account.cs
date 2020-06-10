@@ -4,8 +4,6 @@ namespace Project_B
 {
     public partial class Account : Form
     {
-
-
         public Account()
         {
             InitializeComponent();
