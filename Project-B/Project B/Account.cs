@@ -4,12 +4,14 @@ namespace Project_B
 {
     public partial class Account : Form
     {
+
+
         public Account()
         {
             InitializeComponent();
 
-            MessageBox.Show("Welcome");
-            
+            //MessageBox.Show("Welcome");
+
             label1.Text = "Welkom, " + Login.Username;
             textBox1.Text = Login.Email;
             textBox2.Text = Login.Adres;
@@ -18,11 +20,27 @@ namespace Project_B
         }
 
         public void AcctoMain(object sender, MouseEventArgs e)
-        { 
+        {
+
+            
+        }
+
+        private void uitloggen_Click(object sender, System.EventArgs e)
+        {
+            this.Close();
+            Login.loggedin = false;
+            MessageBox.Show("U bent uitgelogd!");
+            Form1 form1 = new Form1();
+            form1.Show();
+
+        }
+
+        private void Menuknopacc_Click(object sender, System.EventArgs e)
+        {
             this.Hide();
-            Form1 menu = new Form1();
-            menu.Show();
-            menu.HideLoginbutton(false);    
+            MessageBox.Show("U gaat nu terug naar het hoofdscherm.");
+            Form1 form1 = new Form1();
+            form1.Show();
         }
     }
 }

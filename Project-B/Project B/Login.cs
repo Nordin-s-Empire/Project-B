@@ -3,7 +3,7 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
-using System.Linq;
+using Betaalscherm_versie_3;
 
 namespace Project_B
 {
@@ -14,6 +14,7 @@ namespace Project_B
         public static string Email;
         public static string DOB;
         public static string Adres;
+        public static bool loggedin = false;
 
         public Login()
         {
@@ -30,7 +31,7 @@ namespace Project_B
                 var output = JsonConvert.DeserializeObject<List<User>>(json);
                 int count = output.Count;
 
-                for(int i = 0; i < count; i++)
+                for (int i = 0; i < count; i++)
                 {
                     if (output[i].Username == textBox1.Text)
                     {
@@ -47,16 +48,15 @@ namespace Project_B
             }
 
             string password = textBox2.Text;
+            Confirmatiescherm2 con = new Confirmatiescherm2();
 
             if (Users.TryGetValue(textBox1.Text, out password))
             {
                 Username = textBox1.Text;
-                
-                Account account = new Account();
-                
-                account.Show();
+                loggedin = true;
                 this.Hide();
-
+                Account account = new Account();
+                account.Show();
             }
             else
             {
@@ -77,9 +77,10 @@ namespace Project_B
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 menu = new Form1();
+            Confirmatiescherm2 con = new Confirmatiescherm2();
             this.Hide();
-            menu.Show();
+            con.Show();
+            
 
         }
     }
