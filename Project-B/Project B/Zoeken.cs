@@ -20,7 +20,7 @@ namespace Project_B
         public Zoeken()
         {
             InitializeComponent();
-            StreamReader r = new StreamReader(@"C:\Users\joepk\OneDrive\Documenten\GitHub\Project-B\Project B\Films.json");
+            StreamReader r = new StreamReader(@"../../Films.json");
             string json = r.ReadToEnd();
             filmlijst = JsonConvert.DeserializeObject<Film[]>(json);
             string input = textBox1.Text;
