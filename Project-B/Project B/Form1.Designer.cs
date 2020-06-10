@@ -110,20 +110,20 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(167)))), ((int)(((byte)(88)))));
-            this.label1.Location = new System.Drawing.Point(25, 68);
+            this.label1.Location = new System.Drawing.Point(76, 66);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 24);
+            this.label1.Size = new System.Drawing.Size(95, 24);
             this.label1.TabIndex = 4;
-            this.label1.Text = "The Downtown Cinema";
+            this.label1.Text = "Cinemagic";
             // 
             // btnProgramma
             // 
             this.btnProgramma.BackColor = System.Drawing.Color.Gray;
-            this.btnProgramma.Location = new System.Drawing.Point(294, 66);
+            this.btnProgramma.Location = new System.Drawing.Point(293, 66);
             this.btnProgramma.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnProgramma.Name = "btnProgramma";
-            this.btnProgramma.Size = new System.Drawing.Size(114, 32);
+            this.btnProgramma.Size = new System.Drawing.Size(115, 32);
             this.btnProgramma.TabIndex = 5;
             this.btnProgramma.Text = "Programma";
             this.btnProgramma.UseVisualStyleBackColor = false;
@@ -132,7 +132,7 @@
             // btnAcount
             // 
             this.btnAcount.BackColor = System.Drawing.Color.Gray;
-            this.btnAcount.Location = new System.Drawing.Point(430, 68);
+            this.btnAcount.Location = new System.Drawing.Point(429, 68);
             this.btnAcount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAcount.Name = "btnAcount";
             this.btnAcount.Size = new System.Drawing.Size(100, 28);
@@ -244,11 +244,12 @@
             // Profiel
             // 
             this.Profiel.BackColor = System.Drawing.Color.Gray;
-            this.Profiel.Location = new System.Drawing.Point(551, 67);
+            this.Profiel.Location = new System.Drawing.Point(551, 66);
             this.Profiel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Profiel.Name = "Profiel";
             this.Profiel.Size = new System.Drawing.Size(101, 30);
             this.Profiel.TabIndex = 18;
+            this.Profiel.Text = "Account";
             this.Profiel.UseVisualStyleBackColor = false;
             this.Profiel.Click += new System.EventHandler(this.Profiel_Click);
             // 

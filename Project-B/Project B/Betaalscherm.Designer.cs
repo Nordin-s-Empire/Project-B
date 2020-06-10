@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Betaalscherm));
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblBank = new System.Windows.Forms.Label();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.Payl = new System.Windows.Forms.Label();
@@ -37,24 +37,24 @@
             this.lblMastercard = new System.Windows.Forms.Label();
             this.lblPayPal = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.pbxIDeal = new System.Windows.Forms.PictureBox();
+            this.pbxMastercard = new System.Windows.Forms.PictureBox();
+            this.pbxPayPal = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxIDeal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxMastercard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxPayPal)).BeginInit();
             this.SuspendLayout();
             // 
-            // label8
+            // lblBank
             // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(349, 101);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 24);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Bank";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.lblBank.AutoSize = true;
+            this.lblBank.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblBank.Location = new System.Drawing.Point(349, 101);
+            this.lblBank.Name = "lblBank";
+            this.lblBank.Size = new System.Drawing.Size(52, 24);
+            this.lblBank.TabIndex = 8;
+            this.lblBank.Text = "Bank";
+            this.lblBank.Click += new System.EventHandler(this.label8_Click);
             // 
             // listBox2
             // 
@@ -142,35 +142,38 @@
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // pictureBox1
+            // pbxIDeal
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(45, 89);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 56);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 25;
-            this.pictureBox1.TabStop = false;
+            this.pbxIDeal.Image = ((System.Drawing.Image)(resources.GetObject("pbxIDeal.Image")));
+            this.pbxIDeal.Location = new System.Drawing.Point(45, 89);
+            this.pbxIDeal.Name = "pbxIDeal";
+            this.pbxIDeal.Size = new System.Drawing.Size(64, 56);
+            this.pbxIDeal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxIDeal.TabIndex = 25;
+            this.pbxIDeal.TabStop = false;
+            this.pbxIDeal.Click += new System.EventHandler(this.pbxIDeal_Click);
             // 
-            // pictureBox2
+            // pbxMastercard
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(45, 160);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(64, 54);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 26;
-            this.pictureBox2.TabStop = false;
+            this.pbxMastercard.Image = ((System.Drawing.Image)(resources.GetObject("pbxMastercard.Image")));
+            this.pbxMastercard.Location = new System.Drawing.Point(45, 160);
+            this.pbxMastercard.Name = "pbxMastercard";
+            this.pbxMastercard.Size = new System.Drawing.Size(64, 54);
+            this.pbxMastercard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxMastercard.TabIndex = 26;
+            this.pbxMastercard.TabStop = false;
+            this.pbxMastercard.Click += new System.EventHandler(this.pbxMastercard_Click);
             // 
-            // pictureBox3
+            // pbxPayPal
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(46, 231);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(63, 54);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 27;
-            this.pictureBox3.TabStop = false;
+            this.pbxPayPal.Image = ((System.Drawing.Image)(resources.GetObject("pbxPayPal.Image")));
+            this.pbxPayPal.Location = new System.Drawing.Point(46, 231);
+            this.pbxPayPal.Name = "pbxPayPal";
+            this.pbxPayPal.Size = new System.Drawing.Size(63, 54);
+            this.pbxPayPal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxPayPal.TabIndex = 27;
+            this.pbxPayPal.TabStop = false;
+            this.pbxPayPal.Click += new System.EventHandler(this.pbxPayPal_Click);
             // 
             // Betaalscherm
             // 
@@ -178,9 +181,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(523, 432);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbxPayPal);
+            this.Controls.Add(this.pbxMastercard);
+            this.Controls.Add(this.pbxIDeal);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.lblPayPal);
             this.Controls.Add(this.lblMastercard);
@@ -188,22 +191,22 @@
             this.Controls.Add(this.Payl);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox2);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lblBank);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Betaalscherm";
             this.Text = "Betaalscherm";
             this.Load += new System.EventHandler(this.Betaalscherm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxIDeal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxMastercard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxPayPal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblBank;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label Payl;
@@ -211,9 +214,9 @@
         private System.Windows.Forms.Label lblMastercard;
         private System.Windows.Forms.Label lblPayPal;
         private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pbxIDeal;
+        private System.Windows.Forms.PictureBox pbxMastercard;
+        private System.Windows.Forms.PictureBox pbxPayPal;
     }
 }
 

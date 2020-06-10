@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxIDeal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhAAQABIf/AFlZWc0FaeTk5PPB2uHh4d1UmElJSba2tuFqpi0tLUFBQcbGxtTU1OLi4iUlJdEZ
         dcrKytUvgv31+dc1htbW1ttJkrS0tOjo6Dg4OKamptjY2H9/f7+/v9LS0k9PT9DQ0PC00tlCjjU1NZaW
@@ -558,7 +558,7 @@
         67ArDwuxESuxE0uxFWuxF4uxGauxG8uxHeuxHwuyISuyI0uyJWuyJ4uyKauyKwfLsi3rsgEBADs=
 </value>
   </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxMastercard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABQAAAAPmCAYAAAC7KTJSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4QkKEAAUdZ2XnwAA5PdJREFU
@@ -1542,7 +1542,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pbxPayPal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAH5CAYAAAD3DYa2AAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         fQeYXFeR9ZtRdMYBZznJtsIoyzlgnMlhdwlLWMCAscmwLCxgYHGQNDMKtmRbljRBspwNGDDpJ3lhgYXF

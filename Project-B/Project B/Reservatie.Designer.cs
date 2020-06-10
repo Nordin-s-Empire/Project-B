@@ -335,12 +335,13 @@
             // 
             // OK
             // 
+            this.OK.BackColor = System.Drawing.Color.Gray;
             this.OK.Location = new System.Drawing.Point(678, 388);
             this.OK.Name = "OK";
             this.OK.Size = new System.Drawing.Size(96, 34);
             this.OK.TabIndex = 28;
             this.OK.Text = "Reserven";
-            this.OK.UseVisualStyleBackColor = true;
+            this.OK.UseVisualStyleBackColor = false;
             this.OK.Click += new System.EventHandler(this.OK_Click);
             // 
             // Screen
@@ -365,22 +366,24 @@
             // 
             // btnBack
             // 
+            this.btnBack.BackColor = System.Drawing.Color.Gray;
             this.btnBack.Location = new System.Drawing.Point(32, 394);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(95, 33);
             this.btnBack.TabIndex = 30;
             this.btnBack.Text = "Terug";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnreset
             // 
+            this.btnreset.BackColor = System.Drawing.Color.Gray;
             this.btnreset.Location = new System.Drawing.Point(335, 391);
             this.btnreset.Name = "btnreset";
             this.btnreset.Size = new System.Drawing.Size(102, 39);
             this.btnreset.TabIndex = 31;
             this.btnreset.Text = "reset";
-            this.btnreset.UseVisualStyleBackColor = true;
+            this.btnreset.UseVisualStyleBackColor = false;
             this.btnreset.Click += new System.EventHandler(this.btnreset_Click);
             // 
             // Reservatie
