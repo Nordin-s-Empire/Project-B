@@ -33,35 +33,35 @@
   },
   {
     "Seat": "B1",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B2",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B3",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B4",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B5",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B6",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B7",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "B8",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "C1",
@@ -73,11 +73,11 @@
   },
   {
     "Seat": "C3",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "C4",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "C5",
@@ -85,7 +85,7 @@
   },
   {
     "Seat": "C6",
-    "Availability": "1"
+    "Availability": "0"
   },
   {
     "Seat": "C7",

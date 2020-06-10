@@ -19,6 +19,9 @@ namespace Project_B
         public static Film[] filmlijst;
         public int page = 1;
         public Film[] display;
+        public static string movie;
+        public static bool flag = false;
+        public static DateTime date = DateTime.Today;
 
         public Zoeken()
         {
@@ -46,7 +49,6 @@ namespace Project_B
                 filmlijst[i].Poster = Posters[i];
             }
             display = filmlijst;
-            Visual(filmlijst);
         }
         public void Visual(Film[] d)
         {
@@ -302,7 +304,7 @@ namespace Project_B
 
         private void Zoeken_Load(object sender, EventArgs e)
         {
-
+            Zoekfunctie(Form1.input, listBox1.Text);
         }
 
         private void btnZoeken_Click(object sender, EventArgs e)
@@ -390,6 +392,164 @@ namespace Project_B
             button1.BackColor = Color.Gray;
             page = 2;
             Visual(display);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form1 = new Form1();
+            form1.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            flag = true;
+            for(int i = 0; i < filmlijst.Length; i++)
+            {
+                if(pictureBox1.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox1.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox2.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox2.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox3.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox3.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox4.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox4.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox5.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox5.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox10.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox10.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox6.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox6.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox9.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox9.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox8.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox8.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < filmlijst.Length; i++)
+            {
+                if (pictureBox7.Image == filmlijst[i].Poster)
+                {
+                    movie = filmlijst[i].Titel;
+                }
+            }
+            var pic = pictureBox7.Image;
+            this.Hide();
+            FIlmInfo film = new FIlmInfo();
+            film.Show();
         }
     }
 
