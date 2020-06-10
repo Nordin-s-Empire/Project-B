@@ -96,7 +96,7 @@
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(677, 69);
+            this.textBox1.Location = new System.Drawing.Point(656, 69);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(174, 28);
             this.textBox1.TabIndex = 0;
@@ -348,7 +348,7 @@
             this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.richTextBox3.Location = new System.Drawing.Point(55, 32767);
+            this.richTextBox3.Location = new System.Drawing.Point(45, 32767);
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(605, 203);
@@ -478,7 +478,7 @@
             "Misdaad",
             "Science Fiction",
             "Thriller"});
-            this.listBox1.Location = new System.Drawing.Point(772, 135);
+            this.listBox1.Location = new System.Drawing.Point(783, 135);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(169, 179);
             this.listBox1.TabIndex = 53;
@@ -597,7 +597,7 @@
             // 
             this.btnZoeken.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnZoeken.Image = global::Project_B.Properties.Resources.index;
-            this.btnZoeken.Location = new System.Drawing.Point(878, 63);
+            this.btnZoeken.Location = new System.Drawing.Point(857, 63);
             this.btnZoeken.Margin = new System.Windows.Forms.Padding(4);
             this.btnZoeken.Name = "btnZoeken";
             this.btnZoeken.Size = new System.Drawing.Size(37, 30);
@@ -642,7 +642,7 @@
             // 
             this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(769, 115);
+            this.label24.Location = new System.Drawing.Point(780, 115);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(141, 17);
             this.label24.TabIndex = 57;
@@ -652,7 +652,7 @@
             // 
             this.label25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(674, 49);
+            this.label25.Location = new System.Drawing.Point(653, 49);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(170, 17);
             this.label25.TabIndex = 58;
@@ -677,7 +677,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1009, 539);
+            this.ClientSize = new System.Drawing.Size(1030, 539);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);

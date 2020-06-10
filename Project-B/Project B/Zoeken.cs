@@ -305,6 +305,7 @@ namespace Project_B
         private void Zoeken_Load(object sender, EventArgs e)
         {
             Zoekfunctie(Form1.input, listBox1.Text);
+            flag = false;
         }
 
         private void btnZoeken_Click(object sender, EventArgs e)
@@ -412,6 +413,8 @@ namespace Project_B
                 }
             }
             var pic = pictureBox1.Image;
+            MessageBox.Show("Selecteer een tijd en datum:");
+
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();
@@ -419,6 +422,7 @@ namespace Project_B
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            flag = true;
             for (int i = 0; i < filmlijst.Length; i++)
             {
                 if (pictureBox2.Image == filmlijst[i].Poster)
@@ -434,6 +438,7 @@ namespace Project_B
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            flag = true;
             for (int i = 0; i < filmlijst.Length; i++)
             {
                 if (pictureBox3.Image == filmlijst[i].Poster)
@@ -449,6 +454,7 @@ namespace Project_B
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            flag = true;
             for (int i = 0; i < filmlijst.Length; i++)
             {
                 if (pictureBox4.Image == filmlijst[i].Poster)
@@ -464,6 +470,7 @@ namespace Project_B
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
+            flag = true;
             for (int i = 0; i < filmlijst.Length; i++)
             {
                 if (pictureBox5.Image == filmlijst[i].Poster)
@@ -479,6 +486,7 @@ namespace Project_B
 
         private void pictureBox10_Click(object sender, EventArgs e)
         {
+            flag = true;
             for (int i = 0; i < filmlijst.Length; i++)
             {
                 if (pictureBox10.Image == filmlijst[i].Poster)
@@ -494,6 +502,7 @@ namespace Project_B
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
+            flag = true;
             for (int i = 0; i < filmlijst.Length; i++)
             {
                 if (pictureBox6.Image == filmlijst[i].Poster)
@@ -509,6 +518,7 @@ namespace Project_B
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
+            flag = true;
             for (int i = 0; i < filmlijst.Length; i++)
             {
                 if (pictureBox9.Image == filmlijst[i].Poster)
@@ -524,6 +534,7 @@ namespace Project_B
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
+            flag = true;
             for (int i = 0; i < filmlijst.Length; i++)
             {
                 if (pictureBox8.Image == filmlijst[i].Poster)
@@ -539,6 +550,7 @@ namespace Project_B
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
+            flag = true;
             for (int i = 0; i < filmlijst.Length; i++)
             {
                 if (pictureBox7.Image == filmlijst[i].Poster)
