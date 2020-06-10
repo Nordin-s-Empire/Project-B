@@ -14,7 +14,7 @@ namespace Betaalscherm_versie_3
 
         private void label8_Click(object sender, EventArgs e)
         {
-            label8.Text = "Bank";
+            lblBank.Text = "Bank";
         }
 
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
@@ -94,6 +94,7 @@ namespace Betaalscherm_versie_3
         private void Betaalscherm_Load(object sender, EventArgs e)
         {
             listBox2.Hide();
+            lblBank.Hide();
         }
 
         private void lblMastercard_Click(object sender, EventArgs e)
@@ -102,6 +103,7 @@ namespace Betaalscherm_versie_3
             lblPayPal.ForeColor = Color.White;
             lbliDeal.ForeColor = Color.White;
             listBox2.Hide();
+            lblBank.Hide();
         }
 
         private void lblPayPal_Click(object sender, EventArgs e)
@@ -110,6 +112,7 @@ namespace Betaalscherm_versie_3
             lblMastercard.ForeColor = Color.White;
             lbliDeal.ForeColor = Color.White;
             listBox2.Hide();
+            lblBank.Hide();
         }
 
         private void lbliDeal_Click(object sender, EventArgs e)
@@ -118,6 +121,7 @@ namespace Betaalscherm_versie_3
             lblPayPal.ForeColor = Color.White;
             lblMastercard.ForeColor = Color.White;
             listBox2.Show();
+            lblBank.Show();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -126,5 +130,33 @@ namespace Betaalscherm_versie_3
             Confirmatiescherm2 confirmatiescherm2 = new Confirmatiescherm2();
             confirmatiescherm2.Show();
         }
+
+        private void pbxIDeal_Click(object sender, EventArgs e)
+        {
+            lbliDeal.ForeColor = Color.FromArgb(252, 167, 88);
+            lblPayPal.ForeColor = Color.White;
+            lblMastercard.ForeColor = Color.White;
+            listBox2.Show();
+            lblBank.Show();
+        }
+
+        private void pbxPayPal_Click(object sender, EventArgs e)
+        {
+            lblPayPal.ForeColor = Color.FromArgb(252, 167, 88);
+            lblMastercard.ForeColor = Color.White;
+            lbliDeal.ForeColor = Color.White;
+            listBox2.Hide();
+            lblBank.Hide();
+        }
+
+        private void pbxMastercard_Click(object sender, EventArgs e)
+        {
+            lblMastercard.ForeColor = Color.FromArgb(252, 167, 88);
+            lblPayPal.ForeColor = Color.White;
+            lbliDeal.ForeColor = Color.White;
+            listBox2.Hide();
+            lblBank.Hide();
+        }
+
     }
 }
