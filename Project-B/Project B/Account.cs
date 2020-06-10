@@ -10,23 +10,10 @@ namespace Project_B
         {
             InitializeComponent();
 
-            //MessageBox.Show("Welcome");
-
             label1.Text = "Welkom, " + Login.Username;
             textBox1.Text = Login.Email;
             textBox2.Text = Login.Adres;
             textBox3.Text = Login.DOB;
-
-        }
-
-        public void AcctoMain(object sender, MouseEventArgs e)
-        {
-            this.Hide();
-            //Form1 menu = new Form1();
-            //menu.Show();
-            Confirmatiescherm2 con = new Confirmatiescherm2();
-            con.Show();
-            
         }
 
         private void uitloggen_Click(object sender, System.EventArgs e)
@@ -34,9 +21,16 @@ namespace Project_B
             this.Close();
             Login.loggedin = false;
             MessageBox.Show("U bent uitgelogd!");
-            Confirmatiescherm2 con = new Confirmatiescherm2();
-            con.Show();
+            Form1 form1 = new Form1();
+            form1.Show();
+        }
 
+        private void Menuknopacc_Click(object sender, System.EventArgs e)
+        {
+            this.Hide();
+            MessageBox.Show("U gaat nu terug naar het hoofdscherm.");
+            Form1 form1 = new Form1();
+            form1.Show();
         }
     }
 }

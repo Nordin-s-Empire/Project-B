@@ -57,25 +57,19 @@ namespace Project_B
 
         private async void btnLogIn_Click(object sender, EventArgs e)
         {
-            
             Login inloggen = new Login();
             this.Close();
             inloggen.Show();
             bool result = await Change();
             if (result == true)
             {
-                accbtn.Visible = true;
-                
+                accbtn.Visible = true;          
             }
             else
             {
                 accbtn.Visible = false;
-                
             }
         }
-
-        
-        
 
         private void btnNext_Click(object sender, EventArgs e)
         {
