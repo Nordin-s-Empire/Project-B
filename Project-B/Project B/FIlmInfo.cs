@@ -22,13 +22,13 @@ namespace Project_B
             if (str.Contains("Peter rabit 2") == true)
             {
                 lblTitle.Text = "Peter rabit 2";
-                pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
+                //pictureBox1.Image = Properties.Resources.peter_rabbit_movie_2_novelisation;
                 lblSummary.Text = "Ondanks zijn inspanningen kan Peter zijn reputatie van kattenkwaad onder de andere konijnen niet van zich afschudden. Als hij eenmaal uit de tuin op avontuur is, bevindt Peter zich in een wereld waar kattenkwaad wordt gewaardeerd, maar al snel komt zijn familie hem thuisbrengen.";
             }
             else if(str.Contains("IO") == true)
             {
                 lblTitle.Text = "IO";
-                pictureBox1.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
+                //pictureBox1.Image = Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_;
                 lblSummary.Text = "In een post-apocalyptische tijd is de aarde giftig gemaakt en heeft het grootste deel van de mensheid de planeet verlaten en een van de manen van Jupiter, IO, gekoloniseerd. Maar de jonge wetenschapper Sam Walden is achtergebleven en heeft zich toegelegd op het vinden van een manier waarop mensen op aarde kunnen overleven. Nadat ze een radio-uitzending heeft uitgezonden om te zien of ze iemand anders kan vinden, arriveert een man genaamd Micah. Hij gelooft dat er geen hoop is om te overleven en is van plan om binnen 48 uur de laatste shuttle naar IO te nemen.";
             }
             else if(str.Contains("The Lord of the rings the two towers") == true)
@@ -40,7 +40,7 @@ namespace Project_B
             else if(str.Contains("Fight Club") == true)
             {
                 lblTitle.Text = "Fight Club";
-                pictureBox1.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
+                //pictureBox1.Image = Properties.Resources._865580314a24d809e6fb0f12ce72e738;
                 lblSummary.Text = "Ontevreden met zijn kapitalistische levensstijl, vormt een slapeloosheid met een witte kraag een ondergrondse vechtclub met Tyler, een zorgeloze zeepverkoper. Het project verandert al snel in iets sinisters.";
             }
             else if(str.Contains("The Dark Kinght Rises") == true)
@@ -88,7 +88,7 @@ namespace Project_B
             else if (str.Contains("Wildlife") == true)
             {
                 lblTitle.Text = "Wildlife";
-                pictureBox1.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
+                //pictureBox1.Image = Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_;
                 lblSummary.Text = "Nadat Jerry is ontslagen uit zijn baan, vervult hij een rol onder hem. Zijn vrouw, Jeanette, vertrouwt hun zoon toe dat hun huwelijk niet werkt.";
             }
         }
@@ -181,8 +181,8 @@ namespace Project_B
             pic = this.pictureBox1.Image;
             Date = Programma.date;
             this.Hide();
-            Reservatie res = new Reservatie();
-            res.Show();
+            //Reservatie res = new Reservatie();
+            //res.Show();
         }
     }
 }
