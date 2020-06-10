@@ -49,6 +49,7 @@
             this.Menuknopacc.TabIndex = 0;
             this.Menuknopacc.Text = "Terug";
             this.Menuknopacc.UseVisualStyleBackColor = true;
+            this.Menuknopacc.Click += new System.EventHandler(this.Menuknopacc_Click);
             this.Menuknopacc.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AcctoMain);
             // 
             // Loginname

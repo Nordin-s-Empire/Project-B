@@ -49,27 +49,14 @@ namespace Project_B
 
             string password = textBox2.Text;
             Confirmatiescherm2 con = new Confirmatiescherm2();
-            
+
             if (Users.TryGetValue(textBox1.Text, out password))
             {
                 Username = textBox1.Text;
-
-                Account account = new Account();
-
-                //account.Show();
-                con.Show();
-                this.Hide();
-                Betaalscherm betaalscherm = new Betaalscherm();
-                
-                betaalscherm.Show();
-     
-                con.Hide();
                 loggedin = true;
-                
-                
-                
-                
-
+                this.Hide();
+                Account account = new Account();
+                account.Show();
             }
             else
             {
