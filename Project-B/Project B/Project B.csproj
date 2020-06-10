@@ -137,6 +137,7 @@
     <Compile Include="Reservatie.Designer.cs">
       <DependentUpon>Reservatie.cs</DependentUpon>
     </Compile>
+    <Compile Include="StringExtensions.cs" />
     <Compile Include="Zoeken.cs">
       <SubType>Form</SubType>
     </Compile>
