@@ -21,7 +21,7 @@ namespace Project_B
         public Film[] display;
         public static string movie;
         public static bool flag = false;
-        public static DateTime date = DateTime.Today;
+        public static DateTime date;
 
         public Zoeken()
         {
@@ -562,6 +562,16 @@ namespace Project_B
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Zoekfunctie(textBox1.Text, listBox1.Text);
         }
     }
 
