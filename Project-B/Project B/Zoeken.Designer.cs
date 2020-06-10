@@ -77,6 +77,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnTerug = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -622,6 +623,17 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // btnTerug
+            // 
+            this.btnTerug.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnTerug.Location = new System.Drawing.Point(34, 15);
+            this.btnTerug.Name = "btnTerug";
+            this.btnTerug.Size = new System.Drawing.Size(113, 40);
+            this.btnTerug.TabIndex = 57;
+            this.btnTerug.Text = "Terug";
+            this.btnTerug.UseVisualStyleBackColor = true;
+            this.btnTerug.Click += new System.EventHandler(this.btnTerug_Click);
+            // 
             // Zoeken
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -629,6 +641,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1009, 539);
+            this.Controls.Add(this.btnTerug);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.button1);
@@ -751,5 +764,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnTerug;
     }
 }
