@@ -5,6 +5,8 @@ namespace Project_B
 {
     public partial class Confirmatiescherm : Form
     {
+        private Random gen = new Random();
+
         public Confirmatiescherm()
         {
             InitializeComponent();
@@ -18,7 +20,7 @@ namespace Project_B
                 Film_info.Text = Programma.movie;
                 lblTime2.Text = Programma.date;
             }
-            else if(Form1.Form == true)
+            else if (Form1.Form == true)
             {
                 pictureBox1.Image = Form1.pic;
                 Film_info.Text = Form1.Movie;
@@ -30,6 +32,19 @@ namespace Project_B
                 Film_info.Text = FIlmInfo.movie_title;
                 lblTime2.Text = FIlmInfo.Date;
             }
+
+            if(String.IsNullOrEmpty(lblTime2.Text))
+            {
+                lblTime2.Text = RandomDay().ToString();
+            }
+
+            DateTime RandomDay()
+            {
+                DateTime start = new DateTime(1995, 1, 1);
+                int range = (DateTime.Today - start).Days;
+                return start.AddDays(gen.Next(range));
+            }
+
         }
 
         private void btnBack_Click(object sender, EventArgs e)
