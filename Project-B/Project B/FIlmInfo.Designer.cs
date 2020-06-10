@@ -41,6 +41,7 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.SystemColors.Control;
             this.lblTitle.Location = new System.Drawing.Point(224, 10);
             this.lblTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitle.Name = "lblTitle";
@@ -52,6 +53,7 @@
             // 
             this.lblSummary.AutoSize = true;
             this.lblSummary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSummary.ForeColor = System.Drawing.SystemColors.Control;
             this.lblSummary.Location = new System.Drawing.Point(224, 137);
             this.lblSummary.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSummary.Name = "lblSummary";
@@ -62,7 +64,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(22, 86);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(158, 239);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -72,7 +74,7 @@
             // webBrowser1
             // 
             this.webBrowser1.Location = new System.Drawing.Point(22, 351);
-            this.webBrowser1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(2);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(15, 16);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(562, 406);
@@ -80,24 +82,26 @@
             // 
             // btnBack
             // 
+            this.btnBack.BackColor = System.Drawing.Color.Gray;
             this.btnBack.Location = new System.Drawing.Point(22, 10);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(2);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(136, 46);
             this.btnBack.TabIndex = 5;
             this.btnBack.Text = "Terug naar Agenda";
-            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnReserveer
             // 
+            this.btnReserveer.BackColor = System.Drawing.Color.Gray;
             this.btnReserveer.Location = new System.Drawing.Point(508, 10);
-            this.btnReserveer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReserveer.Margin = new System.Windows.Forms.Padding(2);
             this.btnReserveer.Name = "btnReserveer";
             this.btnReserveer.Size = new System.Drawing.Size(104, 31);
             this.btnReserveer.TabIndex = 6;
             this.btnReserveer.Text = "Reserveer";
-            this.btnReserveer.UseVisualStyleBackColor = true;
+            this.btnReserveer.UseVisualStyleBackColor = false;
             this.btnReserveer.Click += new System.EventHandler(this.btnReserveer_Click);
             // 
             // FIlmInfo
@@ -113,7 +117,7 @@
             this.Controls.Add(this.lblSummary);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FIlmInfo";
             this.Text = "FIlmInfo";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

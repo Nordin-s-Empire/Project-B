@@ -84,9 +84,9 @@ namespace Project_B
 
         private void Profiel_Click(object sender, EventArgs e)
         {
-            
-
-            
+            this.Hide();
+            Account account = new Account();
+            account.Show();
         }
 
         private void brnRegister_Click(object sender, EventArgs e)

@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project B", "Project B\Project B.csproj", "{841F53A1-29CF-4D1A-BEE2-1DA047282F65}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0ED4A06C-9B78-4C3F-B421-D18A7F21BFCD}"
+	ProjectSection(SolutionItems) = preProject
+		Project B\Films.json = Project B\Films.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

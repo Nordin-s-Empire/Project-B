@@ -181,8 +181,8 @@ namespace Project_B
             pic = this.pictureBox1.Image;
             Date = Programma.date;
             this.Hide();
-            Reservatie res = new Reservatie();
-            res.Show();
+            //Reservatie res = new Reservatie();
+            //res.Show();
         }
     }
 }
