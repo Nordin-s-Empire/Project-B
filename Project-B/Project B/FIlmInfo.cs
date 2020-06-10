@@ -9,11 +9,12 @@ namespace Project_B
         public static string movie_title = "";
         public static Image pic;
         public static string Date;
+        public string str;
 
         public FIlmInfo()
         {
             InitializeComponent();
-            string str =  "";
+            str =  "";
             if (Zoeken.flag)
             {
                 str = Zoeken.movie;
@@ -21,6 +22,10 @@ namespace Project_B
             else
             {
                 str = Programma.movie;
+            }
+            if (str == Zoeken.movie)
+            {
+                btnBack.Text = "Terug naar Zoeken";
             }
 
             lblSummary.MaximumSize = new Size(300, 0);
@@ -185,9 +190,18 @@ namespace Project_B
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Programma pg = new Programma();
-            pg.Show();
+            if (str == Zoeken.movie)
+            {
+                this.Hide();
+                Zoeken zoek = new Zoeken();
+                zoek.Show();
+            }
+            else
+            {
+                this.Hide();
+                Programma pg = new Programma();
+                pg.Show();
+            }
         }
 
         private void btnReserveer_Click(object sender, EventArgs e)
