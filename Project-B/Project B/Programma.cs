@@ -321,5 +321,10 @@ namespace Project_B
             Form1 form1 = new Form1();
             form1.Show();
         }
+
+        private void Programma_Load(object sender, EventArgs e)
+        {
+            Zoeken.flag = false;
+        }
     }
 }
