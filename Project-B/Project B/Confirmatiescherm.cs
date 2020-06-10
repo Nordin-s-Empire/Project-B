@@ -40,7 +40,7 @@ namespace Project_B
 
             DateTime RandomDay()
             {
-                DateTime start = new DateTime(1970, 1, 1);
+                DateTime start = new DateTime(1000, 1, 1);
                 int range = (DateTime.Today - start).Days;
                 return start.AddDays(gen.Next(range));
             }
