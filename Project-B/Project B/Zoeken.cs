@@ -318,6 +318,9 @@ namespace Project_B
             page = 1;
             if (input == "" && genre == "")
             {
+                button1.Show();
+                button2.Show();
+                display = filmlijst;
                 Visual(filmlijst);
             }
             else
@@ -368,9 +371,6 @@ namespace Project_B
                 Visual(zoekresultaten);
                 
             }
-           
-            
-
             
         }
 
@@ -413,8 +413,6 @@ namespace Project_B
                 }
             }
             var pic = pictureBox1.Image;
-            MessageBox.Show("Selecteer een tijd en datum:");
-
             this.Hide();
             FIlmInfo film = new FIlmInfo();
             film.Show();
