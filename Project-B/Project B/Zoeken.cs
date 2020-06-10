@@ -20,25 +20,23 @@ namespace Project_B
         public Zoeken()
         {
             InitializeComponent();
-            StreamReader r = new StreamReader(@"C:\Users\joepk\OneDrive\Documenten\GitHub\Project-B\Project B\Films.json");
+            StreamReader r = new StreamReader(@"../../Films.json");
             string json = r.ReadToEnd();
             filmlijst = JsonConvert.DeserializeObject<Film[]>(json);
-            string input = textBox1.Text;
-            string genre = listBox1.Text;
             Bitmap[] Posters = new Bitmap[]
             {
                 Properties.Resources.avengers_endgame_original_movie_poster_15x21_in_2019_anthony_russo_robert_downey_jr,
-                Properties.Resources.Bloodshot,
+                Properties.Resources._865580314a24d809e6fb0f12ce72e738,
                 Properties.Resources._81kz06oSUeL__AC_SL1500_,
-                Properties.Resources.Bloodshot,
+                Properties.Resources.MV5BNmU4NTc0ZTgtNjliOC00NTM2LWE3NDktNGJiNzc2YzY3ZjA2XkEyXkFqcGdeQXVyNDg4NjY5OTQ___V1_,
                 Properties.Resources._268x0w,
-                Properties.Resources.Bloodshot,
+                Properties.Resources.peter_rabbit_movie_2_novelisation,
                 Properties.Resources._51Av5azGomL__AC_,
                 Properties.Resources.MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM___V1_,
                 Properties.Resources.baaf0f0f37c294c779ed9d52896e9d52,
                 Properties.Resources._7e6b6743a7e45d096838abd67b2464e2,
                 Properties.Resources.THE_LORD_OF_THE_RINGS_THE_TWO_TOWERS_Frodo_Reprint_2002_REPRINT_CINEMA_POSTER__74417_1534256853,
-                Properties.Resources.Bloodshot
+                Properties.Resources.MV5BOTNlZWY2ZGQtY2U1ZS00Mjc5LWExNjgtM2Q4YzQyYTlmNjZhXkEyXkFqcGdeQXVyODY3Nzc0OTk___V1_
             };
             for(int i = 0; i < filmlijst.Length; i++)
             {
@@ -289,47 +287,8 @@ namespace Project_B
 
             
         }
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label22_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox10_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
